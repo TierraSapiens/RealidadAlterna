@@ -26,10 +26,5 @@ Aquí encontrarás artículos, ideas, realidades especulativas y contenido distr
 - 👉 [Primer artículo](Publicacion/post-1.md)
 
 ---
-# Realidad Alterna
-
-![Banner](images/banners/aa1.jpg)
-
-Bienvenido al sitio.
 
 © 2025 – Realidad Alterna / TierraSapiens
