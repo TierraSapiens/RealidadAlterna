@@ -23,7 +23,7 @@ Aquí encontrarás artículos, ideas, realidades especulativas y contenido distr
 
 ## 📌 Últimos artículos
 
-- 👉 [Primer artículo](posts/post-1.md)
+- 👉 [Primer artículo](Publicacion/post-1.md)
 
 ---
 
