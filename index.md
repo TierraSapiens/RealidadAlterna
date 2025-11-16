@@ -1,37 +1,21 @@
 ---
-title: Realidad Alterna
 layout: default
+title: "Realidad Alterna"
 ---
 
-<div class="topbar">
-  Realidad Alterna
-</div>
+# Bienvenido a Realidad Alterna
 
-# 📰 Últimos Artículos
-
-<div class="post-list">
-
-<!-- EJEMPLO DE POST 1 -->
-<div class="post-item">
-  <a class="post-title" href="Publicacion/post-1.md">
-    Primer artículo de Realidad Alterna
-  </a>
-
-  <img class="post-thumb" src="images/banners/aa1.jpg" alt="thumb">
-</div>
-
-<!-- AGREGAR MÁS POST ASÍ -->
-<!--
-<div class="post-item">
-  <a class="post-title" href="Publicacion/OTROPOST.md">
-    Otro título interesante
-  </a>
-  <img class="post-thumb" src="images/miniaturas/OTRA.jpg">
-</div>
--->
-
-</div>
+Exploración, ciencia, tecnología, cultura, misterio y mundos posibles.
 
 ---
 
-© 2025 – Realidad Alterna / TierraSapiens
+## Últimos artículos
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>  
+      <small> — {{ post.date | date: "%d/%m/%Y" }}</small>
+    </li>
+  {% endfor %}
+</ul>
