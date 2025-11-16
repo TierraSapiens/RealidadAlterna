@@ -2,10 +2,28 @@
 .topbar {
   width: 100%;
   background: #ff6600;
-  padding: 10px 15px;
-  font-size: 22px;
+  padding: 12px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-weight: bold;
+}
+
+.topbar .logo {
   color: black;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.topbar .menu a {
+  color: black;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topbar .menu a:hover {
+  text-decoration: underline;
 }
 
 /* Contenedor de posts */

@@ -3,19 +3,20 @@ layout: default
 title: "Realidad Alterna"
 ---
 
-# Bienvenido a Realidad Alterna
+<div class="intro">
+  <h1>Lista de Publicaciones de Tierras Sapiens – Realidad Alterna</h1>
+</div>
 
-Exploración, ciencia, tecnología, cultura, misterio y mundos posibles.
+<div class="post-list">
+{% for post in site.posts %}
+  <div class="post-item">
+    <a class="post-title" href="{{ post.url | relative_url }}">
+      {{ post.title }}
+    </a>
 
----
-
-## Últimos artículos
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>  
-      <small> — {{ post.date | date: "%d/%m/%Y" }}</small>
-    </li>
-  {% endfor %}
-</ul>
+    {% if post.image %}
+      <img class="post-thumb" src="{{ post.image }}" alt="thumb">
+    {% endif %}
+  </div>
+{% endfor %}
+</div>
