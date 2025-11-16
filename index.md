@@ -5,7 +5,7 @@ layout: default
 
 # 🌐 Realidad Alterna
 
-![Banner](images/banners/banner-home.jpg)
+![Banner](images/banners/aa1.jpg)
 
 Bienvenidos al Hub Central de *Realidad Alterna*.
 
