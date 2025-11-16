@@ -1,12 +1,30 @@
-# Bienvenidos al Hub de Realidad Alterna
+---
+title: Realidad Alterna
+layout: default
+---
 
-<div style="float:right; margin-left: 20px;">
-  <img src="images/logo.png" width="100" alt="Logo">
-</div>
+# 🌐 Realidad Alterna
 
-Este es un espacio para publicar contenido de Realidad Alterna. Cada post tendrá título, imagen y enlace al hub central.
+![Banner](images/banners/banner-home.jpg)
 
-## Publicaciones recientes
+Bienvenidos al Hub Central de *Realidad Alterna*.
 
-- [Primer Post](primer-post.html)
-- [Post 2](post2.html)
+Aquí encontrarás artículos, ideas, realidades especulativas y contenido distribuido hacia todo el Fediverso:
+
+- Mastodon  
+- Lemmy  
+- Bluesky  
+- Kbin  
+- X  
+- Facebook  
+- RSS automático
+
+---
+
+## 📌 Últimos artículos
+
+- 👉 [Primer artículo](posts/post-1.md)
+
+---
+
+© 2025 – Realidad Alterna / TierraSapiens
