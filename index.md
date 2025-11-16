@@ -3,27 +3,34 @@ title: Realidad Alterna
 layout: default
 ---
 
-# 🌐 Realidad Alterna
+<div class="topbar">
+  Realidad Alterna
+</div>
 
-![Banner](images/banners/aa1.jpg)
+# 📰 Últimos Artículos
 
-Bienvenidos al Hub Central de *Realidad Alterna*.
+<div class="post-list">
 
-Aquí encontrarás artículos, ideas, realidades especulativas y contenido distribuido hacia todo el Fediverso:
+<!-- EJEMPLO DE POST 1 -->
+<div class="post-item">
+  <a class="post-title" href="Publicacion/post-1.md">
+    Primer artículo de Realidad Alterna
+  </a>
 
-- Mastodon  
-- Lemmy  
-- Bluesky  
-- Kbin  
-- X  
-- Facebook  
-- RSS automático
+  <img class="post-thumb" src="images/banners/aa1.jpg" alt="thumb">
+</div>
 
----
+<!-- AGREGAR MÁS POST ASÍ -->
+<!--
+<div class="post-item">
+  <a class="post-title" href="Publicacion/OTROPOST.md">
+    Otro título interesante
+  </a>
+  <img class="post-thumb" src="images/miniaturas/OTRA.jpg">
+</div>
+-->
 
-## 📌 Últimos artículos
-
-- 👉 [Primer artículo](Publicacion/post-1.md)
+</div>
 
 ---
 
