@@ -119,7 +119,13 @@ main {
 .post-meta {
   font-size: 0.85em;
   color: #888;
-  margin-top: -12px; /* Ajusta este valor para la subida */
-  margin-left: -5px;
+  
+  /* Mantiene la posición vertical (si ya es correcta) */
+  margin-top: -12px; 
+  
+  /* 🔥 AUMENTA ESTE VALOR para moverlo más a la DERECHA */
+  /* SUGERENCIA: Prueba con un valor grande, como 80px, y luego ajústalo. */
+  margin-left: 80px; 
+  
   padding-left: 0;
 }
