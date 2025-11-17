@@ -47,3 +47,34 @@ main {
 .menu a:hover {
   text-decoration: underline;
 }
+
+/* ------------------------------------------- */
+/* ESTILOS PARA LA LISTA DE PUBLICACIONES */
+/* ------------------------------------------- */
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-item {
+  display: flex;         /* 🔥 CLAVE 1: Pone la imagen y el título en línea */
+  align-items: center;   /* Alinea verticalmente la imagen y el texto */
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.post-thumb {
+  width: 100px;          /* 🔥 CLAVE 2: Ancho fijo para la imagen */
+  height: 75px;          /* 🔥 CLAVE 3: Alto fijo para la imagen */
+  object-fit: cover;     /* Recorta la imagen para que rellene el espacio sin distorsión */
+  margin-right: 15px;    /* Espacio entre la imagen y el título */
+  border-radius: 4px;
+}
+
+.post-title {
+  font-size: 1.2em;
+  color: #333;
+  text-decoration: none;
+}
