@@ -2,7 +2,7 @@
 layout: post
 title: "🟢 Nuevo estudio afirma que podría existir una realidad alternativa junto a la nuestra…"
 date: 2025-11-16 10:00:00 +0000
-image: /RealidadAlterna/assets/images/banners/aa1.jpg
+image: /RealidadAlterna/assets/images/banners/003_100x75.jpg
 ---
 
 Una señal inexplicable ha sido detectada por científicos y señalada como una posible ventana hacia una realidad alternativa.
