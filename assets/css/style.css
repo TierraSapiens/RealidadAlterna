@@ -98,12 +98,9 @@ main {
 /* ESTILOS PARA LA LISTA DE PUBLICACIONES */
 /* ------------------------------------------- */
 
-/* ... (resto del código inalterado) ... */
-
 .post-content {
     display: flex;
     flex-direction: column;
-    /* 🔥 ELIMINAR O ESTABLECER A CERO CUALQUIER ESPACIO/GAP AQUI */
     gap: 0; /* Asegura que no haya espacio extra entre los elementos hijos */
 }
 
@@ -125,7 +122,7 @@ main {
   
   /* 🔥 AUMENTA ESTE VALOR para moverlo más a la DERECHA */
   /* SUGERENCIA: Prueba con un valor grande, como 80px, y luego ajústalo. */
-  margin-left: 60px; 
+  margin-left: 50px; 
   
   padding-left: 0;
 }
