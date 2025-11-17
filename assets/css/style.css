@@ -2,7 +2,7 @@
 .topbar {
   width: 100%;
   background: #ff6600;
-  padding: 12px 0;     /* No usar padding lateral para que no empuje el contenido */
+  padding: 12px 0;        /* 🔥 Eliminamos padding lateral */
 }
 
 /* Centra el contenido del header */
@@ -11,9 +11,8 @@
   margin: 0 auto;
   width: 100%;
   display: flex;
-  justify-content: space-between; /* Logo a la izq - Menú a la derecha */
+  justify-content: space-between;
   align-items: center;
-  padding: 0 18px; /* Si querés un poco de aire a los lados */
 }
 
 .logo {
