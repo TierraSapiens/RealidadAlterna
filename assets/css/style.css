@@ -94,23 +94,35 @@ main {
   border-radius: 4px;
 }
 
-/* Enfócate en la clase que apila el título y los metadatos */
+/* ------------------------------------------- */
+/* ESTILOS PARA LA LISTA DE PUBLICACIONES */
+/* ------------------------------------------- */
+
+/* ... (resto del código inalterado) ... */
+
 .post-content {
     display: flex;
     flex-direction: column;
-    gap: 0px; /* 🔥 CAMBIO CLAVE: Eliminar el gap para que el texto se pegue */
+    /* 🔥 ELIMINAR O ESTABLECER A CERO CUALQUIER ESPACIO/GAP AQUI */
+    gap: 0; /* Asegura que no haya espacio extra entre los elementos hijos */
 }
 
 .post-title {
-  font-size: 1.2em;
-  color: #333;
-  text-decoration: none;
-  margin-left: -5px; /* 🔥 Subimos el margen negativo a -5px para forzar el movimiento */
+    font-size: 1.2em;
+    color: #333;
+    text-decoration: none;
+    margin: 0; /* 🔥 CLAVE: Eliminar cualquier margin por defecto que empuje el metadato */
+    margin-left: -5px; /* Mantiene la alineación horizontal deseada */
+    line-height: 1.2; /* Opcional: ajusta la altura de línea para un mejor control */
 }
 
 .post-meta {
-  font-size: 0.85em;
-  color: #888;
-  margin-left: -5px; /* 🔥 Subimos el margen negativo a -5px */
-  padding-left: 0;
+    font-size: 0.85em;
+    color: #888;
+    
+    /* 🔥 CLAVE: Usar margin-top negativo para "subir" el bloque de metadatos */
+    margin-top: -8px; /* <-- Ajusta este valor (e.g., -5px a -10px) hasta que la "F" de Fecha esté justo debajo de la "N" de Nuevo. */
+    
+    margin-left: -5px; /* Mantiene la alineación horizontal deseada */
+    padding-left: 0;
 }
