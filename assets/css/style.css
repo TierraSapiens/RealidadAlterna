@@ -73,27 +73,43 @@ main {
 .post-list {
   list-style: none;
   padding: 0;
-  margin-top: 5px; /* 🔥 Esto acerca la lista al header */
+  margin-top: 5px; 
 }
 
 .post-item {
-  display: flex;         /* 🔥 CLAVE 1: Pone la imagen y el título en línea */
-  align-items: center;   /* Alinea verticalmente la imagen y el texto */
+  display: flex;
+  /* 🔥 CAMBIO CLAVE: Alinea el contenido (imagen y texto) a la parte superior */
+  align-items: flex-start;
   margin-bottom: 25px;
   padding-bottom: 15px;
   border-bottom: 1px solid #eee;
 }
 
 .post-thumb {
-  width: 100px;          /* 🔥 CLAVE 2: Ancho fijo para la imagen */
-  height: 75px;          /* 🔥 CLAVE 3: Alto fijo para la imagen */
-  object-fit: cover;     /* Recorta la imagen para que rellene el espacio sin distorsión */
-  margin-right: 15px;    /* Espacio entre la imagen y el título */
+  width: 100px;
+  height: 75px;
+  object-fit: cover;
+  margin-right: 15px;
   border-radius: 4px;
+}
+
+/* 🔥 NUEVO CONTENEDOR PARA APILAR TÍTULO Y METADATOS */
+.post-content {
+    display: flex;
+    flex-direction: column; /* CLAVE: Apila los elementos (título y metadata) */
+    gap: 3px;               /* Espacio sutil entre ellos */
 }
 
 .post-title {
   font-size: 1.2em;
   color: #333;
   text-decoration: none;
+  margin-left: -1px; /* Mueve el título sutilmente a la izquierda */
+}
+
+/* 🔥 NUEVO ESTILO PARA LA FECHA Y AUTOR */
+.post-meta {
+    font-size: 0.85em; /* Letra más pequeña */
+    color: #888;      /* Color gris suave */
+    padding-left: 1px; /* Alineación visual */
 }
