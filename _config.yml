@@ -2,4 +2,5 @@ title: Realidad Alterna
 description: Hub central del proyecto Realidad Alterna / TierraSapiens
 theme: minima
 markdown: kramdown
-baseurl: /RealidadAlterna
+# Tienes que hacer este cambio AHORA para corregir la vista local
+baseurl: ""
