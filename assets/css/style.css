@@ -4,7 +4,7 @@
 main {
   max-width: 1100px; /* Le da un ancho máximo */
   margin: 0 auto;    /* LO CENTRA EN LA PANTALLA */
-  padding: 20px 0;   /* Espacio arriba y abajo */
+  padding: 5px 0;   /* Espacio arriba y abajo */
 }
 
 /* ------------------------------------------- */
@@ -14,7 +14,7 @@ main {
 .topbar {
   width: 100%;
   background: #ff6600; /* Color naranja */
-  padding: 12px 0;
+  padding: 10px 0;       /* 🔥 Subir o Bajar "HEADERS NARANJA" Reducido de 12px a 11px */
 }
 
 /* Centra el contenido del header */
@@ -73,6 +73,7 @@ main {
 .post-list {
   list-style: none;
   padding: 0;
+  margin-top: 5px; /* 🔥 Esto acerca la lista al header */
 }
 
 .post-item {
