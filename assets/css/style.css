@@ -120,12 +120,12 @@ main {
   font-size: 0.85em;
   color: #888;
   
-  /* Mantiene la posición vertical (si ya es correcta) */
-  margin-top: -12px; 
+  /* Mantiene la altura */
+  margin-top: -6px; 
   
   /* 🔥 AUMENTA ESTE VALOR para moverlo más a la DERECHA */
   /* SUGERENCIA: Prueba con un valor grande, como 80px, y luego ajústalo. */
-  margin-left: 80px; 
+  margin-left: 60px; 
   
   padding-left: 0;
 }
