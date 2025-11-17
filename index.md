@@ -1,12 +1,7 @@
 ---
 layout: default
-title: "Realidad Alterna"
+title: "TierrasSapiens"
 ---
-
-<div class="intro">
-  <h1>Lista de Publicaciones de Tierras Sapiens – Realidad Alterna</h1>
-</div>
-
 <div class="post-list">
 {% for post in site.posts %}
   <div class="post-item">
