@@ -53,14 +53,17 @@ main {
 /* ------------------------------------------- */
 
 .intro {
-  text-align: center; /* 🔥 Centra el texto */
-  margin-bottom: 20px; /* 🔥 Reduce el espacio debajo del título (ajusta este valor) */
-  margin-top: 20px;    /* 🔥 Añade un poco de margen superior si quieres más separación del header */
+  text-align: center;
+  padding-top: 15px;      /* 🔥 Nuevo: Espacio interno superior (ajusta para separar del header) */
+  margin-bottom: 10px;    /* Reducimos el espacio debajo del título */
+  /* Eliminamos margin-top: 20px; para usar padding-top */
 }
 
 .intro h1 {
-  font-size: 2.2em; /* 🔥 Reduce el tamaño de la fuente (ajusta a tu gusto, ej: 2.0em, 2.3em) */
-  color: #333; /* Un color oscuro para el título */
+  font-size: 2.0em;       /* Usamos el tamaño más pequeño que sugerimos (ajusta si quieres más) */
+  color: #333;
+  margin-top: 0;          /* 🔥 CLAVE: Elimina el margen superior predeterminado del navegador */
+  margin-bottom: 0;       /* Opcional: Elimina margen inferior predeterminado */
 }
 
 /* ------------------------------------------- */
