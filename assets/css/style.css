@@ -111,6 +111,6 @@ main {
     font-size: 0.85em;
     color: #888;
     /* 🔥 AJUSTE FINO: Usar un margen negativo para pegarlo aún más a la izquierda */
-    margin-left: -1px; 
+    margin-left: -3px; 
     padding-left: 0; 
 }
