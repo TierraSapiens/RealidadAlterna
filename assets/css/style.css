@@ -1,21 +1,45 @@
-
-/* === CENTRADO DEL CONTENIDO PRINCIPAL === */
+/* ------------------------------------------- */
+/* ESTILOS PARA CENTRAR TODO EL CONTENIDO PRINCIPAL (MAIN) */
+/* ------------------------------------------- */
 main {
-  max-width: 1100px; /* Le da el mismo ancho que la barra naranja */
-  margin: 0 auto;    /* ¡ESTO CENTRA EL BLOQUE! */
-  padding: 20px;     /* Espacio alrededor del texto */
+  max-width: 1100px; /* Le da un ancho máximo */
+  margin: 0 auto;    /* LO CENTRA EN LA PANTALLA */
+  padding: 20px 0;   /* Espacio arriba y abajo */
 }
 
-/* -------------------------------------- */
-/* Y más abajo, asegúrate que las clases de la lista de posts también existan, */
-/* aunque sea de forma básica, si no, se van a ver pegadas o sin formato. */
+/* ------------------------------------------- */
+/* ESTILOS DE LA BARRA NARANJA (HEADER) */
+/* ------------------------------------------- */
 
-.post-list {
-  list-style: none; /* Quita los puntos de la lista si hay */
-  padding: 0;
-  margin-top: 20px;
+.topbar {
+  width: 100%;
+  background: #ff6600; /* Color naranja */
+  padding: 12px 0;
 }
 
-.post-item {
-  margin-bottom: 15px; /* Separa los artículos de la lista */
+/* Centra el contenido del header */
+.topbar .inner {
+  max-width: 1100px; /* Mismo ancho que main */
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Mueve el menú a la derecha */
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+}
+
+.menu a {
+  margin-left: 20px;
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: underline;
 }
