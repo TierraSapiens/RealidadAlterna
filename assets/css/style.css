@@ -54,16 +54,16 @@ main {
 
 .intro {
   text-align: center;
-  padding-top: 15px;      /* 🔥 Nuevo: Espacio interno superior (ajusta para separar del header) */
-  margin-bottom: 10px;    /* Reducimos el espacio debajo del título */
-  /* Eliminamos margin-top: 20px; para usar padding-top */
+  margin: 0;           /* 🔥 CLAVE: Elimina cualquier margen externo del div */
+  padding-top: 5px;    /* 🔥 Espacio muy pequeño entre la barra naranja y el título */
+  padding-bottom: 10px; /* Espacio debajo del título */
 }
 
 .intro h1 {
-  font-size: 2.0em;       /* Usamos el tamaño más pequeño que sugerimos (ajusta si quieres más) */
+  font-size: 2.0em;
   color: #333;
-  margin-top: 0;          /* 🔥 CLAVE: Elimina el margen superior predeterminado del navegador */
-  margin-bottom: 0;       /* Opcional: Elimina margen inferior predeterminado */
+  margin: 0;           /* 🔥 CLAVE: Elimina cualquier margen predeterminado del h1 */
+  padding: 0;          /* Elimina cualquier padding predeterminado */
 }
 
 /* ------------------------------------------- */
