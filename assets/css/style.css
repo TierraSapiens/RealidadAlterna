@@ -19,12 +19,16 @@ main {
 
 /* Centra el contenido del header */
 .topbar .inner {
-  max-width: 1100px; /* Mismo ancho que main */
-  margin: 0 auto;
-  width: 100%;
+  /* max-width: 1100px; <--- Ya no es necesario si queremos pegarlo a los bordes */
+  margin: 0 50px; /* 🔥 Nuevo: 50px de margen a los lados (ajusta este valor) */
+  width: auto;     /* Asegura que el ancho sea flexible */
   display: flex;
-  justify-content: space-between; /* Mueve el menú a la derecha */
+  
+  /* 🔥 CAMBIO CLAVE: Mueve el logo y el menú al inicio (izquierda) */
+  justify-content: flex-start;
+  
   align-items: center;
+  gap: 40px; /* 🔥 Nuevo: Añade espacio entre el logo y el menú */
 }
 
 .logo {
