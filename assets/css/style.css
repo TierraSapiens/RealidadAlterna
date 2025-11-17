@@ -108,21 +108,18 @@ main {
 }
 
 .post-title {
-    font-size: 1.2em;
-    color: #333;
-    text-decoration: none;
-    margin: 0; /* 🔥 CLAVE: Eliminar cualquier margin por defecto que empuje el metadato */
-    margin-left: -5px; /* Mantiene la alineación horizontal deseada */
-    line-height: 1.2; /* Opcional: ajusta la altura de línea para un mejor control */
+  font-size: 1.2em;
+  color: #333;
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -5px;
 }
 
 .post-meta {
-    font-size: 0.85em;
-    color: #888;
-    
-    /* 🔥 CLAVE: Usar margin-top negativo para "subir" el bloque de metadatos */
-    margin-top: -8px; /* <-- Ajusta este valor (e.g., -5px a -10px) hasta que la "F" de Fecha esté justo debajo de la "N" de Nuevo. */
-    
-    margin-left: -5px; /* Mantiene la alineación horizontal deseada */
-    padding-left: 0;
+  font-size: 0.85em;
+  color: #888;
+  margin-top: -12px; /* Ajusta este valor para la subida */
+  margin-left: -5px;
+  padding-left: 0;
 }
