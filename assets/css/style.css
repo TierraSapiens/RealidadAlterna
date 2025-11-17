@@ -89,7 +89,8 @@ main {
   width: 100px;
   height: 75px;
   object-fit: cover;
-  margin-right: 15px;
+  margin-right: 15px; /* 🔥 Mantienes este espacio entre la imagen y el texto */
+  margin-left: 0;     /* 🔥 Asegura que la imagen esté pegada al borde */
   border-radius: 4px;
 }
 
@@ -104,13 +105,12 @@ main {
   font-size: 1.2em;
   color: #333;
   text-decoration: none;
-  margin-left: -1px; /* Mueve el título sutilmente a la izquierda */
+  margin-left: -5px; /* 🔥 Subimos el margen negativo a -5px para forzar el movimiento */
 }
 
 .post-meta {
-    font-size: 0.85em;
-    color: #888;
-    /* 🔥 AJUSTE FINO: Usar un margen negativo para pegarlo aún más a la izquierda */
-    margin-left: -3px; 
-    padding-left: 0; 
+  font-size: 0.85em;
+  color: #888;
+  margin-left: -5px; /* 🔥 Subimos el margen negativo a -5px */
+  padding-left: 0;
 }
