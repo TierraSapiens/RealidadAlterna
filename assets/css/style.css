@@ -93,11 +93,11 @@ main {
   border-radius: 4px;
 }
 
-/* 🔥 NUEVO CONTENEDOR PARA APILAR TÍTULO Y METADATOS */
+/* Enfócate en la clase que apila el título y los metadatos */
 .post-content {
     display: flex;
-    flex-direction: column; /* CLAVE: Apila los elementos (título y metadata) */
-    gap: 3px;               /* Espacio sutil entre ellos */
+    flex-direction: column;
+    gap: 0px; /* 🔥 CAMBIO CLAVE: Eliminar el gap para que el texto se pegue */
 }
 
 .post-title {
@@ -107,9 +107,10 @@ main {
   margin-left: -1px; /* Mueve el título sutilmente a la izquierda */
 }
 
-/* 🔥 NUEVO ESTILO PARA LA FECHA Y AUTOR */
 .post-meta {
-    font-size: 0.85em; /* Letra más pequeña */
-    color: #888;      /* Color gris suave */
-    padding-left: 1px; /* Alineación visual */
+    font-size: 0.85em;
+    color: #888;
+    /* 🔥 AJUSTE FINO: Usar un margen negativo para pegarlo aún más a la izquierda */
+    margin-left: -1px; 
+    padding-left: 0; 
 }
