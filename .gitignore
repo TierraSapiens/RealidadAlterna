@@ -1,0 +1,10 @@
+# Directorios generados por Jekyll
+/_site
+.sass-cache/
+
+# Archivos de depuración y temporales
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos del build (como el feed.xml que ves)
+feed.xml
