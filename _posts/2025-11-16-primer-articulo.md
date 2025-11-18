@@ -2,7 +2,7 @@
 layout: post
 title: "🟢 Nuevo estudio afirma que podría existir una realidad alternativa junto a la nuestra…"
 date: 2025-11-16 10:00:00 +0000
-image: /RealidadAlterna/images/posts/003_100x75.jpg
+image: /images/posts/003_100x75.jpg
 author: [E.R.M.]
 ---
 
