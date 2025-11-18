@@ -32,7 +32,7 @@ permalink: /feed.xml
         {% if post.image %}
             <media:content xmlns:media="http://search.yahoo.com/mrss/"
                 medium="image" 
-                url="{{ site.url }}{{ post.image }}"
+                url="{{ site.url }}{{ site.baseurl }}{{ post.image }}"
             />
         {% endif %}
 
