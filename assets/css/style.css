@@ -31,11 +31,34 @@ main {
   gap: 40px; /* 🔥 Nuevo: Añade espacio entre el logo y el menú */
 }
 
+/* ------------------------------------------- */
+/* ESTILOS DE LA BARRA NARANJA (HEADER) */
+/* ------------------------------------------- */
+/* ... (reglas de .topbar y .topbar .inner existentes) ... */
+
+/* 🔥 CLASE EDITADA: .logo ahora alinea la imagen y el texto */
 .logo {
+  /* Habilita el alineamiento vertical */
+  display: flex; 
+  /* CENTRA el logo (imagen) y el texto (Realidad Alterna) verticalmente */
+  align-items: center; 
+  
   font-size: 22px;
+  /* El color lo ajustamos para que se vea bien sobre el naranja */
   color: black;
   text-decoration: none;
 }
+
+/* 🔥 NUEVA CLASE: Estilos para la imagen del logo */
+.header-logo {
+    height: 31px; /* El tamaño de altura exacto de tu imagen (BuhoVerde40x31) */
+    margin-right: 10px; /* Espacio entre el logo y el texto del título */
+}
+
+.menu a {
+/* ... (reglas existentes para .menu a) ... */
+}
+/* ... (resto del CSS) ... */
 
 .menu a {
   margin-left: 20px;
@@ -98,31 +121,43 @@ main {
 /* ESTILOS PARA LA LISTA DE PUBLICACIONES */
 /* ------------------------------------------- */
 
+/* 1. Contenedor de cada publicación - ALINEACIÓN VERTICAL */
+.post-item { 
+    display: flex; 
+    align-items: center; /* CENTRA VERTICALMENTE la imagen y el texto */
+    gap: 10px; /* Espacio entre la miniatura y el texto */
+    margin-bottom: 25px; 
+}
+
+/* 2. El bloque que contiene el título y la metadata */
 .post-content {
     display: flex;
     flex-direction: column;
-    gap: 0; /* Asegura que no haya espacio extra entre los elementos hijos */
+    gap: 0; 
+    /* Esta separación la maneja .post-item */
+    margin-left: 0; 
 }
 
 .post-title {
-  font-size: 1.2em;
-  color: #333;
-  text-decoration: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: -5px;
+    font-size: 1.2em;
+    color: #333;
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* Alineación horizontal fina bajo el thumbnail */
+    margin-left: 0px;
 }
 
 .post-meta {
-  font-size: 0.85em;
-  color: #888;
-  
-  /* Mantiene la altura */
-  margin-top: -0px; 
-  
-  /* 🔥 AUMENTA ESTE VALOR para moverlo más a la DERECHA */
-  /* SUGERENCIA: Prueba con un valor grande, como 80px, y luego ajústalo. */
-  margin-left: 40x; 
-  
-  padding-left: 0;
+    font-size: 0.85em;
+    color: #888;
+    
+    /* Alineación horizontal fina bajo el título */
+    margin-left: 30px;
+    
+    /* Aseguramos que no haya margen superior o inferior inesperado */
+    margin-top: 0; 
+    margin-bottom: 0; 
+    
+    padding-left: 0;
 }
