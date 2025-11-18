@@ -118,7 +118,7 @@ main {
   color: #888;
   
   /* Mantiene la altura */
-  margin-top: -4px; 
+  margin-top: -1px; 
   
   /* 🔥 AUMENTA ESTE VALOR para moverlo más a la DERECHA */
   /* SUGERENCIA: Prueba con un valor grande, como 80px, y luego ajústalo. */
