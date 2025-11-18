@@ -7,8 +7,8 @@ title: "TierrasSapiens"
 {% for post in site.posts %}
   <div class="post-item">
     
-    {% if post.image %}       <img class="post-thumb" src="{{ post.image }}" alt="thumb">
-    {% endif %}
+    {% if post.image %}       <img class="post-thumb" src="{{ post.image | relative_url }}" alt="thumb">
+{% endif %}
     
     <div class="post-content">  <a class="post-title" href="{{ post.url | relative_url }}">
           {{ post.title }}
