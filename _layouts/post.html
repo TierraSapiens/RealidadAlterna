@@ -4,14 +4,21 @@ layout: default
 
 <article class="post-container">
 
-  {% if page.image %}
-  <img class="post-header-image" src="{{ page.image }}" alt="header">
-  {% endif %}
+    {% comment %} 
+      CORRECCIÓN CLAVE: Usar 'relative_url' y 'page.title' para el texto alternativo.
+      El estilo 'display: block' y 'margin: 0 auto' centra la imagen.
+    {% endcomment %}
+    {% if page.image %}
+        <img class="post-header-image" 
+             src="{{ page.image | relative_url }}" 
+             alt="{{ page.title }}"
+             style="width: 100%; max-width: 800px; height: auto; margin: 0 auto 20px auto; display: block; border-radius: 8px;">
+    {% endif %}
 
-  <h1 class="post-title-main">{{ page.title }}</h1>
+    <h1 class="post-title-main">{{ page.title }}</h1>
 
-  <div class="post-content">
-    {{ content }}
-  </div>
+    <div class="post-content">
+        {{ content }}
+    </div>
 
 </article>
