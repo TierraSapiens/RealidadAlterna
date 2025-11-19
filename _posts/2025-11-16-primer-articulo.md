@@ -30,7 +30,7 @@ La investigación se basa en los patrones de Moiré. (La forma en que interactú
 
 Estos patrones son visibles en la naturaleza y la arquitectura; por ejemplo, al mirar a través de una malla o red metálica.
 
-![DONDE SALE ESTO?](/images/posts/nuevo-estudio-afirma-que-podria-existir-una-realidad-alternativa/03.jpg)
+!(/images/posts/nuevo-estudio-afirma-que-podria-existir-una-realidad-alternativa/03.jpg)
 
 <figure>
     <figcaption>
