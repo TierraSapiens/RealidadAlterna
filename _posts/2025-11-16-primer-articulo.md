@@ -15,7 +15,7 @@ Ahora, científicos han encontrado indicios de una realidad alternativa fuera de
 <figure>
     <img src="{{ '/images/posts/nuevo-estudio-afirma-que-podria-existir-una-realidad-alternativa/04.jpg' | relative_url }}" alt="Imagen secundaria">
     <figcaption>
-        Mi leyenda aquí
+        Mundos Paralelos
     </figcaption>
 </figure>
 
@@ -32,7 +32,7 @@ Estos patrones son visibles en la naturaleza y la arquitectura; por ejemplo, al 
 <figure>
     <img src="{{ '/images/posts/nuevo-estudio-afirma-que-podria-existir-una-realidad-alternativa/03.jpg' | relative_url }}" alt="Imagen secundaria">
     <figcaption>
-        Mi leyenda aquí
+        Usted esta aqui
     </figcaption>
 </figure>
 
