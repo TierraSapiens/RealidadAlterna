@@ -6,4 +6,5 @@
 .DS_Store
 Thumbs.db
 
-# Ignorar archivos del build (como el feed.xml que ves)
+# Ruta archivo que quiero ignorar
+ayuda-informacion/
