@@ -2,7 +2,7 @@
 layout: post
 title: "🟢 Nuevo estudio afirma que podría existir una realidad alternativa junto a la nuestra"
 date: 2025-11-16 10:00:00 +0000
-image: /images/posts/nuevo-estudio-afirma-que-podria-existir-una-realidad-alternativa/0001.jpg
+image: images/posts/nuevo-estudio-afirma-que-podria-existir-una-realidad-alternativa/0001.jpg
 author: [E.R.M.]
 ---
 
@@ -30,7 +30,7 @@ La investigación se basa en los patrones de Moiré. (La forma en que interactú
 
 Estos patrones son visibles en la naturaleza y la arquitectura; por ejemplo, al mirar a través de una malla o red metálica.
 
-!(/images/posts/nuevo-estudio-afirma-que-podria-existir-una-realidad-alternativa/03.jpg)
+![DONDE SALE ESTO?](/images/posts/nuevo-estudio-afirma-que-podria-existir-una-realidad-alternativa/03.jpg)
 
 <figure>
     <figcaption>
