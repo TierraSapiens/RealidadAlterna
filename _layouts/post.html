@@ -9,14 +9,12 @@ layout: default
       El estilo 'display: block' y 'margin: 0 auto' centra la imagen.
     {% endcomment %}
     {% if page.image %}
-        <img class="post-header-image" 
-             src="{{ page.image | relative_url }}" 
-             alt="{{ page.title }}"
-             style="width: 100%; max-width: 800px; height: auto; margin: 0 auto 20px auto; display: block; border-radius: 8px;">
-    {% endif %}
-
+    <img class="post-header-image" 
+        src="{{ page.image | relative_url }}" 
+        alt="{{ page.title }}"
+        style="width: 100%; max-width: 800px; height: auto; margin: 0 auto 0 auto; display: block; border-radius: 8px;"> 
+{% endif %}
     <h1 class="post-title-main">{{ page.title }}</h1>
-
     <div class="post-content">
         {{ content }}
     </div>
