@@ -13,7 +13,7 @@ Los multiversos han sido una trama popular en algunos de los medios modernos má
 Ahora, científicos han encontrado indicios de una realidad alternativa fuera de la ficción y los han desarrollado en un estudio publicado.
 
 <figure>
-    <img src="{{ '/images/posts/nuevo-estudio-afirma-que-podria-existir-una-realidad-alternativa/03.jpg' | relative_url }}" alt="Imagen secundaria">
+    <img src="{{ '/images/posts/nuevo-estudio-afirma-que-podria-existir-una-realidad-alternativa/04.jpg' | relative_url }}" alt="Imagen secundaria">
     <figcaption>
         Mi leyenda aquí
     </figcaption>
@@ -29,9 +29,8 @@ La investigación se basa en los patrones de Moiré. (La forma en que interactú
 
 Estos patrones son visibles en la naturaleza y la arquitectura; por ejemplo, al mirar a través de una malla o red metálica.
 
-![DONDE SALE ESTO?](images/posts/nuevo-estudio-afirma-que-podria-existir-una-realidad-alternativa/03.jpg)
-
 <figure>
+    <img src="{{ '/images/posts/nuevo-estudio-afirma-que-podria-existir-una-realidad-alternativa/03.jpg' | relative_url }}" alt="Imagen secundaria">
     <figcaption>
         Mi leyenda aquí
     </figcaption>
