@@ -12,9 +12,8 @@ Un experimento de laboratorio con capas de grafeno (pequeñas láminas de átomo
 Los multiversos han sido una trama popular en algunos de los medios modernos más conocidos, desde Rick & Morty hasta el Universo Cinematográfico de Marvel; Al público le fascina la idea de una realidad vecina.
 Ahora, científicos han encontrado indicios de una realidad alternativa fuera de la ficción y los han desarrollado en un estudio publicado.
 
-![DONDE SALE ESTO?](/images/posts/nuevo-estudio-afirma-que-podria-existir-una-realidad-alternativa/04.jpg)
-
 <figure>
+    <img src="{{ '/images/posts/nuevo-estudio-afirma-que-podria-existir-una-realidad-alternativa/03.jpg' | relative_url }}" alt="Imagen secundaria">
     <figcaption>
         Mi leyenda aquí
     </figcaption>
