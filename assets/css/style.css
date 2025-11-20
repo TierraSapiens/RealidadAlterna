@@ -148,19 +148,6 @@ main {
 /* --- SOLO principal Imagen Gigante dentro del Post --- */
 /* Afecta a imágenes dentro de main que NO sean la miniatura (IMAGEN PRINCIPAL) */
 
-main img:not(.post-thumb) 
-{ 
-    width: 100%; 
-    max-width: 800px; /* 🔥 NUEVO LÍMITE DE ANCHO 🔥 */
-    height: auto; 
-    max-height: auto; /* IMPORTANTE: Anula cualquier altura fija */
-    object-fit: initial; 
-    display: block; 
-    margin: 20px auto; 
-    border-radius: 4px; 
-    padding-bottom: 0; 
-}
-
 /* Solo imágenes insertadas en el CUERPO del post */
 .post-content img {
     /* Asegura que la imagen no exceda el ancho del contenedor */
