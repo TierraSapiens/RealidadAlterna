@@ -7,6 +7,7 @@ author: [E.R.M.]
 ---
 
 🔹 ¿Qué es la Tecnoreligión?
+
 La tecnoreligión es una ideología que cumple las mismas funciones que tradicionalmente cumplían las religiones, dar sentido, dirección, propósito y una promesa de salvación, pero usando tecnología en lugar de Dios, espíritus o entidades sobrenaturales.
 
 En lugar de rezar a un ser divino o creer en un alma inmortal, la tecnoreligión propone que:
@@ -35,6 +36,7 @@ Plantea que:
 📌 La humanidad debe conservar su posición dominante en el planeta;
 
 📌 La tecnología debe expandir nuestras capacidades mentales, físicas y emocionales.
+
 El tecnohumanismo sí cree en algo parecido al “yo interior” y en el valor de la experiencia humana.
 
 Busca preservar lo humano… pero transformándolo.
@@ -71,23 +73,31 @@ Pero cada una de sus dos ramas termina atacando esos mismos pilares.
 Aunque parece humanista, en realidad genera tres tensiones peligrosas:
 
 📍 Destruye la idea del “yo interior”
+
 Si la tecnología muestra que el “yo interior” es solo una serie de reacciones químicas y algoritmos cerebrales, entonces:
+
 -- Desaparece la noción de libertad genuina.
 -- Dejamos de ser “personas” para convertirnos en mecanismos biológicos y el humanismo se derrumba.
 Sin “Yo”, no hay base para los derechos humanos ni para la libertad.
 
-📍 Permite manipular el deseo humano
+📍 Permite manipular el deseo humano.
+
 El tecnohumanismo dice que debemos mejorar la mente según nuestros deseos…
+
 Pero la tecnología ya puede controlar esos deseos:
 -- Psicofármacos
 -- Estimulación cerebral
 -- Interfaces neuronales
 -- IA personalizada que predice y altera comportamientos.
+
 Si el deseo puede manipularse, ya usted no es libre.
+
 Y si el deseo no es libre, el humanismo desaparece.
 
 📍 Si el progreso tecnológico dirige nuestra evolución, ¿los humanos siguen siendo “humanos”?
+
 Una vez que delegamos decisiones fundamentales (emociones, pasiones, objetivos vitales) en tecnología:
+
 -- Ya no somos sujetos autónomos, sino productos diseñados.
 
 El tecnohumanismo termina destruyendo al humanismo que intenta salvar.
