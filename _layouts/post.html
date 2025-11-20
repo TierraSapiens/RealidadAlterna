@@ -13,7 +13,7 @@ layout: default
         src="{{ page.image | relative_url }}" 
         alt="{{ page.title }}"
         style="width: 100%; max-width: 1100px; height: auto; margin: 0 auto 0 auto; display: block; border-radius: 8px;"> 
-{% endif %}                 (`Ancho Imagen publicacion 1000px`) 
+{% endif %}   {% comment %} max-width 1100px Ancho imagen principal pag. secundaria {% endcomment %}                  
     <h1 class="post-title-main">{{ page.title }}</h1>
     <div class="post-content">
         {{ content }}
