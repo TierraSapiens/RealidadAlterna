@@ -150,7 +150,8 @@ main {
 
     main img:not(.post-thumb) 
 { 
-    width: 100%; 
+    width: 100%;
+    max-width: 800px; /* Ancho . Puedes probar con 600px, 700px, u 800px */
     max-height: auto; /* Permite que la imagen use su altura natural */
     object-fit: initial; /* Asegura que la imagen no se recorte */ 
     display: block; 
