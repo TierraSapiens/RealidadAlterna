@@ -40,18 +40,18 @@ Es más radical y afirma que:
 
 * 📌 Homo sapiens ya cumplió su ciclo evolutivo.
 * 📌 Los algoritmos procesan información mejor que los humanos; por lo tanto, la autoridad debería pasar de los humanos a los sistemas de datos.
-📌 El criterio supremo ya no es la felicidad humana sino el flujo eficiente de información.
+* 📌 El criterio supremo ya no es la felicidad humana sino el flujo eficiente de información.
 En esta visión, lo humano deja de estar en el centro.
 
 🔹 ¿Cómo amenaza la tecnoreligión los mismos ideales humanistas que la originaron?
 
 La tecnoreligión nace del humanismo, porque el humanismo valora:
 
-📌 La dignidad del individuo.
-📌 La libertad humana.
-📌 El “yo interior”.
-📌 La autonomía del pensamiento.
-📌 La experiencia subjetiva.
+* 📌 La dignidad del individuo.
+* 📌 La libertad humana.
+* 📌 El “yo interior”.
+* 📌 La autonomía del pensamiento.
+* 📌 La experiencia subjetiva.
 
 Pero cada una de sus dos ramas termina atacando esos mismos pilares.
 
@@ -98,17 +98,17 @@ El tecnohumanismo termina destruyendo al humanismo que intenta salvar.
 
 🔹 ¿Cómo el dataísmo amenaza y “destruye” al humanismo?
 
-1) El dataísmo es aún más corrosivo:
+* 1) El dataísmo es aún más corrosivo:
 
-2) Declara que el ser humano no es especial, solo un procesador de datos mediocre.
+* 2) Declara que el ser humano no es especial, solo un procesador de datos mediocre.
 
-3) La autoridad moral pasa del “yo interior” a algoritmos.
+* 3) La autoridad moral pasa del “yo interior” a algoritmos.
 
-4) La verdad ya no surge del pensamiento humano sino del flujo masivo de información.
+* 4) La verdad ya no surge del pensamiento humano sino del flujo masivo de información.
 
-5) La libertad personal se reemplaza por la optimización algorítmica.
+* 5) La libertad personal se reemplaza por la optimización algorítmica.
 
-6) La dignidad deja de ser un valor y se convierte en “eficiencia operativa”.
+* 6) La dignidad deja de ser un valor y se convierte en “eficiencia operativa”.
 
 Si lo único que importa es “el dato”, entonces:
 
