@@ -188,14 +188,6 @@ main img:not(.post-thumb) {
     margin-bottom: 1px; /* Espacio entre cada viñeta */
 }
 
-/* --- Estilos para los elementos de lista (<li>) dentro del post --- */
-.post-content li {
-    font-size: 1.2em;
-    line-height: 1.6;
-    color: #333;
-    margin-bottom: 1px; /*Reduce este valor para pegar los renglones */
-}
-
 /* --- Título Principal del Artículo --- */
 main h1 {
     font-size: 1.2em; /* Título bien grande para la lectura */
