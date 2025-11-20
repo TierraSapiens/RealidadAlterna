@@ -6,7 +6,7 @@ image: images/posts/cuando-la-tecnología-se-vuelve-dios-el-final-del-humanismo/
 author: [E.R.M.]
 ---
 
-🔹 ¿Qué es la Tecnoreligión?
+# 🔹 ¿Qué es la Tecnoreligión? #
 
 La tecnoreligión es una ideología que cumple las mismas funciones que tradicionalmente cumplían las religiones, dar sentido, dirección, propósito y una promesa de salvación, pero usando tecnología en lugar de Dios, espíritus o entidades sobrenaturales.
 
@@ -24,7 +24,7 @@ En lugar de rezar a un ser divino o creer en un alma inmortal, la tecnoreligión
 
 Dentro de la tecnoreligión hay dos grandes ramas:
 
-## A) Tecnohumanismo (transhumanismo humanista) ##
+# A) Tecnohumanismo (transhumanismo humanista) #
 
 Plantea que:
 * 📌 Los humanos deben usar tecnología para mejorarse y pasar de Homo sapiens a Homo deus.
@@ -34,7 +34,7 @@ El tecnohumanismo sí cree en algo parecido al “yo interior” y en el valor d
 
 Busca preservar lo humano… pero transformándolo.
 
-B) Dataísmo
+# B) Dataísmo #
 
 Es más radical y afirma que:
 
