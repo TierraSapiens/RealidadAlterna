@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "TierrasSapiens"
+title: "TierraSapiens"
 ---
 
 <div class="post-list">

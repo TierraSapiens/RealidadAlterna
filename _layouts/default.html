@@ -1,16 +1,18 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>{{ page.title | escape }}</title>
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>{{ page.title | escape }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/images/logos/Buho 32x32.ico"> 
+                                                                <!-- AQUI cambio el icono pestaña -->
 </head>
 
 <body>
-
 {% include header.html %} 
 
-<main>    {{ content }}
+<main>
+    {{ content }}
 </main>
 ...

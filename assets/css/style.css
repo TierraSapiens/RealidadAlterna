@@ -46,7 +46,7 @@ main {
 }
 
 .header-logo {
-    height: 31px; /* Tamaño del Búho */
+    height: 31px; /* Tamaño del Búho Pagina */
     margin-right: 10px;
 }
 
@@ -64,7 +64,7 @@ main {
 
 /* ==========================================================================
    2. ESTILOS DE LA PÁGINA DE INICIO (Listado de Publicaciones)
-   (Solo afectan a la lista con miniaturas)
+   (Solamente afectan a la lista con miniaturas)
    ========================================================================== */
 
 .intro {
@@ -147,15 +147,21 @@ main {
 
 /* --- SOLO principal Imagen Gigante dentro del Post --- */
 /* Afecta a imágenes dentro de main que NO sean la miniatura (IMAGEN PRINCIPAL) */
-main img:not(.post-thumb) {
-    width: 100%;
+main img:not(.post-thumb)
+{ width: 100%;
     max-height: 300px; 
-    object-fit: cover;
-    display: block;
+    /*object-fit: cover;*/
     margin-bottom: 0px; /* IMPORTANTE: Mantiene la imagen pegada al título */
     border-radius: 4px;
     padding-bottom: 0;
 }
+main img:not(.post-thumb) 
+ { width: 100%; max-height: auto; /* Cambiado de 300px */ 
+    object-fit: initial; /* Cambiado de cover */ 
+    display: block; 
+    margin-bottom: 0px; 
+    border-radius: 4px; 
+    padding-bottom: 0; }
 
 /* Solo imágenes insertadas en el CUERPO del post */
 .post-content img {
@@ -169,7 +175,6 @@ main img:not(.post-thumb) {
     
     /* Puedes añadir bordes o esquinas redondeadas si quieres */
     /* border-radius: 4px; */
-
 }
 
 /* --- Contenedor de la lista (UL y OL) --- */
@@ -183,7 +188,7 @@ main img:not(.post-thumb) {
 /* --- Estilos para los elementos de lista (<li>) dentro del post --- */
 .post-content li {
     font-size: 1.2em;
-    line-height: 1.6;
+    line-height: 1.3;
     color: #333;
     margin-bottom: 1px; /* Espacio entre cada viñeta */
 }
@@ -196,7 +201,7 @@ main h1 {
     padding-top: 0;
     padding-bottom: 0;
     margin-top: 0px;
-    margin-bottom: 0px;     /*REDUCIR Margen del TITULO PAG.interior (de 20px a 0px o 5px)*/
+    margin-bottom: 5px;     /*REDUCIR Margen del TITULO PAG.interior (de 20px a 0px o 5px)*/
     line-height: 1.0;
  /* padding-left: 150px;    /*Mueve el título 10 píxeles hacia la derecha */
 }
@@ -220,11 +225,11 @@ main h1 {
 main p {
     font-size: 1.2em; /* Letra cómoda para leer */
     font-family: "Arial", Verdana, sans-serif;   /* << Cambia título y fecha a la vez */
-    line-height: 1.6; /* Buen espacio entre renglones */
+    line-height: 1.4; /* Espacio entre renglones */
     color: #333;
     padding-top: 0;
     margin-top: 0;  /*El primer párrafo se pegará al título. */
-    margin-bottom: 15px;
+    margin-bottom: 6px;
 }
 
 /* --- Enlaces dentro del artículo --- */
