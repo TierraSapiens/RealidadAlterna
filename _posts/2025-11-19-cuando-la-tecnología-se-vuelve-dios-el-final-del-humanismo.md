@@ -131,5 +131,7 @@ Si lo único que importa es “el dato”, entonces:
 -- Y la humanidad deja de tener un papel privilegiado en el mundo.
 
 El dataísmo no solo mata el humanismo; también elimina la necesidad del ser humano mismo.
-Particularmente, creo que el camino que tomó el Homo sapiens durante los últimos 300.000 años nos está llevando de manera lenta pero inevitable hacia una transformación profunda. 
+
+Particularmente, creo que el camino que tomó el Homo sapiens durante los últimos 300.000 años nos está llevando de manera lenta pero inevitable hacia una transformación profunda.
+
 Con el tiempo nuestra especie podría ramificarse, dando lugar a nuevas formas de humanidad: algunos más integrados con la tecnología, casi como autómatas o seres híbridos y otros manteniendo características más tradicionales cuya evolución aún no podemos prever.
