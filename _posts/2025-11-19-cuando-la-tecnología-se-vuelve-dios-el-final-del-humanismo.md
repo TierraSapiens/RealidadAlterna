@@ -24,7 +24,7 @@ En lugar de rezar a un ser divino o creer en un alma inmortal, la tecnoreligión
 
 Dentro de la tecnoreligión hay dos grandes ramas:
 
-A) Tecnohumanismo (transhumanismo humanista)
+## A) Tecnohumanismo (transhumanismo humanista) ##
 
 Plantea que:
 * 📌 Los humanos deben usar tecnología para mejorarse y pasar de Homo sapiens a Homo deus.
