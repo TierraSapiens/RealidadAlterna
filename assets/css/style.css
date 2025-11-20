@@ -204,6 +204,17 @@ main h1 {
  /* padding-left: 150px;    /*Mueve el título 10 píxeles hacia la derecha */
 }
 
+/* --- Banner de Cabecera (Imagen principal no incluida en .post-content) --- */
+/* Esta regla es crucial para limitar el ancho del banner */
+.post-container > img {
+    max-width: 800px; /* Aplica el mismo límite de 800px */
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centra la imagen */
+    border-radius: 4px;
+}
+
 /* --- Estilos para la Leyenda/Pie de Foto (figcaption) --- */
 .post-content figcaption {
     /* 1. Centrar el texto */
