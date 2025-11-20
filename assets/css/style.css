@@ -147,21 +147,17 @@ main {
 
 /* --- SOLO principal Imagen Gigante dentro del Post --- */
 /* Afecta a imágenes dentro de main que NO sean la miniatura (IMAGEN PRINCIPAL) */
-main img:not(.post-thumb)
-{ width: 100%;
-    max-height: 300px; 
-    /*object-fit: cover;*/
-    margin-bottom: 0px; /* IMPORTANTE: Mantiene la imagen pegada al título */
-    border-radius: 4px;
-    padding-bottom: 0;
-}
-main img:not(.post-thumb) 
- { width: 100%; max-height: auto; /* Cambiado de 300px */ 
-    object-fit: initial; /* Cambiado de cover */ 
+
+    main img:not(.post-thumb) 
+{ 
+    width: 100%; 
+    max-height: auto; /* Permite que la imagen use su altura natural */
+    object-fit: initial; /* Asegura que la imagen no se recorte */ 
     display: block; 
     margin-bottom: 0px; 
     border-radius: 4px; 
-    padding-bottom: 0; }
+    padding-bottom: 0; 
+}
 
 /* Solo imágenes insertadas en el CUERPO del post */
 .post-content img {
