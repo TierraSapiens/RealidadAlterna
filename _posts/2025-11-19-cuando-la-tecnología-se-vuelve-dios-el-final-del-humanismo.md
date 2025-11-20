@@ -27,6 +27,7 @@ En lugar de rezar a un ser divino o creer en un alma inmortal, la tecnoreligión
 Dentro de la tecnoreligión hay dos grandes ramas:
 
 A) Tecnohumanismo (transhumanismo humanista)
+
 Plantea que:
 
 📌 Los humanos deben usar tecnología para mejorarse y pasar de Homo sapiens a Homo deus.
@@ -39,6 +40,7 @@ El tecnohumanismo sí cree en algo parecido al “yo interior” y en el valor d
 Busca preservar lo humano… pero transformándolo.
 
 B) Dataísmo
+
 Es más radical y afirma que:
 
 📌 Homo sapiens ya cumplió su ciclo evolutivo.
@@ -49,17 +51,23 @@ Es más radical y afirma que:
 En esta visión, lo humano deja de estar en el centro.
 
 🔹 ¿Cómo amenaza la tecnoreligión los mismos ideales humanistas que la originaron?
+
 La tecnoreligión nace del humanismo, porque el humanismo valora:
 
 📌 La dignidad del individuo.
+
 📌 La libertad humana.
+
 📌 El “yo interior”.
+
 📌 La autonomía del pensamiento.
+
 📌 La experiencia subjetiva.
 
 Pero cada una de sus dos ramas termina atacando esos mismos pilares.
 
 🔹 ¿Cómo el tecnohumanismo amenaza el humanismo?
+
 Aunque parece humanista, en realidad genera tres tensiones peligrosas:
 
 📍 Destruye la idea del “yo interior”
@@ -94,10 +102,15 @@ El tecnohumanismo termina destruyendo al humanismo que intenta salvar.
 🔹 ¿Cómo el dataísmo amenaza y “destruye” al humanismo?
 
 1) El dataísmo es aún más corrosivo:
+
 2) Declara que el ser humano no es especial, solo un procesador de datos mediocre.
+
 3) La autoridad moral pasa del “yo interior” a algoritmos.
+
 4) La verdad ya no surge del pensamiento humano sino del flujo masivo de información.
+
 5) La libertad personal se reemplaza por la optimización algorítmica.
+
 6) La dignidad deja de ser un valor y se convierte en “eficiencia operativa”.
 
 Si lo único que importa es “el dato”, entonces:
