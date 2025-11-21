@@ -135,21 +135,18 @@ main {
    3. ESTILOS DE LA PUBLICACIÓN INDIVIDUAL (Página del Post)
    (Afectan cuando entras a leer el artículo completo)
    ========================================================================== */
-
-/* EN LA SECCIÓN 3 DE style.css */
-
 /* --- Contenedor Principal de la Publicación --- */
 .post-container {
     padding-top: 0;
     margin-top: 0;
-    width: 100%; /* Aseguramos que el contenedor también sea 100% */
+    width: 100%;       /* Aseguramos que el contenedor también sea 100% */
 }
 
 /* --- A. IMAGEN PRINCIPAL (BANNER) --- */
 .post-container > img {
     /* TAMAÑO EN PÍXELES */
-    max-width: 900px !important; /* EJEMPLO: Limita el banner a 900px */
-    max-height: 400px; /* Opcional: Limita la altura del banner si quieres que sea corto */
+    max-width: 900px !important; /*ANCHO máximo EJEMPLO: Limitar banner a 900px */
+    max-height: 400px; /*ALTO máximo. Opcional: Limita la altura del banner si quieres que sea corto */
     
     width: 100%;
     height: auto;
@@ -165,10 +162,9 @@ main {
 /* Solo imágenes insertadas dentro del texto del post */
 .post-content img {
     /* TAMAÑO EN PÍXELES (Tú decides la medida)*/
-    max-width: 600px !important; /* EJEMPLO: Limita las imágenes secundarias a 600px */
-    
-    /* Asegura que la imagen no exceda el ancho del contenedor */
-    width: 100%; 
+    max-width: 600px !important; /* ANCHO maximo */
+    max-height: 450px;           /*ALTURA Maxima*/
+    width: 100%;  /* Asegura que la imagen no exceda el ancho del contenedor */
     height: auto;
     
     /* SEPARACIÓN de las imágenes secundarias */
