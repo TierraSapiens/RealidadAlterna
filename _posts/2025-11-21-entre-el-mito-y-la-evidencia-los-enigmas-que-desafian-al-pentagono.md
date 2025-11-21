@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "⚫ Entre el mito y la evidencia: los enigmas que desafían al Pentágono"
-date: 2025-11-19 10:00:00 +0000
+date: 2025-11-21 00:00:00 +0000
 image: images/posts/entre-el-mito-y-la-evidencia-los-enigmas-que-desafian-al-pentagono/02.jpg
 author: [E.R.M.]
 ---
@@ -16,7 +16,7 @@ En junio de 2021 se publicó un informe oficial destinado a arrojar luz sobre lo
 
 ---
 
-## 🔹 OVNI vs. UAP: de la cultura pop al análisis gubernamental
+**🔹 OVNI vs. UAP: de la cultura pop al análisis gubernamental**
 
 Durante décadas, los misterios del cielo han cautivado la imaginación, intrigando a científicos, fanáticos de la ciencia ficción, personal militar y gobiernos de las principales naciones.
 
@@ -27,7 +27,7 @@ Actualmente, la postura oficial del gobierno de EE. UU. se centra en el **estudi
 
 ---
 
-## 🔹 No solo Estados Unidos: el incidente de Gdynia
+**🔹 No solo Estados Unidos: el incidente de Gdynia**
 
 El 21 de enero de 1959, en Gdynia, Polonia, a las 5 de la mañana, trabajadores portuarios y marineros observaron un pequeño punto de luz que apareció en el cielo oscuro.  
 El objeto brillaba con varios colores, resplandeció en rojo ardiente y cayó con un estruendo metálico en el Dique N.º IV del puerto.
@@ -49,7 +49,7 @@ El caso sigue sin resolverse, dando lugar a múltiples teorías: meteorito, sat�
 
 ---
 
-## 🔹 Un misterio de la República Popular Polaca: la leyenda de Emilcin
+**🔹 Un misterio de la República Popular Polaca: la leyenda de Emilcin**
 
 La historia polaca más famosa relacionada con un objeto volador no identificado es el **incidente de Emilcin**, ocurrido el 10 de mayo de 1978.
 
@@ -75,7 +75,7 @@ Aun así, la mayor comunidad dedicada a investigar OVNIs y UAP se encuentra en E
 
 ---
 
-## 🔹 OVNIs: de la burla a la investigación
+**🔹 OVNIs: de la burla a la investigación**
 
 Durante décadas, en Estados Unidos hablar de extraterrestres y naves no identificadas era motivo de burla.  
 Aun así, desde 1948 el ejército comenzó a investigar seriamente estos fenómenos tras el **incidente Chiles-Whitted**, en el que dos pilotos observaron un objeto rojo, sin alas, de unos 30 metros, que “ascendió con una ráfaga de fuego desde la parte trasera”.
@@ -84,7 +84,7 @@ Un pasajero también afirmó haber visto “una estela de luz”.
 
 ---
 
-## 🔹 Un programa multimillonario
+**🔹 Un programa multimillonario**
 
 Hasta hace pocos años, un piloto militar que reportara un OVNI podía arruinar su carrera. Pero en 2017 todo cambió.
 

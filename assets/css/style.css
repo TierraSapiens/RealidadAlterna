@@ -2,22 +2,26 @@
    1. ESTILOS GLOBALES Y ESTRUCTURA
    (Se aplica a todo el sitio: Barra naranja, menú, contenedor principal)
    ========================================================================== */
-
-/* COLOR FONDO de PAGINA */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     color: #333;            /*CAMBIA COLOR TEXTO PAGINA*/
-    background-color:#c8d6e6; /*CAMBIA TODO EL FONDO de PAGINA*/
+    background-color:#7c7b7b; /*CAMBIA TODO EL FONDO de PAGINA*//* COLOR FONDO de PAGINA */
 }
 
-/* --- Contenedor Principal --- */
+/* --- Contenedor Principal del Contenido (DONDE ESTÁ EL TEXTO) --- */
 main {
-    max-width: 1100px; /* Ancho máximo del sitio */
-    margin: 0 auto;    /* Centrado en pantalla */
-    padding: 0px 20px; /* REDUCE espacio entre BARRA Naranja y Titulo superior Pagina */
-}                       /*Para pegarlo completamente usar 0px 20px;.*/
+    background-color: #d2e4f8; /* Fondo Blanco para el contenido */
+    max-width: 1000px; /* Limita el ancho del contenido principal (ajusta este valor) */
+    margin: 20px auto; /* Centra el bloque blanco y le da espacio arriba y abajo */
+    padding: 0px 40px 20px 40px; 
+    /* 0px arriba (para no tener espacio) */
+    /* 40px a los lados (para que el texto respire y no se encoja) */
+    /* 20px abajo (para que no se pegue al fondo) */
+    border-radius: 8px; /* Opcional: Esquinas ligeramente redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: Sombra suave */
+}
 
 /* --- Barra Naranja (Header) --- */
 .topbar {
@@ -61,6 +65,25 @@ main {
     text-decoration: underline;
 }
 
+/* --- Estilos para el Pie de Página (Footer) --- */
+footer {
+    padding: 30px 20px;
+    background-color: #333; /* Un color oscuro para el fondo del footer */
+    color: #FFF;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.footer-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-menu a {
+    color: #ff6600; /* Color naranja para los enlaces */
+    text-decoration: none;
+    margin: 0 5px;
+}
 
 /* ==========================================================================
    2. ESTILOS DE LA PÁGINA DE INICIO (Listado de Publicaciones)
@@ -70,7 +93,7 @@ main {
 .intro {
     text-align: center;
     margin: 0;
-    padding-top: 1px; /*3er. Acerca BARRA NARANJA*/
+    padding-top: 0px; /*Acerca BARRA NARANJA*/
     padding-bottom: 10px;
 }
 /*El estilo del título que aparece en la Página de Inicio (la que lista las publicaciones).*/
@@ -85,15 +108,15 @@ main {
     font-family: 'Arial', Verdana, sans-serif;   /* << Cambia título y fecha a la vez */
     list-style: none;
     padding: 0;
-    margin-top: 1px;  /*2da. Acerca BARRA NARANJA A TITULO SUPERIOR PUBLICACION/ES */
+    margin-top: 0px;  /*2da. Acerca BARRA NARANJA A TITULO SUPERIOR PUBLICACION/ES */
 }
 
 /* LINEA DIVIDE TITULOS */ 
 .post-item {             
     display: flex;
     align-items: center; /* Centra verticalmente la foto con el texto */
-    margin-bottom: 25px;
-    padding-bottom: 15px;
+    margin-bottom: 0px; /*Esta propiedad define el espacio en blanco después de la línea divisoria inferior de cada artículo.*/
+    padding-bottom: 5px; /*Esta propiedad define el espacio en blanco entre el texto del artículo y la línea divisoria inferior.*/
     border-bottom: 1px solid #000000;   /* LINEA DIVIDE TITULOS LISTADO PUBLICACION */
     gap: 15px;                            /* 1px: El grosor de la línea es de 1 píxel.*/
  /* border-bottom: none;                 /*Agregar ESTO PARA ELIMINAR LA LÍNEA */
@@ -117,7 +140,7 @@ main {
 
 .post-title {
     font-family: "Arial", Arial Black, sans-serif; /*<<< Cambiar estilo letra SOLO del título */
-    font-size: 1.0em; /* TAMAÑO Título del listado publicaciones */
+    font-size: 0.9em; /* TAMAÑO Título del listado publicaciones */
     color: #333;
     text-decoration: none;
     margin: 0;
@@ -125,7 +148,7 @@ main {
 }
 
 .post-meta {     /*"MOVER Fecha de publicación y autor*/
-    font-size: 0.95em; /*TAMAÑO letra publicacion autor */
+    font-size: 0.65em; /*TAMAÑO letra publicacion autor */
     color: #888;
     margin-top: 2px;   /* Pequeña separación del título */
     margin-left: 32px;  /* Alineado con el título hacia la Derecha */
@@ -135,18 +158,19 @@ main {
    3. ESTILOS DE LA PUBLICACIÓN INDIVIDUAL (Página del Post)
    (Afectan cuando entras a leer el artículo completo)
    ========================================================================== */
+
 /* --- Contenedor Principal de la Publicación --- */
 .post-container {
     padding-top: 0;
     margin-top: 0;
-    width: 100%;       /* Aseguramos que el contenedor también sea 100% */
+    width: 100%;  /* Aseguramos que el contenedor también sea 100% */
 }
 
 /* --- A. IMAGEN PRINCIPAL (BANNER) --- */
 .post-container > img {
     /* TAMAÑO EN PÍXELES */
     max-width: 900px !important; /*ANCHO máximo EJEMPLO: Limitar banner a 900px */
-    max-height: 400px; /*ALTO máximo. Opcional: Limita la altura del banner si quieres que sea corto */
+    max-height: 300px; /*ALTO máximo. Opcional: Limita la altura del banner si quieres que sea corto */
     
     width: 100%;
     height: auto;
@@ -191,9 +215,9 @@ main {
     margin-bottom: 1px; /* Espacio entre cada viñeta */
 }
 
-/* --- Título Principal del Artículo --- */
+/* --- TITULO PRINCIPAL del Artículo --- */
 main h1 {
-    font-size: 1.2em; /* Título bien grande para la lectura */
+    font-size: 1.3em; /* Título bien grande para la lectura */
     font-family: "Arial", Verdana, sans-serif;   /* << Cambia título y fecha a la vez */
     color: #222;
     padding-top: 0;
@@ -232,7 +256,7 @@ main h1 {
 
 /* --- Texto del Artículo (Párrafos) --- */
 main p {
-    font-size: 1.2em; /* Letra cómoda para leer */
+    font-size: 1.1em; /* Letra cómoda para leer */
     font-family: "Arial", Verdana, sans-serif;   /* << Cambia título y fecha a la vez */
     line-height: 1.4; /* Espacio entre renglones */
     color: #333;
@@ -243,6 +267,6 @@ main p {
 
 /* --- Enlaces dentro del artículo --- */
 main p a {
-    color: #ff6600; /* Links naranjas dentro del texto */
+    color: #002646; /* Links naranjas dentro del texto */
     text-decoration: underline;
 }
