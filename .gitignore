@@ -6,5 +6,5 @@
 .DS_Store
 Thumbs.db
 
-# Ruta archivo que quiero ignorar
+# Ruta Carpeta o archivo que quiero ignorar
 ayuda-informacion/
