@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "🟢 Los trastornos mentales suelen comenzar mucho antes de lo que creemos, advierte un estudio global"
-date: 2025-11-19 10:00:00 +0000
+date: 2025-11-20 10:00:00 +0000
 image: images/posts/los-trastornos-mentales-suelen-comenzar-mucho-antes-de-lo-que-creemos-advierte-un-estudio-global/01.jpg
 author: [E.R.M.]
 ---
