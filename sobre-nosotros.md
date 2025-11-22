@@ -1,7 +1,13 @@
 ---
 layout: default
 title: "Sobre Nosotros"
+clase_pagina: sobre-nosotros-page
 ---
+<figure>
+    <img src="{{ '/images/logos/k01.jpg' | relative_url }}" alt="Imagen secundaria">
+    <figcaption></figcaption>
+</figure>
+...
 
 # Sobre Nosotros
 

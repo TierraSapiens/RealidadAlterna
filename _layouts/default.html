@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
     <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/images/logos/Buho 32x32.ico"> 
 </head>
-                                                                                                                                                            
+
 <body>
 
 {% include header.html %} 
 
-<main>
+<main{% if page.clase_pagina %} class="{{ page.clase_pagina }}"{% endif %}>
     {{ content }}
 </main>
                                                                                                                                                             
