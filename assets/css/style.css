@@ -282,7 +282,7 @@ main p a {
 
 /* 4.2 Estilos de Imágenes dentro de esta página */
 .sobre-nosotros-page img {
-    max-width: 900px !important; /* ANCHO maximo */
+    max-width: 900px; /* ANCHO maximo */
     max-height: 450px;           /*ALTURA Maxima*/
     margin: 20px auto; 
     display: block; 
@@ -291,5 +291,5 @@ main p a {
 /* 4.3 Estilos de Párrafos dentro de esta página */
 .sobre-nosotros-page p {
     font-size: 1.1em;
-    color: #000000; 
+    color: #000213; 
 }
