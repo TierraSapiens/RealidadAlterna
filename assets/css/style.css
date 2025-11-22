@@ -282,8 +282,8 @@ main p a {
 
 /* 4.2 Estilos de Imágenes dentro de esta página */
 .sobre-nosotros-page img {
-    max-width: 300px; /* Tamaño específico en píxeles que quieres para la imagen */
-    height: auto;
+    max-width: 900px !important; /* ANCHO maximo */
+    max-height: 450px;           /*ALTURA Maxima*/
     margin: 20px auto; 
     display: block; 
 }
@@ -291,5 +291,5 @@ main p a {
 /* 4.3 Estilos de Párrafos dentro de esta página */
 .sobre-nosotros-page p {
     font-size: 1.1em;
-    color: #5aa6bd; 
+    color: #000000; 
 }
