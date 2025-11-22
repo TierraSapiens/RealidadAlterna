@@ -13,7 +13,7 @@ body {
 /* --- Contenedor Principal del Contenido (DONDE ESTÁ EL TEXTO) --- */
 main {
     background-color: #d2e4f8; /* Fondo Blanco para el contenido */
-    max-width: 1000px; /* Limita el ancho del contenido principal (ajusta este valor) */
+    max-width: 900px; /* Limita el ancho del contenido escrito (ajusta este valor) */
     margin: 20px auto; /* Centra el bloque blanco y le da espacio arriba y abajo */
     padding: 0px 40px 20px 40px; 
     /* 0px arriba (para no tener espacio) */
@@ -275,33 +275,43 @@ main p a {
     4. ESTILOS DE LA PÁGINA "SOBRE NOSOTROS"
     (Afectan SOLAMENTE a los elementos dentro de .sobre-nosotros-page)
 ========================================================================== */
+/* 4.1 Estilos Generales de la Página "Sobre Nosotros" */
+.sobre-nosotros-page {
+    /* Esta regla anula el padding-top:0px del 'main' y añade un respiro arriba. */
+    padding: 10px 40px 20px 40px; 
+}
 
-/* 4.2 Estilos de Imágenes dentro de esta página (Corregido el Margen) */
-.sobre-nosotros-page figure img { /* Apunta a la imagen DENTRO de la figura */
-    max-width: 900px; /* Ancho específico */
-    max-height: 400px; /* La altura máxima que le pusiste */
+/* 4.2 Estilos de la Figura (CONTENEDOR DE LA IMAGEN) */
+.sobre-nosotros-page figure {
+    /* Espacio arriba y abajo de la figura, y se centra */
+    /* Lo que antes era el margin: 20px auto 20px auto; se pone aquí: */
+    margin: 20px auto 20px auto; 
+    padding: 0;
+    max-width: 600px;
+    display: block;
+}
+
+/* 4.3 Estilos de Imágenes dentro de la figura */
+.sobre-nosotros-page figure img {
+    max-width: 100%; 
+    max-height: 400px; 
     height: auto;
-    
-    /* MARGEN SUPERIOR CORREGIDO */
-    margin-top: 20px; /* Agrega un margen arriba de la imagen */
-    margin-bottom: 20px; /* Margen debajo para separarla del texto */
-    margin-left: auto;
-    margin-right: auto;
-    
+    /* Se centra dentro de la figura */
+    margin: 0 auto; 
     display: block; 
 }
 
-/* 4.3 Estilos de la Leyenda de la figura (figcaption) */
+/* 4.4 Estilos de la Leyenda de la figura (figcaption) */
 .sobre-nosotros-page figcaption {
     text-align: center;
     font-size: 0.9em;
     color: #666;
-    margin-bottom: 20px; /* Para separarla del siguiente párrafo */
+    margin-bottom: 20px; 
 }
 
-/* 4.4 Estilos de Párrafos dentro de esta página */
+/* 4.5 Estilos de Párrafos dentro de esta página */
 .sobre-nosotros-page p {
     font-size: 1.1em;
     color: #444; 
-    margin-bottom: 15px; /* Para separar párrafos */
+    margin-bottom: 15px; 
 }
