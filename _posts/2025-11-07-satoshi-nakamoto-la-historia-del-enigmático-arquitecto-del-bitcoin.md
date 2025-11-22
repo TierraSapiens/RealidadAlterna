@@ -14,7 +14,7 @@ La identidad de **Satoshi Nakamoto**, el enigmático inventor de Bitcoin, contin
 
 ---
 
-## 1️⃣ ¿Quién es Satoshi Nakamoto?
+# 1️⃣ ¿Quién es Satoshi Nakamoto?
 
 El nombre *Satoshi Nakamoto* apareció por primera vez en 2008, cuando se publicó el **whitepaper de Bitcoin**.  
 En ese documento se describía un sistema de pago descentralizado basado en una **cadena de bloques**, sin necesidad de bancos o autoridades centrales. Una idea completamente revolucionaria.
@@ -37,7 +37,7 @@ Estas preguntas alimentan el debate y mantienen vivo el misterio.
     <figcaption>Estatua que se encuentra en Budapest, Hungría. </figcaption>
 </figure>
 
-## 2️⃣ ¿Cuándo desapareció Satoshi Nakamoto?
+# 2️⃣ ¿Cuándo desapareció Satoshi Nakamoto?
 
 Satoshi se retiró del desarrollo activo de Bitcoin en **2010**, tras estabilizar el software y sentar las bases de la red.
 
@@ -53,7 +53,7 @@ Sobre las razones de su salida existen distintas teorías:
 
 ---
 
-## 3️⃣ La riqueza y la billetera de Satoshi Nakamoto
+# 3️⃣ La riqueza y la billetera de Satoshi Nakamoto
 
 Un aspecto fascinante es la enorme billetera atribuida a Satoshi.
 
@@ -74,7 +74,7 @@ Esto ha llevado a teorías como:
 
 ---
 
-## 4️⃣ Hipótesis: ¿Quién podría ser Satoshi Nakamoto?
+# 4️⃣ Hipótesis: ¿Quién podría ser Satoshi Nakamoto?
 
 La falta de pistas claras ha generado numerosas teorías. Estos son los candidatos más mencionados:
 
@@ -84,7 +84,9 @@ La falta de pistas claras ha generado numerosas teorías. Estos son los candidat
 
 Nick Szabo es uno de los sospechosos habituales.  
 Creador del concepto **Bit Gold**, precursor directo de Bitcoin.
-
+<figure>
+    <img src="{{ '/images/posts/satoshi-nakamoto-la-historia-del-enigmático-arquitecto-del-bitcoin/nick-szabo.jpg' | relative_url }}" alt="Imagen secundaria">
+</figure>
 Argumentos a favor:
 
 - Bit Gold es muy similar a Bitcoin.  
@@ -102,9 +104,11 @@ Hal Finney fue:
 - Uno de los primeros desarrolladores de Bitcoin.  
 - El receptor de la **primera transacción de la historia**, enviada por Satoshi en 2009.  
 - Un pionero de la criptografía y colaborador directo de Nakamoto.
-
+<figure>
+    <img src="{{ '/images/posts/satoshi-nakamoto-la-historia-del-enigmático-arquitecto-del-bitcoin/hal-finney.jpg' | relative_url }}" alt="Imagen secundaria">
+</figure>
 Muchos creen que tenía las capacidades y los conocimientos necesarios.  
-Pero él también negó ser Satoshi hasta su muerte.
+Pero él también negó ser Satoshi hasta su muerte (2014).
 
 ---
 
@@ -112,7 +116,9 @@ Pero él también negó ser Satoshi hasta su muerte.
 
 En 2016, Craig Wright afirmó públicamente ser Satoshi Nakamoto.  
 Intentó presentar pruebas criptográficas, pero la comunidad las consideró **insuficientes o manipuladas**.
-
+<figure>
+    <img src="{{ '/images/posts/satoshi-nakamoto-la-historia-del-enigmático-arquitecto-del-bitcoin/craig-wright.jpg' | relative_url }}" alt="Imagen secundaria">
+</figure>
 La mayoría de expertos y desarrolladores sigue siendo extremadamente escéptica.
 
 ---
@@ -120,7 +126,9 @@ La mayoría de expertos y desarrolladores sigue siendo extremadamente escéptica
 ### 🔹 Wei Dai: el creador de “B-Money”
 
 Wei Dai propuso en 1998 el concepto **B-Money**, un sistema digital y anónimo que anticipaba varias ideas de Bitcoin.
-
+<figure>
+    <img src="{{ '/images/posts/satoshi-nakamoto-la-historia-del-enigmático-arquitecto-del-bitcoin/wei-dai.jpg' | relative_url }}" alt="Imagen secundaria">
+</figure>
 Puntos relevantes:
 
 - Su propuesta incluía descentralización y transacciones seudónimas.  
@@ -136,13 +144,15 @@ Creó:
 
 - **Ecash** (años 80)  
 - **DigiCash**, una de las primeras formas de dinero digital anónimo
-
+<figure>
+    <img src="{{ '/images/posts/satoshi-nakamoto-la-historia-del-enigmático-arquitecto-del-bitcoin/David Chaum' | relative_url }}" alt="Imagen secundaria">
+</figure>
 Su impacto en la criptografía moderna es innegable.  
 Pero nunca afirmó ser Satoshi y no existe evidencia directa.
 
 ---
 
-## 5️⃣ ¿Por qué Satoshi Nakamoto permanece anónimo?
+# 5️⃣ ¿Por qué Satoshi Nakamoto permanece anónimo?
 
 Las razones más mencionadas:
 
@@ -158,7 +168,7 @@ El anonimato permitió que la comunidad tomara decisiones sin depender de él.
 
 ---
 
-## 6️⃣ La verdadera identidad de Satoshi Nakamoto y su impacto
+# 6️⃣ La verdadera identidad de Satoshi Nakamoto y su impacto
 
 Aunque nadie sabe quién es Satoshi Nakamoto, su legado redefinió la economía moderna.
 
@@ -201,7 +211,7 @@ Su último mensaje afirmó que Bitcoin estaba “en buenas manos”.
 </p>
 <figure>
     <img src="{{ '/images/posts/satoshi-nakamoto-la-historia-del-enigmático-arquitecto-del-bitcoin/02.jpg' | relative_url }}" alt="Imagen secundaria">
-    <figcaption>Binance </figcaption>
+    <figcaption>The Satoshi Nakamoto Institute</figcaption>
 </figure>
 
 
