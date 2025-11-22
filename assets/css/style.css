@@ -282,7 +282,7 @@ main p a {
 /* 4.2 Estilos de Imágenes dentro de esta página */
 .sobre-nosotros-page img {
     max-width: 900px; /* ANCHO maximo */
-    max-height: 405px; /*ALTURA Maxima*/
+    max-height: 350px; /*ALTURA Maxima*/
     margin: 20px auto; 
     display: block; 
 }
