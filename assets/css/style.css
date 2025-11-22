@@ -275,20 +275,33 @@ main p a {
     4. ESTILOS DE LA PÁGINA "SOBRE NOSOTROS"
     (Afectan SOLAMENTE a los elementos dentro de .sobre-nosotros-page)
 ========================================================================== */
-/* 4.1 Estilos Generales de la Página "Sobre Nosotros" */
-    /* Si quieres darle un fondo diferente o padding específico A ESTA SOLA PÁGINA */
-    /* background-color: #f0f0f0; */
 
-/* 4.2 Estilos de Imágenes dentro de esta página */
-.sobre-nosotros-page img {
-    max-width: 900px; /* ANCHO maximo */
-    max-height: 350px; /*ALTURA Maxima*/
-    margin: 20px auto; 
+/* 4.2 Estilos de Imágenes dentro de esta página (Corregido el Margen) */
+.sobre-nosotros-page figure img { /* Apunta a la imagen DENTRO de la figura */
+    max-width: 900px; /* Ancho específico */
+    max-height: 400px; /* La altura máxima que le pusiste */
+    height: auto;
+    
+    /* MARGEN SUPERIOR CORREGIDO */
+    margin-top: 20px; /* Agrega un margen arriba de la imagen */
+    margin-bottom: 20px; /* Margen debajo para separarla del texto */
+    margin-left: auto;
+    margin-right: auto;
+    
     display: block; 
 }
 
-/* 4.3 Estilos de Párrafos dentro de esta página */
+/* 4.3 Estilos de la Leyenda de la figura (figcaption) */
+.sobre-nosotros-page figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 20px; /* Para separarla del siguiente párrafo */
+}
+
+/* 4.4 Estilos de Párrafos dentro de esta página */
 .sobre-nosotros-page p {
     font-size: 1.1em;
-    color: #000213; 
+    color: #444; 
+    margin-bottom: 15px; /* Para separar párrafos */
 }
