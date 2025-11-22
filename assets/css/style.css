@@ -270,3 +270,26 @@ main p a {
     color: #002646; /* Links naranjas dentro del texto */
     text-decoration: underline;
 }
+
+/* ==========================================================================
+    4. ESTILOS DE LA PÁGINA "SOBRE NOSOTROS"
+    (Afectan SOLAMENTE a los elementos dentro de .sobre-nosotros-page)
+========================================================================== */
+
+/* 4.1 Estilos Generales de la Página "Sobre Nosotros" */
+    /* Si quieres darle un fondo diferente o padding específico A ESTA SOLA PÁGINA */
+    /* background-color: #f0f0f0; */
+
+/* 4.2 Estilos de Imágenes dentro de esta página */
+.sobre-nosotros-page img {
+    max-width: 450px; /* Tamaño específico en píxeles que quieres para la imagen */
+    height: auto;
+    margin: 20px auto; 
+    display: block; 
+}
+
+/* 4.3 Estilos de Párrafos dentro de esta página */
+.sobre-nosotros-page p {
+    font-size: 1.1em;
+    color: #444; 
+}
