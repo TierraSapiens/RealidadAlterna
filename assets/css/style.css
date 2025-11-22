@@ -282,7 +282,7 @@ main p a {
 
 /* 4.2 Estilos de Imágenes dentro de esta página */
 .sobre-nosotros-page img {
-    max-width: 450px; /* Tamaño específico en píxeles que quieres para la imagen */
+    max-width: 300px; /* Tamaño específico en píxeles que quieres para la imagen */
     height: auto;
     margin: 20px auto; 
     display: block; 
