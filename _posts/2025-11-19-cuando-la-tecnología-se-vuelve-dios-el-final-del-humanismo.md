@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🟢 Cuando la Tecnología se Vuelve Dios: El Final del Humanismo"
+title: "⚫Cuando la Tecnología se Vuelve Dios: El Final del Humanismo"
 date: 2025-11-19 10:00:00 +0000
 image: images/posts/cuando-la-tecnología-se-vuelve-dios-el-final-del-humanismo/00.jpg
 author: [E.R.M.]
