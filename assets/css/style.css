@@ -186,8 +186,8 @@ footer {
 /* Solo imágenes insertadas dentro del texto del post */
 .post-content img {
     /* TAMAÑO EN PÍXELES (Tú decides la medida)*/
-    max-width: 600px !important; /* ANCHO maximo */
-    max-height: 450px;           /*ALTURA Maxima*/
+    max-width: 700px !important; /* ANCHO maximo */
+    max-height: 400px;           /*ALTURA Maxima*/
     width: 100%;  /* Asegura que la imagen no exceda el ancho del contenedor */
     height: auto;
     
