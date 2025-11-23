@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "🟢 Supervolcán Toba, la mayor erupción de la historia de la humanidad"
+title: "🟢Supervolcán Toba, la mayor erupción de la historia de la humanidad"
 date: 2025-11-07 10:00:00 +0000
-image: images/posts/supervolcan-toba-la-mayor-erupcion-de-la-historia-de-la-humanidad/01.jpg
+image: images/posts/supervolcan-toba-la-mayor-erupcion-de-la-historia-de-la-humanidad/06.jpg
 author: [E.R.M.]
 ---
 
-# La erupción del supervolcán Toba: la explosión más grande de la historia humana
+## 🟢Supervolcán Toba, la mayor erupción de la historia de la humanidad
+## 🔹 La erupción del supervolcán Toba: la explosión más grande de la historia humana
 
 La erupción del **supervolcán Toba** fue la más explosiva registrada en la historia de la humanidad, aunque aún existen debates sobre su verdadero impacto en la vida humana.
 
@@ -14,9 +15,10 @@ En lo profundo de la isla de **Sumatra (Indonesia)** yace este gigante dormido, 
 
 ---
 <figure>
-    <img src="{{ '/images/posts/supervolcan-toba-la-mayor-erupcion-de-la-historia-de-la-humanidad/06.jpg' | relative_url }}" alt="Imagen secundaria">
-    <figcaption></figcaption>
+    <img src="{{ '/images/posts/supervolcan-toba-la-mayor-erupcion-de-la-historia-de-la-humanidad/01.jpg' | relative_url }}" alt="Imagen secundaria">
+    <figcaption>"Nota: Las dimensiones de las nubes eruptivas son representaciones artísticas para fines comparativos y no reflejan una escala matemática exacta.</figcaption>
 </figure>
+
 ## 🔹 Un supervolcán entra en erupción
 
 Toba es uno de los **20 supervolcanes activos** que existen en la Tierra.  

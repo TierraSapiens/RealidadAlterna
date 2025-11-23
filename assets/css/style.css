@@ -7,20 +7,18 @@ body {
     margin: 0;
     padding: 0;
     color: #333;            /*CAMBIA COLOR TEXTO PAGINA*/
-    background-color:#7c7b7b; /*CAMBIA TODO EL FONDO de PAGINA*//* COLOR FONDO de PAGINA */
+    background-color:#7c7b7b; /*CAMBIA TODO EL FONDO de PAGINA*/
 }
 
 /* --- Contenedor Principal del Contenido (DONDE ESTÁ EL TEXTO) --- */
 main {
     background-color: #d2e4f8; /* Fondo Blanco para el contenido */
-    max-width: 900px; /* Limita el ancho del contenido escrito (ajusta este valor) */
+    max-width: 900px; /* Limita el ancho del contenido escrito */
     margin: 20px auto; /* Centra el bloque blanco y le da espacio arriba y abajo */
     padding: 0px 40px 20px 40px; 
     /* 0px arriba (para no tener espacio) */
-    /* 40px a los lados (para que el texto respire y no se encoja) */
-    /* 20px abajo (para que no se pegue al fondo) */
-    border-radius: 8px; /* Opcional: Esquinas ligeramente redondeadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: Sombra suave */
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 /* --- Barra Naranja (Header) --- */
@@ -34,7 +32,7 @@ main {
     margin: 0 50px;
     width: auto;
     display: flex;
-    justify-content: flex-start; /* Alineado a la izquierda */
+    justify-content: flex-start; 
     align-items: center;
     gap: 40px;
 }
@@ -50,7 +48,7 @@ main {
 }
 
 .header-logo {
-    height: 31px; /* Tamaño del Búho Pagina */
+    height: 31px; 
     margin-right: 10px;
 }
 
@@ -68,7 +66,7 @@ main {
 /* --- Estilos para el Pie de Página (Footer) --- */
 footer {
     padding: 30px 20px;
-    background-color: #333; /* Un color oscuro para el fondo del footer */
+    background-color: #333; 
     color: #FFF;
     text-align: center;
     font-size: 0.9em;
@@ -80,7 +78,7 @@ footer {
 }
 
 .footer-menu a {
-    color: #ff6600; /* Color naranja para los enlaces */
+    color: #ff6600; 
     text-decoration: none;
     margin: 0 5px;
 }
@@ -93,10 +91,9 @@ footer {
 .intro {
     text-align: center;
     margin: 0;
-    padding-top: 0px; /*Acerca BARRA NARANJA*/
+    padding-top: 0px; 
     padding-bottom: 10px;
 }
-/*El estilo del título que aparece en la Página de Inicio (la que lista las publicaciones).*/
 .intro h1 {
     font-size: 2.0em;
     color: #333;
@@ -104,31 +101,30 @@ footer {
 }
 
 /* --- Lista de Posts --- */
-.post-list {       /* CAMBIA todo el estilo de letras Pagina principal */
-    font-family: 'Arial', Verdana, sans-serif;   /* << Cambia título y fecha a la vez */
+.post-list {       
+    font-family: 'Arial', Verdana, sans-serif;   
     list-style: none;
     padding: 0;
-    margin-top: 0px;  /*2da. Acerca BARRA NARANJA A TITULO SUPERIOR PUBLICACION/ES */
+    margin-top: 0px;  
 }
 
 /* LINEA DIVIDE TITULOS */ 
 .post-item {             
     display: flex;
-    align-items: center; /* Centra verticalmente la foto con el texto */
-    margin-bottom: 0px; /*Esta propiedad define el espacio en blanco después de la línea divisoria inferior de cada artículo.*/
-    padding-bottom: 5px; /*Esta propiedad define el espacio en blanco entre el texto del artículo y la línea divisoria inferior.*/
-    border-bottom: 1px solid #000000;   /* LINEA DIVIDE TITULOS LISTADO PUBLICACION */
-    gap: 15px;                            /* 1px: El grosor de la línea es de 1 píxel.*/
- /* border-bottom: none;                 /*Agregar ESTO PARA ELIMINAR LA LÍNEA */
+    align-items: center; 
+    margin-bottom: 0px; 
+    padding-bottom: 5px; 
+    border-bottom: 1px solid #000000;   
+    gap: 15px;                            
 }
 
 /* --- Miniatura (La imagen pequeña) --- */
 .post-thumb {
-    width: 70px;  /* TAMAÑO PEQUEÑO (Ancho) */
-    height: 50px; /* TAMAÑO PEQUEÑO (Alto) */
+    width: 70px;  
+    height: 50px; 
     object-fit: cover;
     border-radius: 4px;
-    margin: 0;    /* Quitamos márgenes porque usamos 'gap' en el padre */
+    margin: 0;    
 }
 
 /* --- Textos de la lista (Título y Fecha) --- */
@@ -139,19 +135,19 @@ footer {
 }
 
 .post-title {
-    font-family: "Arial", Arial Black, sans-serif; /*<<< Cambiar estilo letra SOLO del título */
-    font-size: 0.9em; /* TAMAÑO Título del listado publicaciones */
+    font-family: "Arial", Arial Black, sans-serif; 
+    font-size: 0.9em; 
     color: #333;
     text-decoration: none;
     margin: 0;
     line-height: 1.2;
 }
 
-.post-meta {     /*"MOVER Fecha de publicación y autor*/
-    font-size: 0.65em; /*TAMAÑO letra publicacion autor */
+.post-meta {     
+    font-size: 0.65em; 
     color: #888;
-    margin-top: 2px;   /* Pequeña separación del título */
-    margin-left: 32px;  /* Alineado con el título hacia la Derecha */
+    margin-top: 2px;   
+    margin-left: 32px;  
 }
 
 /* ==========================================================================
@@ -163,48 +159,62 @@ footer {
 .post-container {
     padding-top: 0;
     margin-top: 0;
-    width: 100%;  /* Aseguramos que el contenedor también sea 100% */
+    width: 100%;  
 }
 
 /* --- A. IMAGEN PRINCIPAL (BANNER) --- */
 .post-container > img {
     /* TAMAÑO EN PÍXELES */
-    max-width: 900px !important; /*ANCHO máximo EJEMPLO: Limitar banner a 900px */
-    max-height: 300px; /*ALTO máximo. Opcional: Limita la altura del banner si quieres que sea corto */
-    
+    max-width: 900px !important; 
+    max-height: 300px; 
     width: 100%;
     height: auto;
-    object-fit: cover; /* Mantiene la proporción si usas max-height */
-    
-    /* SEPARACIÓN TOTAL de la imagen principal */
-    margin: 0 auto 30px auto; /* 30px de separación ABAJO, 0 ARRIBA */
-    
+    object-fit: cover; 
+    margin: 0 auto 0px auto;  /* 🔥 MARGEN INFERIOR 0px para pegar el título 🔥 */
     display: block; 
     border-radius: 4px;
 }
+
+/* --- Título Principal H1 MANUAL (Escrito dentro del .md) --- */
+.post-content h1 {
+    font-size: 1.3em; /* Ajusta el tamaño a tu gusto */
+    color: #000000;
+    margin-top: 1px; /* Separación con la imagen */
+    margin-bottom: 1px; /* Separación con el texto de abajo */
+    line-height: 1.0;
+    font-family: "Arial", sans-serif;
+}
+/* --- Título Secundario H2 dentro del Post --- */
+.post-content h2 {
+    font-size: 1.3em !important; 
+    margin-top: 1px !important;  
+    margin-bottom: 5px !important; 
+    line-height: 1.2;
+}
+
+/* --- Texto del Artículo (Párrafos) --- */
+.post-content p {
+    font-size: 1.1em; 
+    margin-top: 2px !important; /* Pegado al elemento anterior */
+    margin-bottom: 6px; 
+}
+
 /* --- B. IMÁGENES SECUNDARIAS (Cuerpo del Post) --- */
-/* Solo imágenes insertadas dentro del texto del post */
 .post-content img {
-    /* TAMAÑO EN PÍXELES (Tú decides la medida)*/
-    max-width: 700px !important; /* ANCHO maximo */
-    max-height: 400px;           /*ALTURA Maxima*/
-    width: 100%;  /* Asegura que la imagen no exceda el ancho del contenedor */
+    max-width: 700px !important; 
+    max-height: 400px;           
+    width: 100%;  
     height: auto;
-    
-    /* SEPARACIÓN de las imágenes secundarias */
     display: block; 
-    margin: 20px auto; /* Centra y las separa 20px arriba y abajo */
-    
-    /* Puedes añadir bordes o esquinas redondeadas si quieres */
-    /* border-radius: 4px; */
+    margin: 20px auto; 
 }
 
 /* --- Contenedor de la lista (UL y OL) --- */
 .post-content ul, 
 .post-content ol {
-    margin-top: 5px;   /* Reduce el espacio entre el texto anterior y el inicio de la lista */
-    padding-left: 30px; /* Mantiene la indentación de la lista */
-    margin-bottom: 10px; /* Reduce el espacio entre el final de la lista y el texto siguiente */
+    margin-top: 5px;   
+    padding-left: 30px; 
+    margin-bottom: 10px; 
 }
 
 /* --- Estilos para los elementos de lista (<li>) dentro del post --- */
@@ -212,79 +222,36 @@ footer {
     font-size: 1.2em;
     line-height: 1.3;
     color: #333;
-    margin-bottom: 1px; /* Espacio entre cada viñeta */
-}
-
-/* --- TITULO PRINCIPAL del Artículo --- */
-main h1 {
-    font-size: 1.3em; /* Título bien grande para la lectura */
-    font-family: "Arial", Verdana, sans-serif;   /* << Cambia título y fecha a la vez */
-    color: #222;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-top: 0px;
-    margin-bottom: 5px;     /*REDUCIR Margen del TITULO PAG.interior (de 20px a 0px o 5px)*/
-    line-height: 1.0;
- /* padding-left: 150px;    /*Mueve el título 10 píxeles hacia la derecha */
-}
-
-/* --- Banner de Cabecera (Imagen principal no incluida en .post-content) --- */
-/* Esta regla es crucial para limitar el ancho del banner */
-.post-container > img {
-    max-width: 800px; /* Aplica el mismo límite de 800px */
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px auto; /* Centra la imagen */
-    border-radius: 4px;
+    margin-bottom: 1px; 
 }
 
 /* --- Estilos para la Leyenda/Pie de Foto (figcaption) --- */
 .post-content figcaption {
-    /* 1. Centrar el texto */
     text-align: center;
-    
-    /* 2. Hacer la letra más pequeña */
     font-size: 0.95em;     
-    
-    /* Opcional: Otros estilos para que se vea como pie de foto */
     color: #666;           
     margin-top: 5px;       
     margin-bottom: 25px;   
     font-style: italic;    
 }
 
-/* --- Texto del Artículo (Párrafos) --- */
-main p {
-    font-size: 1.1em; /* Letra cómoda para leer */
-    font-family: "Arial", Verdana, sans-serif;   /* << Cambia título y fecha a la vez */
-    line-height: 1.4; /* Espacio entre renglones */
-    color: #333;
-    padding-top: 0;
-    margin-top: 0;  /*El primer párrafo se pegará al título. */
-    margin-bottom: 6px;
-}
-
 /* --- Enlaces dentro del artículo --- */
 main p a {
-    color: #002646; /* Links naranjas dentro del texto */
+    color: #002646; 
     text-decoration: underline;
 }
 
 /* ==========================================================================
-    4. ESTILOS DE LA PÁGINA "SOBRE NOSOTROS"
-    (Afectan SOLAMENTE a los elementos dentro de .sobre-nosotros-page)
+   4. ESTILOS DE LA PÁGINA "SOBRE NOSOTROS"
+   (Afectan SOLAMENTE a los elementos dentro de .sobre-nosotros-page)
 ========================================================================== */
 /* 4.1 Estilos Generales de la Página "Sobre Nosotros" */
 .sobre-nosotros-page {
-    /* Esta regla anula el padding-top:0px del 'main' y añade un respiro arriba. */
     padding: 10px 40px 20px 40px; 
 }
 
 /* 4.2 Estilos de la Figura (CONTENEDOR DE LA IMAGEN) */
 .sobre-nosotros-page figure {
-    /* Espacio arriba y abajo de la figura, y se centra */
-    /* Lo que antes era el margin: 20px auto 20px auto; se pone aquí: */
     margin: 20px auto 20px auto; 
     padding: 0;
     max-width: 600px;
@@ -296,7 +263,6 @@ main p a {
     max-width: 100%; 
     max-height: 400px; 
     height: auto;
-    /* Se centra dentro de la figura */
     margin: 0 auto; 
     display: block; 
 }

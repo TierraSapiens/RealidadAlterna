@@ -6,6 +6,8 @@ image: images/posts/cuando-la-tecnología-se-vuelve-dios-el-final-del-humanismo/
 author: [E.R.M.]
 ---
 
+# 🟢 Cuando la Tecnología se Vuelve Dios: El Final del Humanismo
+
 # 🔹 ¿Qué es la Tecnoreligión?
 
 La tecnoreligión es una ideología que cumple las mismas funciones que tradicionalmente cumplían las religiones: dar sentido, dirección, propósito y una promesa de salvación, pero usando tecnología en lugar de Dios, espíritus o entidades sobrenaturales.
