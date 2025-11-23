@@ -6,6 +6,8 @@ image: images/posts/los-trastornos-mentales-suelen-comenzar-mucho-antes-de-lo-qu
 author: [E.R.M.]
 ---
 
+### 🟢Los trastornos mentales suelen comenzar mucho antes de lo que creemos, advierte un estudio
+
 Un nuevo análisis publicado en *Nature* reunió datos de 192 estudios realizados en más de 700.000 personas de todo el mundo y llegó a una conclusión contundente:
 
 - **La mitad de los trastornos mentales comienzan antes de los 18 años, y casi dos de cada tres antes de los 25.**
@@ -14,7 +16,7 @@ El estudio —el más grande de su tipo— muestra que la salud mental empieza a
 
 La edad promedio en la que aparecen los primeros síntomas es de apenas 14 o 15 años, aunque varía según el tipo de trastorno.
 
-# 🔹 ¿A qué edad suelen aparecer los distintos trastornos?
+## ¿A qué edad suelen aparecer los distintos trastornos?
 
 Los investigadores trazaron un mapa claro de cuándo suelen manifestarse las diferentes condiciones:
 
@@ -34,7 +36,7 @@ En resumen, la adolescencia y la primera juventud son las etapas más críticas 
     </figcaption>
 </figure>
 
-# 🔹 ¿Por qué es importante?
+## 🔹 ¿Por qué es importante?
 
 Los autores del estudio advierten que la forma en que hoy se organizan los servicios de salud mental —dividiendo entre “infantil” y “adulto” a los 18 años— no refleja la realidad biológica ni psicológica.
 
@@ -44,19 +46,20 @@ Por eso, proponen romper esa barrera artificial y crear sistemas que acompañen 
 
 También subrayan la necesidad de detectar y prevenir desde la escuela primaria y secundaria, integrando docentes, pediatras y profesionales de salud mental en una misma red de apoyo.
 
-# 🔹 En palabras simples
+## 🔹 En palabras simples
 
 > “Casi todos los trastornos mentales se originan en los primeros 25 años de vida. Si esperamos a que la persona sea adulta, llegamos tarde”, concluyen los autores.
 
-# 🔹 En síntesis
+## 🔹 En síntesis
 
 - **1 de cada 3** personas con un trastorno mental comenzó antes de los **14 años**.  
 - **Casi la mitad** antes de los **18 años**.  
 - **2 de cada 3** antes de los **25 años**.  
 - **La adolescencia es el epicentro de la salud mental.**
 
-**El mensaje del estudio es claro:**  
-# La prevención más efectiva empieza en la infancia.
+**El mensaje del estudio es claro:**
+
+## La prevención más efectiva empieza en la infancia.
 
 🌐 Suscríbete para no perder el próximo capítulo.
 

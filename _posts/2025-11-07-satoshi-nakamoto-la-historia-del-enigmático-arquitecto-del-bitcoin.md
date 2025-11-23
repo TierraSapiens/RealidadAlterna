@@ -6,7 +6,10 @@ image: images/posts/satoshi-nakamoto-la-historia-del-enigmático-arquitecto-del-
 author: [E.R.M.]
 ---
 
-# El misterio detrás de Satoshi Nakamoto
+# ⚫Satoshi Nakamoto: La historia del enigmático arquitecto del Bitcoin
+
+
+># El misterio detrás de Satoshi Nakamoto
 
 La identidad de **Satoshi Nakamoto**, el enigmático inventor de Bitcoin, continúa siendo uno de los mayores misterios sin resolver del mundo financiero moderno.
 
@@ -145,7 +148,7 @@ Creó:
 - **Ecash** (años 80)  
 - **DigiCash**, una de las primeras formas de dinero digital anónimo
 <figure>
-    <img src="{{ '/images/posts/satoshi-nakamoto-la-historia-del-enigmático-arquitecto-del-bitcoin/David Chaum' | relative_url }}" alt="Imagen secundaria">
+    <img src="{{ '/images/posts/satoshi-nakamoto-la-historia-del-enigmático-arquitecto-del-bitcoin/david-Chaum.jpg' | relative_url }}" alt="Imagen secundaria">
 </figure>
 Su impacto en la criptografía moderna es innegable.  
 Pero nunca afirmó ser Satoshi y no existe evidencia directa.

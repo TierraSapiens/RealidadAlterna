@@ -6,7 +6,9 @@ image: images/posts/cuando-la-privacidad-se-volvio-un-acto-de-rebeldia-del-manif
 author: [E.R.M.]
 ---
 
-# ¿Qué es el Manifiesto Cypherpunk?
+# ⚫ Cuando la privacidad se volvió un acto de rebeldía: del Manifiesto Cypherpunk a Satoshi
+---
+## ¿Qué es el Manifiesto Cypherpunk?
 
 El **Manifiesto Cypherpunk** fue un breve ensayo de 12 párrafos escrito por el programador y matemático estadounidense **Eric Hughes**.  
 El manifiesto enfatizaba la importancia de la privacidad y las amenazas crecientes que enfrentaba en una era cada vez más digital.
