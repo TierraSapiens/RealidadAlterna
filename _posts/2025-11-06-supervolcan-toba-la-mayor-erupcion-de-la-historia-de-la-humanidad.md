@@ -14,7 +14,7 @@ En lo profundo de la isla de **Sumatra (Indonesia)** yace este gigante dormido, 
 
 ---
 <figure>
-    <img src="{{ '/images/posts/supervolcan-toba-la-mayor-erupcion-de-la-historia-de-la-humanidad/04.jpg' | relative_url }}" alt="Imagen secundaria">
+    <img src="{{ '/images/posts/supervolcan-toba-la-mayor-erupcion-de-la-historia-de-la-humanidad/06.jpg' | relative_url }}" alt="Imagen secundaria">
     <figcaption></figcaption>
 </figure>
 ## 🔹 Un supervolcán entra en erupción
