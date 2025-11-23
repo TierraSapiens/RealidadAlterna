@@ -13,7 +13,7 @@ body {
 /* --- Contenedor Principal del Contenido (DONDE ESTÁ EL TEXTO) --- */
 main {
     background-color: #d2e4f8; /* Fondo Blanco para el contenido */
-    max-width: 900px; /* Limita el ancho del contenido escrito */
+    max-width: 950px; /* Limita el ancho del contenido escrito */
     margin: 20px auto; /* Centra el bloque blanco y le da espacio arriba y abajo */
     padding: 0px 40px 20px 40px; 
     /* 0px arriba (para no tener espacio) */
@@ -170,14 +170,14 @@ footer {
     width: 100%;
     height: auto;
     object-fit: cover; 
-    margin: 0 auto 0px auto;  /* 🔥 MARGEN INFERIOR 0px para pegar el título 🔥 */
+    margin: 0 auto 0px auto;  /*MARGEN INFERIOR 0px para pegar el título*/
     display: block; 
     border-radius: 4px;
 }
 
 /* --- Título Principal H1 MANUAL (Escrito dentro del .md) --- */
 .post-content h1 {
-    font-size: 1.3em; /* Ajusta el tamaño a tu gusto */
+    font-size: 1.2em; /* Ajusta el tamaño a tu gusto */
     color: #000000;
     margin-top: 1px; /* Separación con la imagen */
     margin-bottom: 1px; /* Separación con el texto de abajo */
