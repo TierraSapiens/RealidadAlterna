@@ -30,11 +30,11 @@ permalink: /feed.xml
             *** CORRECCIÓN CLAVE: Usamos 'post.image' (la imagen grande) *** Asegura la URL completa con 'site.url' para el publicador de Python.
         {% endcomment %}
         {% if post.image %}
-            <media:content xmlns:media="http://search.yahoo.com/mrss/"
-                medium="image" 
-                url="{{ site.url }}{{ site.baseurl }}{{ post.image }}"
-            />
-        {% endif %}
+              <media:content xmlns:media="http://search.yahoo.com/mrss/"
+        medium="image" 
+        url="{{ site.url }}{{ site.baseurl }}/{{ post.image }}"
+    />
+{% endif %}
 
         <content type="html">{{ post.content | xml_escape }}</content>
     </entry>
