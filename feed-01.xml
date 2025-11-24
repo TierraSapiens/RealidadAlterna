@@ -19,7 +19,7 @@ path: feed-01.xml
     <entry>
         <title type="text">{{ post.title | escape }}</title>
         <link href="{{ post.url | absolute_url }}"/>
-        <id>{{ site.url }}{{ post.id }}</id>
+        <id>{{ post.url | absolute_url | remove: '.html' }}</id>
         <published>{{ post.date | date_to_xmlschema }}</published>
         <updated>{{ post.date | date_to_xmlschema }}</updated>
 
