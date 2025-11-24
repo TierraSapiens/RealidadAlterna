@@ -31,9 +31,9 @@ path: feed-01.xml
             *** CORRECCIÓN CLAVE: Usamos 'post.image' (la imagen grande) *** Asegura la URL completa con 'site.url' para el publicador de Python.
         {% endcomment %}
         {% if post.image %}
-           <media:content xmlns:media="http://search.yahoo.com/mrss/"
-               medium="image" 
-               url="{{ post.image | absolute_url }}" 
+    <media:content xmlns:media="http://search.yahoo.com/mrss/"
+        medium="image" 
+        url="{{ site.url }}{{ site.baseurl }}/{{ post.image }}"
     />
 {% endif %}
 
