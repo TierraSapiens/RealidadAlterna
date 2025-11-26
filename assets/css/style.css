@@ -13,7 +13,7 @@ body {
 /* --- Contenedor Principal del Contenido (DONDE ESTÁ EL TEXTO) --- */
 main {
     background-color: #d2e4f8; /* Fondo Blanco para el contenido */
-    max-width: 950px; /* Limita el ancho del contenido escrito */
+    max-width: 800px; /* Limita el ancho del contenido escrito */
     margin: 20px auto; /* Centra el bloque blanco y le da espacio arriba y abajo */
     padding: 0px 40px 20px 40px; 
     /* 0px arriba (para no tener espacio) */
@@ -207,6 +207,18 @@ footer {
     height: auto;
     display: block; 
     margin: 20px auto; 
+}
+
+/* --- C. VIDEOS (Estilos para el reproductor) --- */
+.post-content video {
+    max-width: 700px !important; /* Mismo ancho tope que tus imágenes */
+    width: 100%;                 /* Se adapta en móviles */
+    height: auto;
+    display: block;              /* Para que respete los márgenes */
+    margin: 20px auto;           /* Centrado horizontal */
+    border-radius: 4px;          /* Bordes redondeados estéticos */
+    background-color: #000;      /* Fondo negro elegante mientras carga */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra suave */
 }
 
 /* --- Contenedor de la lista (UL y OL) --- */
