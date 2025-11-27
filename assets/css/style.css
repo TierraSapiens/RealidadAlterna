@@ -3,7 +3,7 @@
    (Se aplica a todo el sitio: Barra naranja, menú, contenedor principal)
    ========================================================================== */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, sans-serif, Arial;
     margin: 0;
     padding: 0;
     color: #333;            /*CAMBIA COLOR TEXTO PAGINA*/
@@ -102,7 +102,7 @@ footer {
 
 /* --- Lista de Posts --- */
 .post-list {       
-    font-family: 'Arial', Verdana, sans-serif;   
+    font-family: Helvetica, arial, Verdana, sans-serif;   
     list-style: none;
     padding: 0;
     margin-top: 0px;  
@@ -135,7 +135,7 @@ footer {
 }
 
 .post-title {
-    font-family: "Arial", Arial Black, sans-serif; 
+    font-family: Helvetica, Arial, Arial Black, sans-serif; 
     font-size: 0.9em; 
     color: #333;
     text-decoration: none;
@@ -182,7 +182,7 @@ footer {
     margin-top: 1px; /* Separación con la imagen */
     margin-bottom: 1px; /* Separación con el texto de abajo */
     line-height: 1.0;
-    font-family: "Arial", sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 /* --- Título Secundario H2 dentro del Post --- */
 .post-content h2 {
