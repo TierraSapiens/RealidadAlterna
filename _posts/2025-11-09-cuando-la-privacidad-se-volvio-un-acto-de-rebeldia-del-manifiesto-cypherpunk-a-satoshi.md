@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "⚫ Cuando la privacidad se volvió un acto de rebeldía: del Manifiesto Cypherpunk a Satoshi"
+title: "Cuando la privacidad se volvió un acto de rebeldía: del Manifiesto Cypherpunk a Satoshi"
 date: 2025-11-09 10:00:00 +0000
 image: images/posts/cuando-la-privacidad-se-volvio-un-acto-de-rebeldia-del-manifiesto-cypherpunk-a-satoshi/01.jpg
 author: [E.R.M.]
 ---
 
-# ⚫ Cuando la privacidad se volvió un acto de rebeldía: del Manifiesto Cypherpunk a Satoshi
+# Cuando la privacidad se volvió un acto de rebeldía: del Manifiesto Cypherpunk a Satoshi
 ---
 ## ¿Qué es el Manifiesto Cypherpunk?
 

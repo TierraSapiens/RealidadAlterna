@@ -6,7 +6,7 @@ body {
     font-family: Helvetica, sans-serif, Arial;
     margin: 0;
     padding: 0;
-    color: #333;            /*CAMBIA COLOR TEXTO PAGINA*/
+    color: #000000;            /*CAMBIA COLOR TEXTO PAGINA*/
     background-color:#7c7b7b; /*CAMBIA TODO EL FONDO de PAGINA*/
 }
 
@@ -14,7 +14,7 @@ body {
 main {
     background-color: #d2e4f8; /* Fondo Blanco para el contenido */
     max-width: 800px; /* Limita el ancho del contenido escrito */
-    margin: 20px auto; /* Centra el bloque blanco y le da espacio arriba y abajo */
+    margin: 10px auto; /* Centra el bloque blanco y le da espacio arriba y abajo */
     padding: 0px 40px 20px 40px; 
     /* 0px arriba (para no tener espacio) */
     border-radius: 8px; 
@@ -89,65 +89,67 @@ footer {
    ========================================================================== */
 
 .intro {
-    text-align: center;
-    margin: 0;
-    padding-top: 0px; 
-    padding-bottom: 10px;
+    text-align: center;    /*Centra todo el texto dentro de este contenedor.*/
+    margin: 0;             /*Elimina cualquier margen externo alrededor del contenedor.*/
+    padding-top: 0px;      /*Elimina el relleno (espacio interno) en la parte superior.*/
+    padding-bottom: 10px;  /*Agrega 10 píxeles de relleno (espacio interno) en la parte inferior.*/
 }
 .intro h1 {
-    font-size: 2.0em;
-    color: #333;
-    margin: 0;
+    font-size: 1.0em;  /*Establece el tamaño de fuente al tamaño estándar (no lo agranda ni achica).*/
+    color: #333;     /*Define un color gris oscuro para el texto*/
+    margin: 0;         /*Elimina cualquier margen alrededor del título (h1)*/
 }
 
 /* --- Lista de Posts --- */
+/*Este es el contenedor que agrupa todos los ítems de la lista.*/
 .post-list {       
-    font-family: Helvetica, arial, Verdana, sans-serif;   
-    list-style: none;
-    padding: 0;
-    margin-top: 0px;  
+    font-family: Helvetica, arial, Verdana, sans-serif;  /*Define una tipografía para el texto de la lista*/
+    list-style: none;  /*Elimina los puntos/viñetas (bullets) que normalmente tienen las listas de HTML.*/
+    padding: 0; /*Elimina el relleno (espacio interno) por defecto que tienen las listas, pegando el contenido a la izquierda.*/
+    margin-top: 0px;  /*Elimina el margen superior del listado completo.*/
 }
 
 /* LINEA DIVIDE TITULOS */ 
+/*Esta es la regla más importante; controla la fila completa que contiene la miniatura y el texto*/
 .post-item {             
-    display: flex;
-    align-items: center; 
-    margin-bottom: 0px; 
-    padding-bottom: 5px; 
-    border-bottom: 1px solid #000000;   
-    gap: 15px;                            
+    display: flex;  /*Activa el modelo Flexbox, lo que permite colocar la imagen y el texto uno al lado del otro*/
+    align-items: center; /*Centra verticalmente la imagen con el texto. (La imagen se alinea con el centro del texto)*/
+    margin-bottom: 0px; /*Elimina el margen inferior de cada ítem (es decir, el espacio entre las filas)*/
+    padding-bottom: 1px; /*Agrega 5 píxeles de relleno en la parte inferior de la fila*/
+    border-bottom: 1px solid #000000;  /*Dibuja la línea divisoria de 1 píxel de grosor y color negro debajo de cada post*/
+    gap: 15px;   /* Agrega el espacio horizontal entre la imagen (miniatura) y el texto*/                        
 }
 
-/* --- Miniatura (La imagen pequeña) --- */
+/*Miniatura (Imagen pequeña)*/
 .post-thumb {
-    width: 70px;  
-    height: 50px; 
-    object-fit: cover;
-    border-radius: 4px;
-    margin: 0;    
+    width: 50px;  /*Ancho*/
+    height: 20px; /*Alto*/
+    object-fit: cover; /*Asegura que la imagen siempre cubra el espacio de 50x50px, recortando el exceso si es necesario, sin distorsionar la imagen*/
+    border-radius: 4px;  /*Redondea ligeramente las esquinas de la miniatura.*/
+    margin: 0;    /*Elimina el margen alrededor de la imagen.*/
 }
 
-/* --- Textos de la lista (Título y Fecha) --- */
+/*Textos de la lista (Título y Fecha)*/
 .post-content {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
+    display: flex;  /*Este contenedor envuelve solo el Título y la Fecha.*/
+    flex-direction: column; /*Apila los elementos verticalmente (el título va arriba y la fecha abajo).*/
+    gap: 0; /*Elimina el espacio entre el título y la fecha.*/
 }
 
 .post-title {
-    font-family: Helvetica, Arial, Arial Black, sans-serif; 
-    font-size: 0.9em; 
-    color: #333;
-    text-decoration: none;
-    margin: 0;
-    line-height: 1.2;
+    font-family: Helvetica, Arial, Arial Black, sans-serif; /*Define la tipografía para los títulos.*/
+    font-size: 0.9em; /*Reduce ligeramente el tamaño de la fuente del título.*/
+    color: #000000;  /*Color negro puro para el texto*/
+    text-decoration: none;  /*Elimina el subrayado que normalmente tienen los enlaces.*/
+    margin: 0;   /*Elimina cualquier margen alrededor del título.*/
+    line-height: 1.2;  /*Establece el espacio entre las líneas del texto si el título ocupa más de una línea*/
 }
 
 .post-meta {     
-    font-size: 0.65em; 
-    color: #888;
-    margin-top: 2px;   
-    margin-left: 32px;  
+    font-size: 0.65em; /*Reduce mucho el tamaño de la fuente (para la fecha o metadato).*/
+    color: #888;   /*Color gris claro para que sea menos prominente que el título.*/
+    margin-top: 2px;   /*Agrega 2 píxeles de espacio arriba de la fecha, separándola del título.*/
+    margin-left: 1px;  /*Mueve la fecha 32 píxeles a la derecha (una indentación o sangría), haciendo que parezca que está alineada con el texto del post, no con el borde.*/
 }
 
 /* ==========================================================================

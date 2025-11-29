@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "⚫ Entre el mito y la evidencia: los enigmas que desafían al Pentágono"
+title: "Entre el mito y la evidencia: los enigmas que desafían al Pentágono"
 date: 2025-11-21 00:00:00 +0000
 image: images/posts/entre-el-mito-y-la-evidencia-los-enigmas-que-desafian-al-pentagono/02.jpg
 author: [E.R.M.]
 ---
 
-# ⚫ Entre el mito y la evidencia: los enigmas que desafían al Pentágono
+# Entre el mito y la evidencia: los enigmas que desafían al Pentágono
 
 Durante décadas, las historias sobre objetos voladores no identificados —conocidos popularmente como OVNIs y, más recientemente, UAP— fueron dominio de entusiastas, creadores de ciencia ficción y tabloides.  
 Sin embargo, algo ha cambiado fundamentalmente.
