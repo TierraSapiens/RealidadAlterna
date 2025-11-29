@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "🟢 Nuevo estudio afirma que podría existir una realidad alternativa junto a la nuestra"
+title: "Nuevo estudio afirma que podría existir una realidad alternativa junto a la nuestra"
 date: 2025-11-16 10:00:00 +0000
 image: images/posts/nuevo-estudio-afirma-que-podria-existir-una-realidad-alternativa/0001.jpg
 author: [E.R.M.]
 ---
 
-# 🟢 Nuevo estudio afirma que podría existir una realidad alternativa junto a la nuestra
+# Nuevo estudio afirma que podría existir una realidad alternativa junto a la nuestra
 
 Una señal inexplicable ha sido detectada por científicos y señalada como una posible ventana hacia una realidad alternativa.  
 Un experimento de laboratorio con capas de grafeno —pequeñas láminas de átomos de carbono— encontró señales inquietantes que sugieren que nuestro universo podría ser solo una mitad de un todo más grande.

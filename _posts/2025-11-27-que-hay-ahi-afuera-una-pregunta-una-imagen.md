@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "🟣 ¿Qué Hay Ahí Afuera? Una Pregunta, Cinco Imagenes."
+title: "¿Qué Hay Ahí Afuera? Una Pregunta, Cinco Imagenes."
 date: 2025-11-27 00:00:00 +0000
 image: images/posts/que-hay-ahi-afuera-una-pregunta-una-imagen/06.png
 author: [Valen M.]
 ---
 
-# 🟣 ¿Qué Hay Ahí Afuera? Una Pregunta, Cinco Imagenes.
+# ¿Qué Hay Ahí Afuera? Una Pregunta, Cinco Imagenes.
 ---
 > # ☄️ 3I/ATLAS: Una Vista desde el Planeta Tierra
 > <figure>

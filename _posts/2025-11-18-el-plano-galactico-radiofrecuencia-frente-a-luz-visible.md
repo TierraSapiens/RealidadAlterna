@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🟣 El Plano Galáctico: Radiofrecuencia Frente a Luz Visible (Video)"
+title: "El Plano Galáctico: Radiofrecuencia Frente a Luz Visible (Video)"
 date: 2025-11-18 10:00:00 +0000
 image: images/posts/el-plano-galactico-radiofrecuencia-frente-a-luz-visible/02.jpg
 author: [Catalina M]

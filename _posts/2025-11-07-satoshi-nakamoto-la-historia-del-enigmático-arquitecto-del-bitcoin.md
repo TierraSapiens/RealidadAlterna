@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "⚫ Satoshi Nakamoto: La historia del enigmático arquitecto del Bitcoin"
+title: "Satoshi Nakamoto: La historia del enigmático arquitecto del Bitcoin"
 date: 2025-11-07 10:00:00 +0000
 image: images/posts/satoshi-nakamoto-la-historia-del-enigmático-arquitecto-del-bitcoin/01.jpg
 author: [E.R.M.]
 ---
 
-# ⚫Satoshi Nakamoto: La historia del enigmático arquitecto del Bitcoin
+# Satoshi Nakamoto: La historia del enigmático arquitecto del Bitcoin
 
 
 ># El misterio detrás de Satoshi Nakamoto
