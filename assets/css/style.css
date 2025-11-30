@@ -185,7 +185,10 @@ footer {
     /* 4. AJUSTE DEL TEXTO (TÍTULOS EN UN RENGLÓN) */
     .post-content {   
         margin: 0 !important;
-        padding: 0 !important;
+       
+        padding-left: 20px !important;   /* Cambia 10px por 15px o 20px si lo quieres más a la derecha */
+        
+        padding-right: 5px !important; /* Opcional: para que no se pegue al borde derecho */
         width: 100% !important;
         text-align: left !important; /* Alineado a la izquierda */
     }
@@ -206,7 +209,7 @@ footer {
         padding: 0 !important; /* ESTO ES LO QUE QUITA EL HUECO IZQUIERDO */
         list-style: none !important; 
     }
-    
+
     .topbar .inner {
         margin: 0 10px; /* Reducir a 10px para que el logo y menú no se salgan */
         gap: 10px;
