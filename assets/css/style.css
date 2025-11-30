@@ -221,7 +221,7 @@ footer {
         color: #666;
         display: block !important;
         margin-top: 2px !important;
-        margin-bottom: 4px !important; /*Espacio antes de la línea divisoria*/
+        margin-bottom: 2px !important; /*Espacio antes de la línea divisoria*/
     }
 }
 
