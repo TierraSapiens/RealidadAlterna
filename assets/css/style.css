@@ -103,8 +103,9 @@ footer {
 .post-list {       
     font-family: Helvetica, arial, Verdana, sans-serif;  /*Define una tipografía para el texto de la lista*/
     list-style: none;  /*Elimina los puntos/viñetas (bullets) que normalmente tienen las listas de HTML*/
-    padding: 0; /*Elimina el relleno (espacio interno) por defecto que tienen las listas, pegando el contenido a la izquierda*/
+    padding: 0 !important; /*Elimina el relleno (espacio interno) por defecto que tienen las listas, pegando el contenido a la izquierda*/
     margin-top: 0px;  /*Elimina el margen superior del listado completo*/
+    padding-top: 1px; /* Frena el colapso de márgenes y pega el contenido */
 }
 
 /* LINEA DIVIDE TITULOS */ 
