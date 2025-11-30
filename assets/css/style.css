@@ -180,7 +180,11 @@ footer {
         margin-left: 0 !important;     /* Asegura que el contenedor de texto en sí no tenga márgenes */
         padding-left: 0 !important;
         margin-right: 0 !important;
+        width: 100% !important;              /* 1. Obliga a ocupar el espacio que dejó la imagen */
+        text-align: left !important;         /* 2. Fuerza el texto a la izquierda */
+        align-items: flex-start !important;  /* 3. Como .post-content es flex column, esto alinea sus hijos (título y fecha) al inicio */
     }
+
     .post-content .post-title {   /* 4. AJUSTE DEL TEXTO */
         /* Fuerza a que el título se pegue al borde (soluciona el desplazamiento) */
         margin-left: 0 !important;
@@ -190,7 +194,7 @@ footer {
     .post-list {   /* Corrige la lista para aprovechar todo el ancho */
         margin-left: 0 !important; 
         padding-left: 0 !important;
-        list-style-position: inside !important;
+        /*list-style-position: inside !important;*/
     }
     .topbar .inner {
         margin: 0 10px; /* Reducir a 10px para que el logo y menú no se salgan */
