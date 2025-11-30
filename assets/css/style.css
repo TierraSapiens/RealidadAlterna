@@ -176,6 +176,10 @@ footer {
     .topbar .inner {
         flex-wrap: wrap; /* Permite que los elementos del menú se apilen si no caben */
     }
+    .post-meta {
+        /* Fuerza a que la fecha se alinee bajo el título sin sangría */
+        margin-left: 0 !important;
+    }
 }
 
 /*Textos de la lista (Título y Fecha)*/
