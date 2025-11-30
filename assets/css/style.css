@@ -167,9 +167,9 @@ footer {
         gap: 10px; /* Reduce un poco el espacio entre imagen y texto (opcional) */
     }
     .post-thumb {            /* 3. AJUSTE DE LA IMAGEN PEQUEÑA */
-        width: 70px;         /* Un poco más grande para que se vea bien */
-        height: 70px;
-        min-width: 70px;     /* Evita que se aplaste si falta espacio */
+        width: 70px;         /*Ancho*/
+        height: 60px;        /*Alto*/
+        min-width: 70px;     /*Ancho Minimo*/
         object-fit: cover;
         margin-top: 5px;     /* Alineación fina con el texto */
         align-self: flex-start; /* Refuerzo para que se quede arriba */
