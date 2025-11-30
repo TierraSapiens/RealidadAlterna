@@ -184,7 +184,7 @@ footer {
 
     /* 4. AJUSTE DEL TEXTO (TÍTULOS EN UN RENGLÓN) */
     .post-content {   
-        margin: 0 !important;
+        margin-top: 0 !important;
         padding-left: 20px !important;   /* Cambia 10px por 15px o 20px si lo quieres más a la derecha */
         padding-right: 5px !important; /* Opcional: para que no se pegue al borde derecho */
         width: 100% !important;
