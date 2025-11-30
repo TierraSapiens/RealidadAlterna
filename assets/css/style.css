@@ -176,7 +176,7 @@ footer {
         /* margin-top: 5px;     /* Alineación fina con el texto */
         /* align-self: flex-start; /* Refuerzo para que se quede arriba */
     /*} */
-    .post-content {      /* 📌 CORRECCIÓN DEL CONTENIDO DEL TEXTO */   
+    .post-content {      /*CORRECCIÓN DEL CONTENIDO DEL TEXTO */   
         margin-left: 0 !important;     /* Asegura que el contenedor de texto en sí no tenga márgenes */
         padding-left: 0 !important;
         margin-right: 0 !important;
@@ -189,7 +189,8 @@ footer {
     }
     .post-list {   /* Corrige la lista para aprovechar todo el ancho */
         margin-left: 0 !important; 
-        padding-left: 0 !important; 
+        padding-left: 0 !important;
+        list-style-position: inside !important;
     }
     .topbar .inner {
         margin: 0 10px; /* Reducir a 10px para que el logo y menú no se salgan */
