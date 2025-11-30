@@ -158,16 +158,16 @@ footer {
    2.1 PARA vista telefonia ej: Android
    ========================================= */
 @media (max-width: 600px) {   
-    main {                              /*1.FORZAR LA REDUCCIÓN DE MÁRGENES LATERALES */
+    main {                  /*FORZAR LA REDUCCIÓN DE MÁRGENES LATERALES */
         padding: 0px 5px 20px 5px !important;
         width: auto !important;
     }
 
     /*CONFIGURAR EL CONTENEDOR DE CADA ARTÍCULO */
     .post-item {
-        display: block !important; /* Cambiamos flex por block para aprovechar todo el ancho */
+        display: block !important; /*flex por block para aprovechar todo el ancho*/
         padding: 0 !important;
-        margin: 0 0 5px 0 !important; /* Un poco de aire abajo de cada línea */
+        margin: 0 0 1px 0 !important; /*Espacio abajo de cada línea*/
         border-bottom: 1px solid #000; /* Mantenemos tu línea divisoria */
     }
 
@@ -185,9 +185,7 @@ footer {
     /* 4. AJUSTE DEL TEXTO (TÍTULOS EN UN RENGLÓN) */
     .post-content {   
         margin: 0 !important;
-       
         padding-left: 20px !important;   /* Cambia 10px por 15px o 20px si lo quieres más a la derecha */
-        
         padding-right: 5px !important; /* Opcional: para que no se pegue al borde derecho */
         width: 100% !important;
         text-align: left !important; /* Alineado a la izquierda */
@@ -198,10 +196,9 @@ footer {
         display: block !important;
         width: 100% !important;
         margin: 0 !important;
-        /* TRUCOS PARA QUE QUEPAN EN UN RENGLÓN */
-        font-size: 0.85em !important; /* Un pelín más pequeño ayuda */
-        letter-spacing: -0.5px;       /* Junta un poquito las letras (imperceptible pero gana espacio) */
-        line-height: 1.1 !important;  /* Si tiene que bajar de línea, que no ocupe tanto alto */
+        font-size: 0.85em !important; /*Tamaño de titulo letras*/
+        letter-spacing: -0.5px;       /*Junta las letras*/
+        line-height: 1.1 !important;  /*Si tiene que bajar de línea, que no ocupe tanto alto */
     }
 
     .post-list {
@@ -224,7 +221,7 @@ footer {
         color: #666;
         display: block !important;
         margin-top: 2px !important;
-        margin-bottom: 4px !important; /* Espacio antes de la línea divisoria */
+        margin-bottom: 4px !important; /*Espacio antes de la línea divisoria*/
     }
 }
 
