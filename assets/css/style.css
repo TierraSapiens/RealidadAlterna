@@ -12,11 +12,10 @@ body {
 
 /* --- Contenedor Principal del Contenido (DONDE ESTÁ EL TEXTO) --- */
 main {
-    background-color: #d2e4f8; /* Fondo Blanco para el contenido */
-    max-width: 800px; /* Limita el ancho del contenido escrito */
-    margin: 10px auto; /* Centra el bloque blanco y le da espacio arriba y abajo */
-    padding: 0px 40px 20px 40px; 
-    /* 0px arriba (para no tener espacio) */
+    background-color: #d2e4f8;    /*Fondo Blanco para el contenido */
+    max-width: 800px;               /*Limita el ancho del contenido escrito */
+    margin: 10px auto;              /*Centra el bloque blanco y le da espacio arriba y abajo */
+    padding: 0px 40px 20px 40px;    /*0 px arriba (para no tener espacio) */ 
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
@@ -83,19 +82,18 @@ footer {
     margin: 0 5px;
 }
 
-/* ==========================================================================
-   2. ESTILOS DE LA PÁGINA DE INICIO (Listado de Publicaciones)
-   (Solamente afectan a la lista con miniaturas)
-   ========================================================================== */
+/*=============================================================================
+   2. ESTILOS DE LA PÁGINA DE INICIO (Listado de Publicaciones and Miniaturas)
+================================================================================*/
 
 .intro {
-    text-align: center;    /*Centra todo el texto dentro de este contenedor.*/
-    margin: 0;             /*Elimina cualquier margen externo alrededor del contenedor.*/
-    padding-top: 0px;      /*Elimina el relleno (espacio interno) en la parte superior.*/
-    padding-bottom: 10px;  /*Agrega 10 píxeles de relleno (espacio interno) en la parte inferior.*/
+    text-align: center;    /*Centra todo el texto dentro de este contenedor*/
+    margin: 0;             /*Elimina cualquier margen externo alrededor del contenedor*/
+    padding-top: 0px;      /*Elimina el relleno (espacio interno) en la parte superior*/
+    padding-bottom: 10px;  /*Agrega 10 píxeles de relleno (espacio interno) en la parte inferior*/
 }
 .intro h1 {
-    font-size: 1.0em;  /*Establece el tamaño de fuente al tamaño estándar (no lo agranda ni achica).*/
+    font-size: 1.0em;  /*Establece el tamaño de fuente al tamaño estándar (no lo agranda ni achica)*/
     color: #333;     /*Define un color gris oscuro para el texto*/
     margin: 0;         /*Elimina cualquier margen alrededor del título (h1)*/
 }
@@ -104,9 +102,9 @@ footer {
 /*Este es el contenedor que agrupa todos los ítems de la lista.*/
 .post-list {       
     font-family: Helvetica, arial, Verdana, sans-serif;  /*Define una tipografía para el texto de la lista*/
-    list-style: none;  /*Elimina los puntos/viñetas (bullets) que normalmente tienen las listas de HTML.*/
-    padding: 0; /*Elimina el relleno (espacio interno) por defecto que tienen las listas, pegando el contenido a la izquierda.*/
-    margin-top: 0px;  /*Elimina el margen superior del listado completo.*/
+    list-style: none;  /*Elimina los puntos/viñetas (bullets) que normalmente tienen las listas de HTML*/
+    padding: 0; /*Elimina el relleno (espacio interno) por defecto que tienen las listas, pegando el contenido a la izquierda*/
+    margin-top: 0px;  /*Elimina el margen superior del listado completo*/
 }
 
 /* LINEA DIVIDE TITULOS */ 
@@ -115,18 +113,61 @@ footer {
     display: flex;  /*Activa el modelo Flexbox, lo que permite colocar la imagen y el texto uno al lado del otro*/
     align-items: center; /*Centra verticalmente la imagen con el texto. (La imagen se alinea con el centro del texto)*/
     margin-bottom: 0px; /*Elimina el margen inferior de cada ítem (es decir, el espacio entre las filas)*/
-    padding-bottom: 1px; /*Agrega 5 píxeles de relleno en la parte inferior de la fila*/
+    padding-bottom: 5px; /*Agrega 5 píxeles de relleno en la parte inferior de la fila*/
     border-bottom: 1px solid #000000;  /*Dibuja la línea divisoria de 1 píxel de grosor y color negro debajo de cada post*/
-    gap: 15px;   /* Agrega el espacio horizontal entre la imagen (miniatura) y el texto*/                        
+    gap: 15px;   /*Agrega el espacio horizontal entre la imagen (miniatura) y el texto*/                        
+}
+.post-list .post-item:first-child { /*Esta regla solo afecta al primer post de la lista*/
+    padding-left: 0 !important; 
+    margin-left: 0 !important;
 }
 
 /*Miniatura (Imagen pequeña)*/
 .post-thumb {
-    width: 50px;  /*Ancho*/
-    height: 20px; /*Alto*/
-    object-fit: cover; /*Asegura que la imagen siempre cubra el espacio de 50x50px, recortando el exceso si es necesario, sin distorsionar la imagen*/
+    width: 80px;  /*Ancho*/
+    height: 40px; /*Alto*/
+    object-fit: cover; /*Asegura que la imagen siempre cubra el espacio de..., recortando el exceso si es necesario, sin distorsionar la imagen*/
     border-radius: 4px;  /*Redondea ligeramente las esquinas de la miniatura.*/
     margin: 0;    /*Elimina el margen alrededor de la imagen.*/
+}
+
+/* =========================================
+   CORRECCIÓN PARA MÓVIL (Reemplaza tu bloque anterior con esto)
+   ========================================= */
+@media (max-width: 600px) {   
+    main {                              /*1.FORZAR LA REDUCCIÓN DE MÁRGENES LATERALES */
+        padding: 0px 10px 20px 10px !important;
+        width: auto !important;
+    }  
+    .post-item {                            /*2.ALINEAR IMAGEN ARRIBA*/
+        align-items: flex-start !important; /* Alinea arriba */
+        gap: 10px; /* Reduce un poco el espacio entre imagen y texto (opcional) */
+    }
+    .post-thumb {            /* 3. AJUSTE DE LA IMAGEN PEQUEÑA */
+        width: 70px;         /* Un poco más grande para que se vea bien */
+        height: 70px;
+        min-width: 70px;     /* Evita que se aplaste si falta espacio */
+        object-fit: cover;
+        margin-top: 5px;     /* Alineación fina con el texto */
+        align-self: flex-start; /* Refuerzo para que se quede arriba */
+    } 
+    .post-content .post-title {   /* 4. AJUSTE DEL TEXTO */
+        font-size: 0.85em; 
+        line-height: 1.3;
+    }
+    .post-list {   /* Corrige la lista para aprovechar todo el ancho */
+        margin-left: 0 !important; 
+        padding-left: 0 !important; 
+    }
+    .topbar .inner {
+        margin: 0 10px; /* Reducir a 10px para que el logo y menú no se salgan */
+        gap: 10px;
+    }
+    
+    /* Si tienes muchos ítems en el menú, podrías necesitar esto: */
+    .topbar .inner {
+        flex-wrap: wrap; /* Permite que los elementos del menú se apilen si no caben */
+    }
 }
 
 /*Textos de la lista (Título y Fecha)*/
@@ -138,7 +179,7 @@ footer {
 
 .post-title {
     font-family: Helvetica, Arial, Arial Black, sans-serif; /*Define la tipografía para los títulos.*/
-    font-size: 0.9em; /*Reduce ligeramente el tamaño de la fuente del título.*/
+    font-size: 0.8em; /*Reduce ligeramente el tamaño de la fuente del título.*/
     color: #000000;  /*Color negro puro para el texto*/
     text-decoration: none;  /*Elimina el subrayado que normalmente tienen los enlaces.*/
     margin: 0;   /*Elimina cualquier margen alrededor del título.*/
@@ -150,6 +191,7 @@ footer {
     color: #888;   /*Color gris claro para que sea menos prominente que el título.*/
     margin-top: 2px;   /*Agrega 2 píxeles de espacio arriba de la fecha, separándola del título.*/
     margin-left: 1px;  /*Mueve la fecha 32 píxeles a la derecha (una indentación o sangría), haciendo que parezca que está alineada con el texto del post, no con el borde.*/
+    margin-bottom: 2px; /*la fecha(.post-meta)tenga un pequeño margen en la parte inferior*/
 }
 
 /* ==========================================================================
