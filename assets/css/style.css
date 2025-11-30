@@ -132,7 +132,7 @@ footer {
 }
 
 /* =========================================
-   CORRECCIÓN PARA MÓVIL (Reemplaza tu bloque anterior con esto)
+   PARA vista telefonia ej: Android
    ========================================= */
 @media (max-width: 600px) {   
     main {                              /*1.FORZAR LA REDUCCIÓN DE MÁRGENES LATERALES */
@@ -151,17 +151,15 @@ footer {
         margin-top: 5px;     /* Alineación fina con el texto */
         align-self: flex-start; /* Refuerzo para que se quede arriba */
     } 
-    /* 📌 CORRECCIÓN DEL CONTENIDO DEL TEXTO */
-    .post-content {
-        /* Asegura que el contenedor de texto en sí no tenga márgenes */
-        margin-left: 0 !important;
+    .post-content {      /* 📌 CORRECCIÓN DEL CONTENIDO DEL TEXTO */   
+        margin-left: 0 !important;     /* Asegura que el contenedor de texto en sí no tenga márgenes */
         margin-right: 0 !important;
     }
     .post-content .post-title {   /* 4. AJUSTE DEL TEXTO */
         /* Fuerza a que el título se pegue al borde (soluciona el desplazamiento) */
         margin-left: 0 !important;
-        font-size: 0.85em; 
-        line-height: 1.3;
+        font-size: 0.80em;        /*Título más grande para leer mejor*/
+        line-height: 1.2;      /*las líneas de texto no estén demasiado juntas ni demasiado separadas*/
     }
     .post-list {   /* Corrige la lista para aprovechar todo el ancho */
         margin-left: 0 !important; 
@@ -171,19 +169,16 @@ footer {
         margin: 0 10px; /* Reducir a 10px para que el logo y menú no se salgan */
         gap: 10px;
     }
-    
-    /* Si tienes muchos ítems en el menú, podrías necesitar esto: */
-    .topbar .inner {
-        flex-wrap: wrap; /* Permite que los elementos del menú se apilen si no caben */
+    .topbar .inner {       /*Si tengo muchos ítems en el menú, podría necesitar esto*/
+        flex-wrap: wrap;   /*Permite que los elementos del menú se apilen si no caben*/
     }
     .post-meta {
-        /* Fuerza a que la fecha se alinee bajo el título sin sangría */
-        margin-left: 0 !important;
+        font-size: 0.7em !important; /*TAMAÑO DE LA FECHA Y AUTOR*/ 
+        margin-left: 0 !important;  /* Fuerza a que la fecha se alinee bajo el título sin sangría */
     }
 }
 
-/*Textos de la lista (Título y Fecha)*/
-.post-content {
+.post-content {      /*Textos de la lista (Título y Fecha)*/
     display: flex;  /*Este contenedor envuelve solo el Título y la Fecha.*/
     flex-direction: column; /*Apila los elementos verticalmente (el título va arriba y la fecha abajo).*/
     gap: 0; /*Elimina el espacio entre el título y la fecha.*/
