@@ -151,8 +151,16 @@ footer {
         margin-top: 5px;     /* Alineación fina con el texto */
         align-self: flex-start; /* Refuerzo para que se quede arriba */
     } 
+    /* 📌 CORRECCIÓN DEL CONTENIDO DEL TEXTO */
+    .post-content {
+        /* Asegura que el contenedor de texto en sí no tenga márgenes */
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
     .post-content .post-title {   /* 4. AJUSTE DEL TEXTO */
-        font-size: 0.85em; 
+        /* Fuerza a que el título se pegue al borde (soluciona el desplazamiento) */
+        margin-left: 0 !important;
+        font-size: 0.9em; 
         line-height: 1.3;
     }
     .post-list {   /* Corrige la lista para aprovechar todo el ancho */
@@ -190,7 +198,7 @@ footer {
     font-size: 0.65em; /*Reduce mucho el tamaño de la fuente (para la fecha o metadato).*/
     color: #888;   /*Color gris claro para que sea menos prominente que el título.*/
     margin-top: 2px;   /*Agrega 2 píxeles de espacio arriba de la fecha, separándola del título.*/
-    margin-left: 1px;  /*Mueve la fecha 32 píxeles a la derecha (una indentación o sangría), haciendo que parezca que está alineada con el texto del post, no con el borde.*/
+    margin-left: 0px;  /*Mueve la fecha 32 píxeles a la derecha (una indentación o sangría), haciendo que parezca que está alineada con el texto del post, no con el borde.*/
     margin-bottom: 2px; /*la fecha(.post-meta)tenga un pequeño margen en la parte inferior*/
 }
 
