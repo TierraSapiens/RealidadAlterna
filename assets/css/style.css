@@ -159,13 +159,18 @@ footer {
    ========================================= */
 @media (max-width: 600px) {   
     main {                              /*1.FORZAR LA REDUCCIÓN DE MÁRGENES LATERALES */
-        padding: 0px 10px 20px 10px !important;
+        padding: 0px 5px 20px 5px !important;
         width: auto !important;
-    }  
-    .post-item {                            /*2.ALINEAR IMAGEN ARRIBA*/
-        align-items: flex-start !important; /* Alinea arriba */
-        gap: 0px !important; /* Reduce un poco el espacio entre imagen y texto (opcional) */
     }
+
+    /*CONFIGURAR EL CONTENEDOR DE CADA ARTÍCULO */
+    .post-item {
+        display: block !important; /* Cambiamos flex por block para aprovechar todo el ancho */
+        padding: 0 !important;
+        margin: 0 0 10px 0 !important; /* Un poco de aire abajo de cada línea */
+        border-bottom: 1px solid #000; /* Mantenemos tu línea divisoria */
+    }
+
     .post-thumb {            /* 3. AJUSTE DE LA IMAGEN PEQUEÑA */
         display: none !important; 
     }
@@ -176,36 +181,47 @@ footer {
         /* margin-top: 5px;     /* Alineación fina con el texto */
         /* align-self: flex-start; /* Refuerzo para que se quede arriba */
     /*} */
-    .post-content {      /*CORRECCIÓN DEL CONTENIDO DEL TEXTO */   
-        margin-left: 0 !important;     /* Asegura que el contenedor de texto en sí no tenga márgenes */
-        padding-left: 0 !important;
-        margin-right: 0 !important;
-        width: 100% !important;              /* 1. Obliga a ocupar el espacio que dejó la imagen */
-        text-align: left !important;         /* 2. Fuerza el texto a la izquierda */
-        align-items: flex-start !important;  /* 3. Como .post-content es flex column, esto alinea sus hijos (título y fecha) al inicio */
+
+    /* 4. AJUSTE DEL TEXTO (TÍTULOS EN UN RENGLÓN) */
+    .post-content {   
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        text-align: left !important; /* Alineado a la izquierda */
     }
 
-    .post-content .post-title {   /* 4. AJUSTE DEL TEXTO */
-        /* Fuerza a que el título se pegue al borde (soluciona el desplazamiento) */
-        margin-left: 0 !important;
-        font-size: 0.80em;        /*Título más grande para leer mejor*/
-        line-height: 1.2;      /*las líneas de texto no estén demasiado juntas ni demasiado separadas*/
+    .post-content .post-title {
+        /* Fuerza a que el título use todo el ancho disponible */
+        display: block !important;
+        width: 100% !important;
+        margin: 0 !important;
+        /* TRUCOS PARA QUE QUEPAN EN UN RENGLÓN */
+        font-size: 0.85em !important; /* Un pelín más pequeño ayuda */
+        letter-spacing: -0.5px;       /* Junta un poquito las letras (imperceptible pero gana espacio) */
+        line-height: 1.1 !important;  /* Si tiene que bajar de línea, que no ocupe tanto alto */
     }
-    .post-list {   /* Corrige la lista para aprovechar todo el ancho */
-        margin-left: 0 !important; 
-        padding-left: 0 !important;
-        /*list-style-position: inside !important;*/
+
+    .post-list {
+        margin: 0 !important;
+        padding: 0 !important; /* ESTO ES LO QUE QUITA EL HUECO IZQUIERDO */
+        list-style: none !important; 
     }
+    
     .topbar .inner {
         margin: 0 10px; /* Reducir a 10px para que el logo y menú no se salgan */
         gap: 10px;
     }
+
     .topbar .inner {       /*Si tengo muchos ítems en el menú, podría necesitar esto*/
         flex-wrap: wrap;   /*Permite que los elementos del menú se apilen si no caben*/
     }
+
     .post-meta {
-        font-size: 0.6em !important; /*TAMAÑO DE LA FECHA Y AUTOR*/ 
-        margin-left: 0 !important;  /* Fuerza a que la fecha se alinee bajo el título sin sangría */
+        font-size: 0.7em !important; 
+        color: #666;
+        display: block !important;
+        margin-top: 2px !important;
+        margin-bottom: 8px !important; /* Espacio antes de la línea divisoria */
     }
 }
 
