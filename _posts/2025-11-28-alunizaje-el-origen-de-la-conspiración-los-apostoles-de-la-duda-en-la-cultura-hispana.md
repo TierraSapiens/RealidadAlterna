@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Alunizaje: El Origen de la Conspiración; Los Apóstoles de la Duda en la Cultura Hispana."
+title: "Alunizaje: El Origen de la Conspiración en la Cultura Hispana."
 date: 2025-11-28 00:00:00 +0000
 image: images/posts/alunizaje-el-origen-de-la-conspiración-los-apostoles-de-la-duda-en-la-cultura-hispana/02.png
 author: [Valen M.]
 ---
 
-># Alunizaje: El Origen de la Conspiración; Los Apóstoles de la Duda en la Cultura Hispana.
+># Alunizaje: El Origen de la Conspiración en la Cultura Hispana.
 
 >**Bill Kaysing** fue un ex oficial de la Marina de los EE. UU. que trabajó como redactor técnico para uno de los fabricantes de cohetes de las misiones Apolo de la NASA.
 >Afirmó tener conocimiento interno de una conspiración gubernamental para falsificar los alunizajes, y muchas teorías de conspiración que persisten hasta el día de hoy se pueden rastrear hasta su libro de 1976: ***We Never Went to the Moon: America’s Thirty Billion Dollar Swindle*** ("Nunca fuimos a la Luna: La estafa de los treinta mil millones de dólares de Estados Unidos").
