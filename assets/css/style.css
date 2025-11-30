@@ -164,16 +164,18 @@ footer {
     }  
     .post-item {                            /*2.ALINEAR IMAGEN ARRIBA*/
         align-items: flex-start !important; /* Alinea arriba */
-        gap: 10px; /* Reduce un poco el espacio entre imagen y texto (opcional) */
+        gap: 0px; /* Reduce un poco el espacio entre imagen y texto (opcional) */
     }
     .post-thumb {            /* 3. AJUSTE DE LA IMAGEN PEQUEÑA */
-        width: 50px !important;       /*Ancho*/
-        height: 50px !important;      /*Alto*/
+        display: none !important; 
+    }
+        /* width: 50px !important;       /*Ancho*/
+        /* height: 50px !important;      /*Alto*/
         /* min-width: 70px;     /*Ancho Minimo*/
-        object-fit: cover;
-        margin-top: 5px;     /* Alineación fina con el texto */
-        align-self: flex-start; /* Refuerzo para que se quede arriba */
-    } 
+        /* object-fit: cover;   */
+        /* margin-top: 5px;     /* Alineación fina con el texto */
+        /* align-self: flex-start; /* Refuerzo para que se quede arriba */
+    /*} */
     .post-content {      /* 📌 CORRECCIÓN DEL CONTENIDO DEL TEXTO */   
         margin-left: 0 !important;     /* Asegura que el contenedor de texto en sí no tenga márgenes */
         margin-right: 0 !important;
