@@ -131,8 +131,31 @@ footer {
     margin: 0;    /*Elimina el margen alrededor de la imagen.*/
 }
 
+.post-content {      /*Textos de la lista (Título y Fecha)*/
+    display: flex;  /*Este contenedor envuelve solo el Título y la Fecha.*/
+    flex-direction: column; /*Apila los elementos verticalmente (el título va arriba y la fecha abajo).*/
+    gap: 0; /*Elimina el espacio entre el título y la fecha.*/
+}
+
+.post-title {
+    font-family: Helvetica, Arial, Arial Black, sans-serif; /*Define la tipografía para los títulos.*/
+    font-size: 0.8em; /*Reduce ligeramente el tamaño de la fuente del título.*/
+    color: #000000;  /*Color negro puro para el texto*/
+    text-decoration: none;  /*Elimina el subrayado que normalmente tienen los enlaces.*/
+    margin: 0;   /*Elimina cualquier margen alrededor del título.*/
+    line-height: 1.2;  /*Establece el espacio entre las líneas del texto si el título ocupa más de una línea*/
+}
+
+.post-meta {     
+    font-size: 0.65em; /*Reduce mucho el tamaño de la fuente (para la fecha o metadato).*/
+    color: #888;   /*Color gris claro para que sea menos prominente que el título.*/
+    margin-top: 2px;   /*Agrega 2 píxeles de espacio arriba de la fecha, separándola del título.*/
+    margin-left: 0px;  /*Mueve la fecha 32 píxeles a la derecha (una indentación o sangría), haciendo que parezca que está alineada con el texto del post, no con el borde.*/
+    margin-bottom: 2px; /*la fecha(.post-meta)tenga un pequeño margen en la parte inferior*/
+}
+
 /* =========================================
-   PARA vista telefonia ej: Android
+   2.1 PARA vista telefonia ej: Android
    ========================================= */
 @media (max-width: 600px) {   
     main {                              /*1.FORZAR LA REDUCCIÓN DE MÁRGENES LATERALES */
@@ -173,32 +196,9 @@ footer {
         flex-wrap: wrap;   /*Permite que los elementos del menú se apilen si no caben*/
     }
     .post-meta {
-        font-size: 0.7em !important; /*TAMAÑO DE LA FECHA Y AUTOR*/ 
+        font-size: 0.6em !important; /*TAMAÑO DE LA FECHA Y AUTOR*/ 
         margin-left: 0 !important;  /* Fuerza a que la fecha se alinee bajo el título sin sangría */
     }
-}
-
-.post-content {      /*Textos de la lista (Título y Fecha)*/
-    display: flex;  /*Este contenedor envuelve solo el Título y la Fecha.*/
-    flex-direction: column; /*Apila los elementos verticalmente (el título va arriba y la fecha abajo).*/
-    gap: 0; /*Elimina el espacio entre el título y la fecha.*/
-}
-
-.post-title {
-    font-family: Helvetica, Arial, Arial Black, sans-serif; /*Define la tipografía para los títulos.*/
-    font-size: 0.8em; /*Reduce ligeramente el tamaño de la fuente del título.*/
-    color: #000000;  /*Color negro puro para el texto*/
-    text-decoration: none;  /*Elimina el subrayado que normalmente tienen los enlaces.*/
-    margin: 0;   /*Elimina cualquier margen alrededor del título.*/
-    line-height: 1.2;  /*Establece el espacio entre las líneas del texto si el título ocupa más de una línea*/
-}
-
-.post-meta {     
-    font-size: 0.65em; /*Reduce mucho el tamaño de la fuente (para la fecha o metadato).*/
-    color: #888;   /*Color gris claro para que sea menos prominente que el título.*/
-    margin-top: 2px;   /*Agrega 2 píxeles de espacio arriba de la fecha, separándola del título.*/
-    margin-left: 0px;  /*Mueve la fecha 32 píxeles a la derecha (una indentación o sangría), haciendo que parezca que está alineada con el texto del post, no con el borde.*/
-    margin-bottom: 2px; /*la fecha(.post-meta)tenga un pequeño margen en la parte inferior*/
 }
 
 /* ==========================================================================
