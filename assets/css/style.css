@@ -164,7 +164,7 @@ footer {
     }  
     .post-item {                            /*2.ALINEAR IMAGEN ARRIBA*/
         align-items: flex-start !important; /* Alinea arriba */
-        gap: 0px; /* Reduce un poco el espacio entre imagen y texto (opcional) */
+        gap: 0px !important; /* Reduce un poco el espacio entre imagen y texto (opcional) */
     }
     .post-thumb {            /* 3. AJUSTE DE LA IMAGEN PEQUEÑA */
         display: none !important; 
@@ -178,6 +178,7 @@ footer {
     /*} */
     .post-content {      /* 📌 CORRECCIÓN DEL CONTENIDO DEL TEXTO */   
         margin-left: 0 !important;     /* Asegura que el contenedor de texto en sí no tenga márgenes */
+        padding-left: 0 !important;
         margin-right: 0 !important;
     }
     .post-content .post-title {   /* 4. AJUSTE DEL TEXTO */
