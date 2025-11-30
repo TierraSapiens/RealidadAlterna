@@ -14,7 +14,7 @@ body {
 main {
     background-color: #d2e4f8;    /*Fondo Blanco para el contenido */
     max-width: 800px;               /*Limita el ancho del contenido escrito */
-    margin: 10px auto;              /*Centra el bloque blanco y le da espacio arriba y abajo */
+    margin: 0px auto;              /*Centra el bloque blanco y le da espacio arriba y abajo */
     padding: 0px 40px 20px 40px;    /*0 px arriba (para no tener espacio) */ 
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
