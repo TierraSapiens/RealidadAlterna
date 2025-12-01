@@ -14,9 +14,9 @@ body {
 /*Contenedor Principal del Contenido (DONDE ESTÁ EL TEXTO)*/
 main {
     background-color: #d2e4f8;    /*Fondo Blanco para el contenido*/
-    max-width: 1000px;              /*Limita el ancho del CONTENEDOR*/
+    max-width: 1050px;              /*Limita el ancho del CONTENEDOR*/
     margin: 0px auto;              /*MUEVE el CONTENEDOR blanco hacia arriba o abajo*/
-    padding: 1px 40px 20px 40px;    /*2 px arriba (para no tener espacio)*/ 
+    padding: 1px 40px 20px 40px;   /*1050(contenido)+40\text-px(izquierda)+40\text-px(derecha)={1130\text-px*/
     border-radius: 0px;             /*opcion: usar: border-top-left-radius: 8px; o border-top-right-radius: 8px;*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
@@ -29,7 +29,7 @@ main {
     margin-right: auto;     /*Asegura que el 'auto' no interfiera con el margin-top*/
     /* margin: 0 auto;      /*Pega la barra arriba de la pantalla*/
     background: #ff6600;
-    padding: 5px 0;         /*ALTURA BARRA NARANJA*/
+    padding: 5px 0;         /*BARRA 5px Arriba o Abajo y 0; es Derecha o Izquierda*/ 
 }
     /*(Opcional) Redondea SOLO las esquinas de arriba del todo */
     /*border-top-left-radius: 8px; /* O el valor que uses en main */
@@ -71,24 +71,21 @@ main {
     text-decoration: underline;
 }
 
-/* --- Estilos para el Pie de Página (Footer) --- */
+/*Estilos para el Pie de Página (Footer)*/
 footer {
-    padding: 30px 20px;
-    background-color: #333; 
-    color: #FFF;
-    text-align: center;
-    font-size: 0.9em;
-}
-
-.footer-inner {
-    max-width: 1000px;
-    margin: 0 auto;
+    max-width: 1130px; /* Limita el ancho del fondo gris oscuro */
+    margin: 0px auto 0 auto; /* Centra el footer */
+    padding: 10px 0px;        /*TAMAÑO COLOR*/
+    background-color: #333;  /*fondo color*/
+    color: #FFF;             /*color texto*/
+    text-align: center;        /* Alineación del texto al centro*/
+    font-size: 0.6em;          /*TAMAÑO LETRAS*/
 }
 
 .footer-menu a {
-    color: #ff6600; 
-    text-decoration: none;
-    margin: 0 6px;
+    color: #ff6600;         /*Color naranja de los enlaces*/
+    text-decoration: none;    /*Quita el subrayado predeterminado*/
+    margin: 0 6px;            /*Espacio entre los enlaces*/
 }
 
 /*=============================================================================
@@ -120,9 +117,9 @@ footer {
 .post-item {             /*Esta es la regla controla la fila completa que contiene la miniatura y el texto*/
     display: flex;       /*Activa el modelo Flexbox, lo que permite colocar la imagen y el texto uno al lado del otro*/
     align-items: center; /*Centra verticalmente la imagen con el texto. (La imagen se alinea con el centro del texto)*/
-    margin-bottom: 1px;  /*Elimina el margen inferior de cada ítem (es decir, el espacio entre las filas)*/
+    margin-bottom: 5px;  /*Elimina el margen inferior de cada ítem (es decir, el espacio entre las filas)*/
     padding-bottom: 5px; /*Agrega 5 píxeles de relleno en la parte inferior de la fila*/
-    border-bottom: 1px solid #000000;  /*Dibuja la línea divisoria de 1 píxel de grosor y color negro debajo de cada post*/
+    border-bottom: 1px solid #acacac;  /*Dibuja la línea divisoria de 1 píxel de grosor y color negro debajo de cada post*/
     gap: 15px;           /*Agrega el espacio horizontal entre la imagen (miniatura) y el texto*/                        
 }
 
@@ -141,14 +138,14 @@ footer {
 }
 
 .post-content {      /*Textos de la lista (Título y Fecha)*/
-    display: flex;  /*Este contenedor envuelve solo el Título y la Fecha.*/
-    flex-direction: column; /*Apila los elementos verticalmente (el título va arriba y la fecha abajo).*/
-    gap: 0; /*Elimina el espacio entre el título y la fecha.*/
+    display: flex;          /*Este contenedor envuelve solo el Título y la Fecha*/
+    flex-direction: column; /*Apila los elementos verticalmente (el título va arriba y la fecha abajo)*/
+    gap: 0;                 /*Elimina el espacio entre el título y la fecha*/
 }
 
 .post-title {
-    font-family: Helvetica, Arial, Arial Black, sans-serif; /*Define la tipografía para los títulos.*/
-    font-size: 0.8em; /*Reduce ligeramente el tamaño de la fuente del título.*/
+    font-family: Verdana, Helvetica, Arial, Arial Black, sans-serif; /*Define la tipografía para los títulos.*/
+    font-size: 0.75em; /*Reduce ligeramente el tamaño de la fuente del título.*/
     color: #000000;  /*Color negro puro para el texto*/
     text-decoration: none;  /*Elimina el subrayado que normalmente tienen los enlaces.*/
     margin: 0;   /*Elimina cualquier margen alrededor del título.*/
