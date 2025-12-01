@@ -14,7 +14,7 @@ body {
 main {
     background-color: #d2e4f8;    /*Fondo Blanco para el contenido */
     max-width: 800px;               /*Limita el ancho del contenido escrito */
-    margin: 0px auto;               /*Centra el bloque blanco y le da espacio arriba y abajo */
+    margin: 2px auto;               /*Centra el bloque blanco y le da espacio arriba y abajo */
     padding: 2px 40px 20px 40px;    /*2 px arriba (para no tener espacio) */ 
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
@@ -103,7 +103,7 @@ footer {
     font-family: Helvetica, arial, Verdana, sans-serif;  /*Define una tipografía para el texto de la lista*/
     list-style: none;      /*Elimina los puntos/viñetas (bullets) que normalmente tienen las listas de HTML*/
     padding: 0 !important; /*Elimina el relleno (espacio interno) por defecto que tienen las listas, pegando el contenido a la izquierda*/
-    margin-top: 0px;       /*Elimina el margen superior del listado completo*/
+    margin-top: 2px;       /*Elimina el margen superior del listado completo*/
     padding-top: 1px;      /* Frena el colapso de márgenes y pega el contenido */
 }
 
@@ -111,7 +111,7 @@ footer {
 .post-item {             /*Esta es la regla controla la fila completa que contiene la miniatura y el texto*/
     display: flex;       /*Activa el modelo Flexbox, lo que permite colocar la imagen y el texto uno al lado del otro*/
     align-items: center; /*Centra verticalmente la imagen con el texto. (La imagen se alinea con el centro del texto)*/
-    margin-bottom: 0px;  /*Elimina el margen inferior de cada ítem (es decir, el espacio entre las filas)*/
+    margin-bottom: 1px;  /*Elimina el margen inferior de cada ítem (es decir, el espacio entre las filas)*/
     padding-bottom: 5px; /*Agrega 5 píxeles de relleno en la parte inferior de la fila*/
     border-bottom: 1px solid #000000;  /*Dibuja la línea divisoria de 1 píxel de grosor y color negro debajo de cada post*/
     gap: 15px;           /*Agrega el espacio horizontal entre la imagen (miniatura) y el texto*/                        
@@ -159,7 +159,7 @@ footer {
    =========================================*/
 @media (max-width: 600px) {   
     main {                    /*FORZAR LA REDUCCIÓN DE MÁRGENES LATERALES */
-        padding: 0px 5px 20px 5px !important;
+        padding: 6px 5px 20px 0px !important;/*Primer(Arriba),Segundo(Derecha),Tercer(Abajo),Cuarto(Izquierda)*/
         width: auto !important;
     }
 
@@ -185,8 +185,8 @@ footer {
     .post-content {            /*AJUSTE DEL TEXTO (TÍTULOS EN UN RENGLON)*/
         padding-top: 0 !important;
         margin-top: 0 !important;
-        padding-left: 20px !important;   /* Cambia 10px por 15px o 20px si lo quieres más a la derecha */
-        padding-right: 5px !important; /* Opcional: para que no se pegue al borde derecho */
+        padding-left: 5px !important;   /* Cambia 10px por 15px o 20px si lo quieres más a la derecha */
+        padding-right: 10px !important; /* Opcional: para que no se pegue al borde derecho */
         width: 100% !important;
         text-align: left !important; /* Alineado a la izquierda */
     }
@@ -196,9 +196,9 @@ footer {
         width: 100% !important;
         margin-top: 1px !important;   /*SEPARACION DE ARRIBA del TITULO*/
         margin-bottom: 0 !important;
-        font-size: 0.85em !important; /*Tamaño de titulo letras*/
+        font-size: 0.7em !important; /*Tamaño de titulo letras*/
         letter-spacing: -0.5px;       /*Junta las letras*/
-        line-height: 1.0 !important;  /*Si tiene que bajar de línea, que no ocupe tanto alto*/
+        line-height: 1.2 !important;  /*Si tiene que bajar de línea, que no ocupe tanto alto*/
     }
 
     .post-list {
@@ -217,11 +217,11 @@ footer {
     }
 
     .post-meta {
-        font-size: 0.7em !important; 
+        font-size: 0.5em !important; 
         color: #666;
         display: block !important;
         margin-top: 2px !important;
-        margin-bottom: 1px !important; /*ESPACIO antes de la LINEA DIVISORIA de Fecha-Autor ABAJO*/
+        margin-bottom: 2px !important; /*ESPACIO antes de la LINEA DIVISORIA de Fecha-Autor ABAJO*/
     }
 }
 
