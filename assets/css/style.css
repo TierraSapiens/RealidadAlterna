@@ -15,7 +15,7 @@ main {
     background-color: #d2e4f8;    /*Fondo Blanco para el contenido */
     max-width: 800px;               /*Limita el ancho del contenido escrito */
     margin: 0px auto;               /*Centra el bloque blanco y le da espacio arriba y abajo */
-    padding: 0px 40px 20px 40px;    /*0 px arriba (para no tener espacio) */ 
+    padding: 2px 40px 20px 40px;    /*2 px arriba (para no tener espacio) */ 
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
@@ -192,9 +192,9 @@ footer {
     }
 
     .post-content .post-title {         
-        display: block !important;          /* Fuerza a que el título use todo el ancho disponible */
+        display: block !important;    /*Fuerza a que el título use todo el ancho disponible */
         width: 100% !important;
-        margin-top: -4px !important; 
+        margin-top: 1px !important;   /*SEPARACION DE ARRIBA del TITULO*/
         margin-bottom: 0 !important;
         font-size: 0.85em !important; /*Tamaño de titulo letras*/
         letter-spacing: -0.5px;       /*Junta las letras*/
@@ -221,7 +221,7 @@ footer {
         color: #666;
         display: block !important;
         margin-top: 2px !important;
-        margin-bottom: -2px !important; /*Espacio antes de la línea divisoria*/
+        margin-bottom: 1px !important; /*ESPACIO antes de la LINEA DIVISORIA de Fecha-Autor ABAJO*/
     }
 }
 
