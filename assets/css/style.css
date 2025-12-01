@@ -1,26 +1,26 @@
-/* ==========================================================================
+/*==========================================================================
    1. ESTILOS GLOBALES Y ESTRUCTURA
-   (Se aplica a todo el sitio: Barra naranja, menú, contenedor principal)
-   ========================================================================== */
+   (Se aplica a todo el sitio: Barra naranja, menú, contenedor principal...)
+   ==========================================================================*/
 body {
     font-family: Helvetica, sans-serif, Arial;
     margin: 0;
     padding: 0;
     color: #000000;            /*CAMBIA COLOR TEXTO PAGINA*/
-    background-color:#7c7b7b; /*CAMBIA TODO EL FONDO de PAGINA*/
+    background-color:#7c7b7b;  /*CAMBIA TODO EL FONDO de PAGINA*/
 }
 
-/* --- Contenedor Principal del Contenido (DONDE ESTÁ EL TEXTO) --- */
+/*Contenedor Principal del Contenido (DONDE ESTÁ EL TEXTO)*/
 main {
     background-color: #d2e4f8;    /*Fondo Blanco para el contenido */
     max-width: 800px;               /*Limita el ancho del contenido escrito */
-    margin: 0px auto;              /*Centra el bloque blanco y le da espacio arriba y abajo */
+    margin: 0px auto;               /*Centra el bloque blanco y le da espacio arriba y abajo */
     padding: 0px 40px 20px 40px;    /*0 px arriba (para no tener espacio) */ 
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/* --- Barra Naranja (Header) --- */
+/*Barra Naranja (Header)*/
 .topbar {
     width: 100%;
     background: #ff6600;
@@ -36,7 +36,7 @@ main {
     gap: 40px;
 }
 
-/* --- Logo y Menú --- */
+/*Logo y Menú*/
 .logo {
     display: flex;
     align-items: center;
@@ -85,40 +85,39 @@ footer {
 /*=============================================================================
    2. ESTILOS DE LA PÁGINA DE INICIO (Listado de Publicaciones and Miniaturas)
 ================================================================================*/
-
 .intro {
     text-align: center;    /*Centra todo el texto dentro de este contenedor*/
     margin: 0;             /*Elimina cualquier margen externo alrededor del contenedor*/
     padding-top: 0px;      /*Elimina el relleno (espacio interno) en la parte superior*/
     padding-bottom: 10px;  /*Agrega 10 píxeles de relleno (espacio interno) en la parte inferior*/
 }
+
 .intro h1 {
     font-size: 1.0em;  /*Establece el tamaño de fuente al tamaño estándar (no lo agranda ni achica)*/
     color: #333;     /*Define un color gris oscuro para el texto*/
     margin: 0;         /*Elimina cualquier margen alrededor del título (h1)*/
 }
 
-/* --- Lista de Posts --- */
-/*Este es el contenedor que agrupa todos los ítems de la lista.*/
-.post-list {       
+/*Lista de Posts*/
+.post-list {               /*Contenedor que agrupa todos los ítems de la lista.*/
     font-family: Helvetica, arial, Verdana, sans-serif;  /*Define una tipografía para el texto de la lista*/
-    list-style: none;  /*Elimina los puntos/viñetas (bullets) que normalmente tienen las listas de HTML*/
+    list-style: none;      /*Elimina los puntos/viñetas (bullets) que normalmente tienen las listas de HTML*/
     padding: 0 !important; /*Elimina el relleno (espacio interno) por defecto que tienen las listas, pegando el contenido a la izquierda*/
-    margin-top: 0px;  /*Elimina el margen superior del listado completo*/
-    padding-top: 1px; /* Frena el colapso de márgenes y pega el contenido */
+    margin-top: 0px;       /*Elimina el margen superior del listado completo*/
+    padding-top: 1px;      /* Frena el colapso de márgenes y pega el contenido */
 }
 
-/* LINEA DIVIDE TITULOS */ 
-/*Esta es la regla más importante; controla la fila completa que contiene la miniatura y el texto*/
-.post-item {             
-    display: flex;  /*Activa el modelo Flexbox, lo que permite colocar la imagen y el texto uno al lado del otro*/
+/*LINEA DIVIDE TITULOS*/ 
+.post-item {             /*Esta es la regla controla la fila completa que contiene la miniatura y el texto*/
+    display: flex;       /*Activa el modelo Flexbox, lo que permite colocar la imagen y el texto uno al lado del otro*/
     align-items: center; /*Centra verticalmente la imagen con el texto. (La imagen se alinea con el centro del texto)*/
-    margin-bottom: 0px; /*Elimina el margen inferior de cada ítem (es decir, el espacio entre las filas)*/
+    margin-bottom: 0px;  /*Elimina el margen inferior de cada ítem (es decir, el espacio entre las filas)*/
     padding-bottom: 5px; /*Agrega 5 píxeles de relleno en la parte inferior de la fila*/
     border-bottom: 1px solid #000000;  /*Dibuja la línea divisoria de 1 píxel de grosor y color negro debajo de cada post*/
-    gap: 15px;   /*Agrega el espacio horizontal entre la imagen (miniatura) y el texto*/                        
+    gap: 15px;           /*Agrega el espacio horizontal entre la imagen (miniatura) y el texto*/                        
 }
-.post-list .post-item:first-child { /*Esta regla solo afecta al primer post de la lista*/
+
+.post-list .post-item:first-child { /*Regla que solo afecta al primer post de la lista*/
     padding-left: 0 !important; 
     margin-left: 0 !important;
 }
@@ -155,36 +154,35 @@ footer {
     margin-bottom: 2px; /*la fecha(.post-meta)tenga un pequeño margen en la parte inferior*/
 }
 
-/* =========================================
-   2.1 PARA vista telefonia ej: Android
-   ========================================= */
+/*=========================================
+   2.1 IMAGEN PARA ANDROID....
+   =========================================*/
 @media (max-width: 600px) {   
-    main {                  /*FORZAR LA REDUCCIÓN DE MÁRGENES LATERALES */
+    main {                    /*FORZAR LA REDUCCIÓN DE MÁRGENES LATERALES */
         padding: 0px 5px 20px 5px !important;
         width: auto !important;
     }
 
-    /*CONFIGURAR EL CONTENEDOR DE CADA ARTÍCULO */
-    .post-item {
-        display: block !important; /*flex por block para aprovechar todo el ancho*/
+    .post-item {               /*CONFIGURAR EL CONTENEDOR DE CADA ARTÍCULO */    
+        display: block !important;        /*flex por block para aprovechar todo el ancho*/
         padding: 0 !important;
-        margin: 0 0 1px 0 !important; /*Espacio abajo de cada línea*/
-        border-bottom: 1px solid #000; /* Mantenemos tu línea divisoria */
+        margin: 0 0 1px 0 !important;     /*Espacio abajo de cada línea*/
+        border-bottom: 1px solid #000;  /* Mantenemos tu línea divisoria */
+        overflow: hidden;                 /*Ayuda a cortar espacios fantasma */
     }
 
-    .post-thumb {            /* 3. AJUSTE DE LA IMAGEN PEQUEÑA */
+    .post-thumb {            /*AJUSTE DE LA IMAGEN PEQUEÑA Anule para ver si afectaba al espaciado*/
         display: none !important; 
     }
         /* width: 50px !important;       /*Ancho*/
         /* height: 50px !important;      /*Alto*/
-        /* min-width: 70px;     /*Ancho Minimo*/
-        /* object-fit: cover;   */
-        /* margin-top: 5px;     /* Alineación fina con el texto */
-        /* align-self: flex-start; /* Refuerzo para que se quede arriba */
+        /* min-width: 70px;              /*Ancho Minimo*/
+        /* object-fit: cover;                          */
+        /* margin-top: 5px;             /* Alineación fina con el texto */
+        /* align-self: flex-start;      /* Refuerzo para que se quede arriba */
     /*} */
 
-    /* 4. AJUSTE DEL TEXTO (TÍTULOS EN UN RENGLÓN) */
-    .post-content {  
+    .post-content {            /*AJUSTE DEL TEXTO (TÍTULOS EN UN RENGLON)*/
         padding-top: 0 !important;
         margin-top: 0 !important;
         padding-left: 20px !important;   /* Cambia 10px por 15px o 20px si lo quieres más a la derecha */
@@ -193,24 +191,24 @@ footer {
         text-align: left !important; /* Alineado a la izquierda */
     }
 
-    .post-content .post-title {
-        /* Fuerza a que el título use todo el ancho disponible */
-        display: block !important;
+    .post-content .post-title {         
+        display: block !important;          /* Fuerza a que el título use todo el ancho disponible */
         width: 100% !important;
-        margin: 0 !important;
+        margin-top: -4px !important; 
+        margin-bottom: 0 !important;
         font-size: 0.85em !important; /*Tamaño de titulo letras*/
         letter-spacing: -0.5px;       /*Junta las letras*/
-        line-height: 1.1 !important;  /*Si tiene que bajar de línea, que no ocupe tanto alto */
+        line-height: 1.0 !important;  /*Si tiene que bajar de línea, que no ocupe tanto alto*/
     }
 
     .post-list {
         margin: 0 !important;
-        padding: 0 !important; /* ESTO ES LO QUE QUITA EL HUECO IZQUIERDO */
+        padding: 0 !important; /*Retira el hueco Izq.*/
         list-style: none !important; 
     }
 
     .topbar .inner {
-        margin: 0 10px; /* Reducir a 10px para que el logo y menú no se salgan */
+        margin: 0 10px; /*Reduje a 10px para que el logo y menú no se salgan*/
         gap: 10px;
     }
 
@@ -223,7 +221,7 @@ footer {
         color: #666;
         display: block !important;
         margin-top: 2px !important;
-        margin-bottom: 2px !important; /*Espacio antes de la línea divisoria*/
+        margin-bottom: -2px !important; /*Espacio antes de la línea divisoria*/
     }
 }
 
@@ -232,17 +230,16 @@ footer {
    (Afectan cuando entras a leer el artículo completo)
    ========================================================================== */
 
-/* --- Contenedor Principal de la Publicación --- */
+/*Contenedor Principal de la Publicación*/
 .post-container {
     padding-top: 0;
     margin-top: 0;
     width: 100%;  
 }
 
-/* --- A. IMAGEN PRINCIPAL (BANNER) --- */
+/*A-IMAGEN PRINCIPAL(BANNER)*/
 .post-container > img {
-    /* TAMAÑO EN PÍXELES */
-    max-width: 900px !important; 
+    max-width: 900px !important;
     max-height: 300px; 
     width: 100%;
     height: auto;
@@ -252,16 +249,16 @@ footer {
     border-radius: 4px;
 }
 
-/* --- Título Principal H1 MANUAL (Escrito dentro del .md) --- */
+/*Título Principal H1 MANUAL (Escrito dentro del .md)*/
 .post-content h1 {
-    font-size: 1.2em; /* Ajusta el tamaño a tu gusto */
+    font-size: 1.2em;          /*Ajusta el tamaño letras*/
     color: #000000;
-    margin-top: 1px; /* Separación con la imagen */
-    margin-bottom: 1px; /* Separación con el texto de abajo */
+    margin-top: 1px;          /*Separación con la imagen*/
+    margin-bottom: 1px;       /*Separación con el texto de abajo*/
     line-height: 1.0;
     font-family: Helvetica, Arial, sans-serif;
 }
-/* --- Título Secundario H2 dentro del Post --- */
+/*Título Secundario H2 dentro del Post*/
 .post-content h2 {
     font-size: 1.3em !important; 
     margin-top: 1px !important;  
@@ -269,14 +266,14 @@ footer {
     line-height: 1.2;
 }
 
-/* --- Texto del Artículo (Párrafos) --- */
+/*Texto del Artículo (Párrafos)*/
 .post-content p {
     font-size: 1.1em; 
-    margin-top: 2px !important; /* Pegado al elemento anterior */
+    margin-top: 2px !important; /*Pegado al elemento anterior*/
     margin-bottom: 6px; 
 }
 
-/* --- B. IMÁGENES SECUNDARIAS (Cuerpo del Post) --- */
+/*B- IMÁGENES SECUNDARIAS (Cuerpo del Post)*/
 .post-content img {
     max-width: 700px !important; 
     max-height: 400px;           
@@ -286,7 +283,7 @@ footer {
     margin: 20px auto; 
 }
 
-/* --- C. VIDEOS (Estilos para el reproductor) --- */
+/*C. VIDEOS (Estilos para el reproductor)*/
 .post-content video {
     max-width: 700px !important; /* Mismo ancho tope que tus imágenes */
     width: 100%;                 /* Se adapta en móviles */
@@ -298,7 +295,7 @@ footer {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra suave */
 }
 
-/* --- Contenedor de la lista (UL y OL) --- */
+/*Contenedor de la lista (UL y OL)*/
 .post-content ul, 
 .post-content ol {
     margin-top: 5px;   
@@ -306,7 +303,7 @@ footer {
     margin-bottom: 10px; 
 }
 
-/* --- Estilos para los elementos de lista (<li>) dentro del post --- */
+/*Estilos para los elementos de lista (<li>) dentro del post*/
 .post-content li {
     font-size: 1.2em;
     line-height: 1.3;
@@ -314,7 +311,7 @@ footer {
     margin-bottom: 1px; 
 }
 
-/* --- Estilos para la Leyenda/Pie de Foto (figcaption) --- */
+/*Estilos para la Leyenda/Pie de Foto (figcaption)*/
 .post-content figcaption {
     text-align: center;
     font-size: 0.95em;     
@@ -324,22 +321,22 @@ footer {
     font-style: italic;    
 }
 
-/* --- Enlaces dentro del artículo --- */
+/*Enlaces dentro del artículo*/
 main p a {
     color: #002646; 
     text-decoration: underline;
 }
 
-/* ==========================================================================
+/*==========================================================================
    4. ESTILOS DE LA PÁGINA "SOBRE NOSOTROS"
    (Afectan SOLAMENTE a los elementos dentro de .sobre-nosotros-page)
-========================================================================== */
-/* 4.1 Estilos Generales de la Página "Sobre Nosotros" */
+==========================================================================*/
+/*4.1 Estilos Gles. de la Página "Sobre Nosotros"*/
 .sobre-nosotros-page {
     padding: 10px 40px 20px 40px; 
 }
 
-/* 4.2 Estilos de la Figura (CONTENEDOR DE LA IMAGEN) */
+/*4.2 Estilos de la Figura (CONTENEDOR DE LA IMAGEN)*/
 .sobre-nosotros-page figure {
     margin: 20px auto 20px auto; 
     padding: 0;
@@ -347,7 +344,7 @@ main p a {
     display: block;
 }
 
-/* 4.3 Estilos de Imágenes dentro de la figura */
+/*4.3 Estilos de Imágenes dentro de la figura*/
 .sobre-nosotros-page figure img {
     max-width: 100%; 
     max-height: 400px; 
@@ -356,7 +353,7 @@ main p a {
     display: block; 
 }
 
-/* 4.4 Estilos de la Leyenda de la figura (figcaption) */
+/*4.4 Estilos de la Leyenda de la figura (figcaption)*/
 .sobre-nosotros-page figcaption {
     text-align: center;
     font-size: 0.9em;
@@ -364,7 +361,7 @@ main p a {
     margin-bottom: 20px; 
 }
 
-/* 4.5 Estilos de Párrafos dentro de esta página */
+/*4.5 Estilos de Párrafos dentro de esta página*/
 .sobre-nosotros-page p {
     font-size: 1.1em;
     color: #444; 
