@@ -168,7 +168,6 @@ footer {
     /* ✅ 1. Color de fondo general estilo HN y eliminar márgenes del body */
     body {
         background-color: #f6f6ef !important; /* El color crema característico de HN */
-        /* Aseguramos una fuente estándar limpia */
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
         margin: 0 !important;  /* ✅ CRUCIAL: Elimina el espacio blanco sobre la barra naranja */
     }
@@ -180,6 +179,21 @@ footer {
         width: auto !important;
     }
 
+    .topbar {
+        /* Eliminamos el margen de 10px que viene del CSS general */
+        margin-top: 0 !important;
+        
+        /* Aseguramos que los márgenes laterales sigan centrados o simplemente quitados */
+        margin-left: 0 !important;
+        margin-right: 0 !important; 
+        
+        /* O de forma abreviada, puedes usar: */
+        /* margin: 0 auto !important; */ 
+        
+        padding: 5px 0 !important; 
+        width: 100% !important; /* Ocupa todo el ancho */
+        /* ... (otras reglas si las tienes aquí) ... */
+    }
     /* Configuración del Artículo (fila) */
     .post-item {
         display: block !important;
