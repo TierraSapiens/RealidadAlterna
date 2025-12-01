@@ -29,7 +29,7 @@ main {
     margin-right: auto;     /*Asegura que el 'auto' no interfiera con el margin-top*/
     /* margin: 0 auto;      /*Pega la barra arriba de la pantalla*/
     background: #ff6600;
-    padding: 5px 0;        /*ALTURA BARRA NARANJA*/
+    padding: 5px 0;         /*ALTURA BARRA NARANJA*/
 }
     /*(Opcional) Redondea SOLO las esquinas de arriba del todo */
     /*border-top-left-radius: 8px; /* O el valor que uses en main */
