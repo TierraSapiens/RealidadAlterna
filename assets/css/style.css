@@ -3,29 +3,38 @@
    (Se aplica a todo el sitio: Barra naranja, menú, contenedor principal...)
    ==========================================================================*/
 body {
-    font-family: Helvetica, sans-serif, Arial;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13pt;
     margin: 0;
     padding: 0;
     color: #000000;            /*CAMBIA COLOR TEXTO PAGINA*/
-    background-color:#7c7b7b;  /*CAMBIA TODO EL FONDO de PAGINA*/
+    background-color:#8a8888;  /*CAMBIA TODO EL FONDO de PAGINA*/
 }
 
 /*Contenedor Principal del Contenido (DONDE ESTÁ EL TEXTO)*/
 main {
-    background-color: #d2e4f8;    /*Fondo Blanco para el contenido */
-    max-width: 800px;               /*Limita el ancho del contenido escrito */
-    margin: 2px auto;               /*Centra el bloque blanco y le da espacio arriba y abajo */
-    padding: 2px 40px 20px 40px;    /*2 px arriba (para no tener espacio) */ 
-    border-radius: 8px; 
+    background-color: #d2e4f8;    /*Fondo Blanco para el contenido*/
+    max-width: 1050px;              /*Limita el ancho del CONTENEDOR*/
+    margin: 0px auto;              /*MUEVE el CONTENEDOR blanco hacia arriba o abajo*/
+    padding: 1px 40px 20px 40px;    /*2 px arriba (para no tener espacio)*/ 
+    border-radius: 0px;             /*opcion: usar: border-top-left-radius: 8px; o border-top-right-radius: 8px;*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/*Barra Naranja (Header)*/
+/*BARRA NARANJA (Header)*/
 .topbar {
-    width: 100%;
+    max-width: 1130px;      /*Limita el ancho para igualar al contenido*/
+    margin-top: 10px;       /*REGLA QUE CREA EL ESPACIO GRIS SUPERIOR*/
+    margin-left: auto;      /*Asegura que el 'auto' no interfiera con el margin-top*/
+    margin-right: auto;     /*Asegura que el 'auto' no interfiera con el margin-top*/
+    /* margin: 0 auto;      /*Pega la barra arriba de la pantalla*/
     background: #ff6600;
-    padding: 10px 0;
+    padding: 5px 0;        /*ALTURA BARRA NARANJA*/
 }
+    /*(Opcional) Redondea SOLO las esquinas de arriba del todo */
+    /*border-top-left-radius: 8px; /* O el valor que uses en main */
+    /*border-top-right-radius: 8px;
+/*}*/
 
 .topbar .inner {
     margin: 0 50px;
@@ -40,7 +49,7 @@ main {
 .logo {
     display: flex;
     align-items: center;
-    font-size: 22px;
+    font-size: 15px;
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -79,7 +88,7 @@ footer {
 .footer-menu a {
     color: #ff6600; 
     text-decoration: none;
-    margin: 0 5px;
+    margin: 0 6px;
 }
 
 /*=============================================================================
@@ -100,7 +109,7 @@ footer {
 
 /*Lista de Posts*/
 .post-list {               /*Contenedor que agrupa todos los ítems de la lista.*/
-    font-family: Helvetica, arial, Verdana, sans-serif;  /*Define una tipografía para el texto de la lista*/
+    font-family: Verdana, Helvetica, arial, sans-serif;  /*Define una tipografía para el texto de la lista*/
     list-style: none;      /*Elimina los puntos/viñetas (bullets) que normalmente tienen las listas de HTML*/
     padding: 0 !important; /*Elimina el relleno (espacio interno) por defecto que tienen las listas, pegando el contenido a la izquierda*/
     margin-top: 2px;       /*Elimina el margen superior del listado completo*/
