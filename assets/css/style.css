@@ -14,7 +14,7 @@ body {
 /*Contenedor Principal del Contenido (DONDE ESTÁ EL TEXTO)*/
 main {
     background-color: #d2e4f8;    /*Fondo Blanco para el contenido*/
-    max-width: 1050px;              /*Limita el ancho del CONTENEDOR*/
+    max-width: 1000px;              /*Limita el ancho del CONTENEDOR*/
     margin: 0px auto;              /*MUEVE el CONTENEDOR blanco hacia arriba o abajo*/
     padding: 1px 40px 20px 40px;    /*2 px arriba (para no tener espacio)*/ 
     border-radius: 0px;             /*opcion: usar: border-top-left-radius: 8px; o border-top-right-radius: 8px;*/
