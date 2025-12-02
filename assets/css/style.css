@@ -438,12 +438,12 @@ main p a {
 /*Estilos Gles. de la Página "Sobre Nosotros"*/
 .sobre-nosotros-page {
     padding: 10px 20px 20px 20px;
-    max-width: 1040px;     /*Ancho de Contenedor*/
+    max-width: 1090px;     /*Ancho de Contenedor*/
 }
 
 /*Estilos de la Figura (CONTENEDOR DE LA IMAGEN)*/
 .sobre-nosotros-page figure {
-    margin: 20px auto 20px auto; 
+    margin: 10px auto 10px auto; 
     padding: 0;
     max-width: 600px;
     display: block;
@@ -470,11 +470,12 @@ main p a {
 .sobre-nosotros-page h1 {
     font-size: 1.0em; /* Reducido de un tamaño más grande a 2.0em */
     margin-bottom: 20px;
+    line-height: 1.2;
 }
 
 /*Achicar Subtítulos (h2)*/
 .sobre-nosotros-page h2 {
-    font-size: 1.0em; /* Reducido de un tamaño más grande a 1.5em */
+    font-size: 0.9em; /* Reducido de un tamaño más grande a 1.5em */
     margin-top: 25px;
     margin-bottom: 15px;
 }
@@ -491,26 +492,26 @@ main p a {
 ==========================================================================*/
 .contactanos-page {
     padding: 10px 20px 20px 20px;
-    max-width: 1040px;         /*Ancho de Contenedor*/
+    max-width: 1090px;         /*Ancho de Contenedor*/
 }
 
 /* Títulos */
 .contactanos-page h1 {
-    font-size: 1.6em; 
+    font-size: 1.0em; 
     margin-bottom: 20px;
     line-height: 1.2;
 }
 
 .contactanos-page h2 {
-    font-size: 1.0em;
+    font-size: 0.8em;
     margin-top: 25px;
     margin-bottom: 15px;
 }
 
-/* ✅ LO NUEVO: Estilos para Párrafos Y LISTAS */
+/*Estilos para Párrafos Y LISTAS */
 .contactanos-page p, 
 .contactanos-page li {  /* <--- Agregado 'li' para que afecte a tus listas */
-    font-size: 0.95em; 
+    font-size: 0.9em; 
     color: #444; 
     margin-bottom: 15px; 
     line-height: 1.6;

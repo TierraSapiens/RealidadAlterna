@@ -9,7 +9,7 @@ clase_pagina: sobre-nosotros-page
     <figcaption></figcaption>
 </figure>
 
-# Sobre Nosotros
+># Sobre Nosotros
 
 * TierraSapiens es una plataforma de exploración sin límites. 
 Nos dedicamos a desentrañar los hilos que conectan la Ciencia, Tecnología, Cultura, Historia, Astronomía y mucho mas. (TierraSapiens), con el fascinante Mundo del Misterio (Realidad Alterna). 
@@ -22,4 +22,4 @@ Nos dedicamos a desentrañar los hilos que conectan la Ciencia, Tecnología, Cul
 
 * Valoramos la independencia, y sobre todo, creemos en el potencial abierto y descentralizado del Fediverso.
 
-¿Quieres contactarnos? Puedes escribirnos directamente a: harryangelic@gmail.com
+>Puedes escribirnos directamente a: harryangelic@gmail.com
