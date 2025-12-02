@@ -13,7 +13,7 @@ body {
 
 /*Contenedor Principal del Contenido (DONDE ESTÁ EL TEXTO)*/
 main {
-    background-color: #d2e4f8;    /*Fondo Blanco para el contenido*/
+    background-color: #f6f6ef;    /*Fondo Blanco para el contenido*/
     max-width: 1050px;              /*Limita el ancho del CONTENEDOR*/
     margin: 0px auto;              /*MUEVE el CONTENEDOR blanco hacia arriba o abajo*/
     padding: 1px 40px 20px 40px;   /*1050(contenido)+40\text-px(izquierda)+40\text-px(derecha)={1130\text-px*/
@@ -167,7 +167,7 @@ footer {
 
     /* ✅ 1. Color de fondo general estilo HN y eliminar márgenes del body */
     body {
-        background-color: #f6f6ef !important; /* El color crema característico de HN */
+        background-color: #f6f6ef !important; /* El color crema característico de HN f6f6ef y f6f6ef*/
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
         margin: 0 !important;  /* ✅ CRUCIAL: Elimina el espacio blanco sobre la barra naranja */
     }
@@ -192,7 +192,6 @@ footer {
         
         padding: 5px 0 !important; 
         width: 100% !important; /* Ocupa todo el ancho */
-        /* ... (otras reglas si las tienes aquí) ... */
     }
     /* Configuración del Artículo (fila) */
     .post-item {
@@ -208,28 +207,27 @@ footer {
         display: none !important;
     }
 
-    /* Contenedor del texto */
+    /*CONTENEDOR del texto*/
     .post-content {
         padding-top: 0 !important;
         margin-top: 0 !important;
-        padding-left: 5px !important; /* Ajusta según necesites si añades números a la izquierda */
+        padding-left: 5px !important; /*Ajuste según necesites a la izquierda*/
         padding-right: 5px !important;
         width: 100% !important;
         text-align: left !important;
     }
 
-    /* ✅ 2. Estilo del Título - TAMAÑO AJUSTADO */
+    /*ESTILO de TITULOS PUBLICACIONES*/
     .post-content .post-title {
         display: block !important;
         width: 100% !important;
         margin-top: 0 !important;
-        margin-bottom: 1px !important; /* Espacio mínimo entre título y metadata */
-        /* ✅ Tamaño de letra reducido para que quepa en una línea */
-        font-size: 14px !important;
-        font-weight: 500 !important; /* Peso normal o semi-negrita */
-        color: #000000 !important;   /* Color negro para el título */
+        margin-bottom: 1px !important;   /*ESPACIO entre TITULO y METADATOS*/
+        font-size: 14px !important;      /*TAMAÑO LETRA*/
+        font-weight: 500 !important;     /* Peso normal o semi-negrita*/
+        color: #000000 !important;     /* Color negro para el título*/
         letter-spacing: normal !important;
-        line-height: 1.2 !important; /* Interlineado más compacto */
+        line-height: 1.2 !important;     /*Interlineado más compacto*/
     }
 
     /* Reset de listas */
@@ -247,14 +245,12 @@ footer {
         flex-wrap: wrap;
     }
 
-    /* ✅ 3. Estilo de los Metadatos - TAMAÑO AJUSTADO */
+    /*Estilo de los Metadatos Fecha-Autor*/
     .post-meta {
-        /* ✅ Tamaño de fuente reducido proporcionalmente */
-        font-size: 11px !important;
-        /* ✅ Color gris medio característico de HN */
-        color: #828282 !important;
+        font-size: 11px !important;     /*TAMAÑO de FUENTE*/    
+        color: #828282 !important;    /*Color*/
         display: block !important;
-        margin-top: 2px !important; /* Espacio mínimo respecto al título */
+        margin-top: 2px !important;     /*Espacio mínimo respecto al título */
         margin-bottom: 0 !important;
         line-height: 1.2 !important;
     }
