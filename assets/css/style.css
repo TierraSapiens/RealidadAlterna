@@ -486,3 +486,57 @@ main p a {
     color: #444; 
     margin-bottom: 15px; 
 }
+
+/*==========================================================================
+   5. ESTILOS DE PÁGINA "CONTACTANOS"
+   (Afectan SOLAMENTE a los elementos dentro de .contactanos-page)
+==========================================================================*/
+/*Estilos Gles. de la Página "Sobre Nosotros"*/
+.contactanos-page {
+    padding: 10px 20px 20px 20px; 
+}
+
+/*Estilos de la Figura (CONTENEDOR DE LA IMAGEN)*/
+.contactanos-page figure {
+    margin: 20px auto 20px auto; 
+    padding: 0;
+    max-width: 600px;
+    display: block;
+}
+
+/*Estilos de Imágenes dentro de la figura*/
+.contactanos-page figure img {
+    max-width: 100%; 
+    max-height: 400px; 
+    height: auto;
+    margin: 0 auto; 
+    display: block; 
+}
+
+/*Estilos de la Leyenda de la figura (figcaption)*/
+.contactanos-page figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 20px; 
+}
+
+/*Achicar Título Principal (h1)*/
+.contactanos-page h1 {
+    font-size: 1.0em; /* Reducido de un tamaño más grande a 2.0em */
+    margin-bottom: 20px;
+}
+
+/*Achicar Subtítulos (h2)*/
+.contactanos-page h2 {
+    font-size: 1.0em; /* Reducido de un tamaño más grande a 1.5em */
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/*Estilos de Párrafos dentro de esta página*/
+.contactanos-page p {
+    font-size: 0.8em;
+    color: #444; 
+    margin-bottom: 15px; 
+}
