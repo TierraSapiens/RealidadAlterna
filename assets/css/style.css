@@ -392,7 +392,7 @@ main p a {
 ==========================================================================*/
 /*Estilos Gles. de la Página "Sobre Nosotros"*/
 .sobre-nosotros-page {
-    padding: 10px 30px 20px 30px; 
+    padding: 10px 20px 20px 20px; 
 }
 
 /*Estilos de la Figura (CONTENEDOR DE LA IMAGEN)*/
@@ -420,9 +420,15 @@ main p a {
     margin-bottom: 20px; 
 }
 
+/* ✅ Achicar Título Principal (h1) */
+.sobre-nosotros-page h1 {
+    font-size: 1.0em; /* Reducido de un tamaño más grande a 2.0em */
+    margin-bottom: 20px;
+}
+
 /*Estilos de Párrafos dentro de esta página*/
 .sobre-nosotros-page p {
-    font-size: 0.9em;
+    font-size: 0.8em;
     color: #444; 
     margin-bottom: 15px; 
 }
