@@ -438,7 +438,7 @@ main p a {
 /*Estilos Gles. de la Página "Sobre Nosotros"*/
 .sobre-nosotros-page {
     padding: 10px 20px 20px 20px;
-    max-width: 1090px;     /*Ancho de Contenedor*/
+    max-width: 900px;     /*Ancho de Contenedor*/
 }
 
 /*Estilos de la Figura (CONTENEDOR DE LA IMAGEN)*/
@@ -487,11 +487,11 @@ main p a {
 }
 
 /*==========================================================================
-   5. ESTILOS DE PÁGINA "CONTACTANOS" (GENERAL / PC)
+   5. ESTILOS DE PÁGINA "CONTACTANOS"
 ==========================================================================*/
 .contactanos-page {
     padding: 10px 20px 20px 20px;
-    max-width: 1090px;         /*Ancho de Contenedor*/
+    max-width: 1000px;         /*Ancho de Contenedor*/
 }
 
 /* Títulos */
