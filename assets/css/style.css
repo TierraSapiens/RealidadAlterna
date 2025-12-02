@@ -215,24 +215,12 @@ footer {
         width: 100% !important;
         margin-top: 0 !important;
         margin-bottom: 1px !important;   /*ESPACIO entre TITULO y METADATOS*/
-        font-size: 14px !important;      /*TAMAÑO LETRA*/
+        font-size: 10px !important;      /*TAMAÑO LETRA*/
         font-weight: 500 !important;     /* Peso normal o semi-negrita*/
         color: #000000 !important;     /* Color negro para el título*/
         letter-spacing: normal !important; /*Quitamos el espaciado negativo*/
         line-height: 1.2 !important;     /*Interlineado más compacto*/
     }
-
-/*FALTA: El dominio entre paréntesis */
-    /* Si en el HTML tengo el dominio (ej: (github.com)) dentro de un <span>
-       dentro del título, puedo añadir una regla para que se vea gris y más pequeño.
-       Ejemplo hipotético:*/
-    /*
-    .post-title span.domain-source {
-        color: #828282 !important;
-        font-size: 0.85em !important;
-        font-weight: normal !important;
-    }
-    */
 
 /* Reset de listas */
     .post-list {
@@ -259,10 +247,9 @@ footer {
         line-height: 1.2 !important;
     }
 
-    /*Estilos para el Pie de Página (Footer)*/
+/*Estilos para el Pie de Página (Footer)*/
 footer {
-    /*max-width: 1130px; /* Limita el ancho del fondo gris oscuro */
-    border-top: 1px solid #ff6600 !important; 
+    border-top: 2px solid #ff6600 !important; 
     margin: 0px auto 0 auto;     /* Centra el footer */
     padding: 10px 0px;           /*TAMAÑO COLOR*/
     background-color:#f6f6ef;  /*fondo color*/
