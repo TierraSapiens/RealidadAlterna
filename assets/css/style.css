@@ -264,8 +264,29 @@ footer {
     text-decoration: none;    /*Quita el subrayado predeterminado*/
     margin: 0 6px;            /*Espacio entre los enlaces*/
 }
-}
+/* =========================================
+       ✅ AJUSTES DE TAMAÑO PARA "SOBRE NOSOTROS" (Móvil)
+       ========================================= */
 
+    /* 1. Reducir el padding general de la página en móvil */
+    .sobre-nosotros-page {
+        /* Reducimos los márgenes laterales de 40px a 15px para que aproveche el ancho */
+        padding: 10px 15px 20px 15px !important; 
+    }
+
+    /* 2. Reducir el tamaño de los Párrafos */
+    .sobre-nosotros-page p {
+        /* Reducimos el tamaño de la fuente de 1.0em a 0.85em */
+        font-size: 0.85em !important; 
+        margin-bottom: 10px !important; /* También reducimos el espacio entre párrafos */
+    }
+    
+    /* 3. Reducir el tamaño de la Leyenda de la figura (figcaption) */
+    .sobre-nosotros-page figcaption {
+        /* Reducimos el tamaño de la fuente de 0.9em a 0.75em */
+        font-size: 0.75em !important; 
+    }
+}
 /* ==========================================================================
    3. ESTILOS DE LA PUBLICACIÓN INDIVIDUAL (Página del Post)
    (Afectan cuando entras a leer el artículo completo)
