@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Contáctanos"
+clase_pagina: contactanos-page
 ---
 
 # ¡Tu Voz Impulsa TierraSapiens!

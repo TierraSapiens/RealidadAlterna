@@ -296,7 +296,41 @@ footer {
         /* Reducimos el tamaño de la fuente de 0.9em a 0.75em */
         font-size: 0.75em !important; 
     }
+
+/* =============================================
+2.3 AJUSTES DE TAMAÑO "CONTACTANOS" (Móvil)
+============================================== */
+/*Reducir el padding general de la página en móvil */
+    .contactanos-page {
+        padding: 10px 15px 20px 15px !important; /*Margenes laterales de 40px a 15px*/
+    }
+
+/*Achicar Título Principal (h1) en móvil*/
+    .contactanos-page h1 {
+        font-size: 1.4em !important; /*Más compacto en móvil*/
+        margin-bottom: 10px !important;
+    }
+
+/*Achicar Subtítulos (h2) en móvil*/
+    .contactanos-page h2 {
+        font-size: 1.1em !important; /* Más compacto en móvil */
+        margin-top: 15px !important;
+        margin-bottom: 8px !important;
+    }
+
+/*Reducir el tamaño de los Párrafos */
+    .contactanos-page p {
+        font-size: 0.75em !important;    /*TAMAÑO de FUENTE Movil*/
+        margin-bottom: 10px !important;  /*Espacio entre párrafos*/
+    }
+
+/*Reducir tamaño de Leyenda de la figura (figcaption)*/
+    .contactanos-page figcaption {
+        /* Reducimos el tamaño de la fuente de 0.9em a 0.75em */
+        font-size: 0.75em !important; 
+    }
 }
+
 /* ==========================================================================
    3. ESTILOS DE LA PUBLICACIÓN INDIVIDUAL (Página del Post)
    (Afectan cuando entras a leer el artículo completo)
