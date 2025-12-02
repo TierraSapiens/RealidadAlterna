@@ -178,17 +178,14 @@ footer {
         width: auto !important;
     }
 
-    .topbar {
-        
+    .topbar {    
         margin-top: 0 !important;      /*Se elimina el margen que viene del CSS principal*/
-        
-       
         margin-left: 0 !important;     /*Margenes laterales sigan centrados o retirados*/
         margin-right: 0 !important;    /*margin: 0 auto !important; - de forma corta*/                        
         padding: 5px 0 !important; 
         width: 100% !important;        /*Ocupa todo el ancho*/
     }
-/*Configuración del Artículo (FILA)*/
+/*Configuración del Artículo (FILAS)*/
     .post-item {
         display: block !important;
         padding: 6px 0 !important;      /*Espacio interno vertical*/
@@ -265,6 +262,7 @@ footer {
     /*Estilos para el Pie de Página (Footer)*/
 footer {
     /*max-width: 1130px; /* Limita el ancho del fondo gris oscuro */
+    border-top: 1px solid #ff6600 !important; 
     margin: 0px auto 0 auto;     /* Centra el footer */
     padding: 10px 0px;           /*TAMAÑO COLOR*/
     background-color:#f6f6ef;  /*fondo color*/
@@ -273,6 +271,7 @@ footer {
     font-size: 0.6em;            /*TAMAÑO LETRAS*/
 }
 
+/*Color y Tamaño "Preguntar y Sobre Nosotros*/
 .footer-menu a {
     color: #ff6600;         /*Color naranja de los enlaces*/
     text-decoration: none;    /*Quita el subrayado predeterminado*/
