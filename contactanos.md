@@ -3,7 +3,7 @@ layout: default
 title: "Contáctanos"
 ---
 
->    ## ¡Tu Voz Impulsa TierraSapiens!
+# ¡Tu Voz Impulsa TierraSapiens!
 
 >* ¿Tienes una idea brillante, un tema de investigación que nos falta o una consulta específica? 
 >* Envíanos tu propuesta. Queremos explorar lo que te apasiona.

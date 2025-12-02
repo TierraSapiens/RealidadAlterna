@@ -11,6 +11,15 @@ clase_pagina: sobre-nosotros-page
 
 # Sobre Nosotros
 
-Realidad Alterna es un proyecto de Tierras Sapiens orientado a explorar ciencia, tecnología, cultura, historia, misterio y mundos posibles.
+* TierraSapiens es una plataforma de exploración sin límites. 
+Nos dedicamos a desentrañar los hilos que conectan la Ciencia, Tecnología, Cultura, Historia, Astronomía y mucho mas. (TierraSapiens), con el fascinante Mundo del Misterio (Realidad Alterna). 
 
-Contacto: harryangelic@gmail.com
+* Creemos que la verdad se encuentra en la intersección de estos mundos.
+
+* Nuestra Filosofía: Publicamos sobre todo aquello que nos apasiona, sin ataduras, trabas o censuras. 
+
+* Nuestra misión es ser un espacio de libertad editorial y pensamiento crítico.
+
+* Valoramos la independencia, y sobre todo, creemos en el potencial abierto y descentralizado del Fediverso.
+
+¿Quieres contactarnos? Puedes escribirnos directamente a: harryangelic@gmail.com
