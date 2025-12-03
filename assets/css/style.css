@@ -187,24 +187,16 @@ footer {
         padding: 5px 0 !important; 
         width: 100% !important;        /*Ocupa todo el ancho*/
     }
-
-.post-container > img {
-    width: 100% !important;
-    max-width: 100% !important;
-    height: auto !important;
-    left: 0 !important;
-    transform: none !important;
-    max-height: none !important;
+    
+/* Esto afecta a TODAS las imágenes dentro del contenido principal */
+.post-container img, 
+.post-content img,
+main img {
+    max-width: 100% !important;  /* ESTA ES LA CLAVE: Frena que la imagen crezca más que la pantalla */
+    height: auto !important;     
+    display: block !important;   
+    margin: 10px auto !important;
 }
-
-/*Esto afecta a TODAS las imágenes dentro del contenido principal */
-    .post-content img,
-    main img {
-        max-width: 100% !important;  /* La imagen nunca será más ancha que la pantalla */
-        height: auto !important;     /* La altura se ajusta sola para no deformarse */
-        display: block !important;   /* Evita espacios extra abajo */
-        margin: 10px auto !important;/* Centra la imagen */
-    }
 
 /* Si usas videos o iframes (YouTube), también agrégalo para prevenir desbordes */
     .post-content video,
