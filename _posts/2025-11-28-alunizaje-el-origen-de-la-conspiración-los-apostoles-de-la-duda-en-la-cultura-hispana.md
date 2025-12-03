@@ -9,6 +9,7 @@ author: [Valen M.]
 ># Alunizaje: El Origen de la Conspiración en la Cultura Hispana
 
 >**Bill Kaysing** fue un ex oficial de la Marina de los EE. UU. que trabajó como redactor técnico para uno de los fabricantes de cohetes de las misiones Apolo de la NASA.
+
 >Afirmó tener conocimiento interno de una conspiración gubernamental para falsificar los alunizajes, y muchas teorías de conspiración que persisten hasta el día de hoy se pueden rastrear hasta su libro de 1976: ***We Never Went to the Moon: America’s Thirty Billion Dollar Swindle*** ("Nunca fuimos a la Luna: La estafa de los treinta mil millones de dólares de Estados Unidos").
 
 > <figure>
