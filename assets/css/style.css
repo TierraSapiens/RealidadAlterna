@@ -13,12 +13,12 @@ body {
 
 /*Contenedor Principal del Contenido (DONDE ESTÁ EL TEXTO)*/
 main {
-    background-color: #f6f6ef;    /*Fondo Blanco para el contenido*/
-    max-width: 1050px;              /*Limita el ancho del CONTENEDOR*/
-    margin: 0px auto;              /*MUEVE el CONTENEDOR blanco hacia arriba o abajo*/
-    padding: 1px 40px 20px 40px;   /*1050(contenido)+40\text-px(izquierda)+40\text-px(derecha)={1130\text-px*/
-    border-radius: 0px;             /*opcion: usar: border-top-left-radius: 8px; o border-top-right-radius: 8px;*/
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #f6f6ef;     /*Fondo Blanco para el contenido*/
+    max-width: 1050px;               /*Limita el ancho del CONTENEDOR*/
+    margin: 0px auto;                /*MUEVE el CONTENEDOR blanco hacia arriba o abajo*/
+    padding: 1px 40px 20px 40px;     /*1050(contenido)+40\text-px(izquierda)+40\text-px(derecha)={1130\text-px*/
+    border-radius: 0px;              /*opcion: usar: border-top-left-radius: 8px; o border-top-right-radius: 8px;*/
+    box-shadow: 0 4px 8px rgba(70, 3, 3, 0.1); 
 }
 
 /*BARRA NARANJA (Header)*/
@@ -31,12 +31,13 @@ main {
     background: #ff6600;
     padding: 5px 0;         /*BARRA 5px Arriba o Abajo y 0; es Derecha o Izquierda*/ 
 }
-    /*(Opcional) Redondea SOLO las esquinas de arriba del todo */
+    /*(Opcional)Redondea SOLO las esquinas de arriba del todo */
     /*border-top-left-radius: 8px; /* O el valor que uses en main */
     /*border-top-right-radius: 8px;
 /*}*/
 
-.topbar .inner {  /*barra naranja elementos internos*/
+/*barra naranja elementos internos*/
+.topbar .inner {  
     margin: 0 50px;
     width: auto;
     display: flex;
@@ -163,7 +164,7 @@ footer {
 }
 
 /*=========================================
-   2.1 FORMATO PARA MOBILES V 1.2
+   2.1 FORMATO PARA MOBILES V 1.2 / ANDROID y Cnia.
    =========================================*/
 @media (max-width: 600px) {
 /*Color de Fondo*/
@@ -187,8 +188,17 @@ footer {
         width: 100% !important;        /*Ocupa todo el ancho*/
     }
 
-    /* Esto afecta a TODAS las imágenes dentro del contenido principal */
-    .post-container img, 
+.post-container > img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    left: 0 !important;
+    transform: none !important;
+    max-height: none !important;
+}
+
+/*Esto afecta a TODAS las imágenes dentro del contenido principal */
+    .post-container img,
     .post-content img,
     main img {
         max-width: 100% !important;  /* La imagen nunca será más ancha que la pantalla */
@@ -197,7 +207,7 @@ footer {
         margin: 10px auto !important;/* Centra la imagen */
     }
 
-    /* Si usas videos o iframes (YouTube), también agrégalo para prevenir desbordes */
+/* Si usas videos o iframes (YouTube), también agrégalo para prevenir desbordes */
     .post-content video,
     .post-content iframe {
         max-width: 100% !important;
@@ -241,14 +251,14 @@ footer {
         line-height: 1.2 !important;     /*Interlineado más compacto*/
     }
 
-/* Reset de listas */
+/*Reset de listas */
     .post-list {
         margin: 0 !important;
         padding: 0 !important;
         list-style: none !important;
     }
 
-/* Topbar (sin cambios mayores) */
+/* Topbar*/
     .topbar .inner {
         margin: 0;
         padding: 5px 10px;
@@ -292,7 +302,7 @@ footer {
 /*}*/
 
 /* =============================================
-2.2 AJUSTES "SOBRE NOSOTROS" (Móvil)
+2.2 AJUSTES "SOBRE NOSOTROS" (Movil)
 ============================================== */
 /*Reducir el padding general de la página en móvil */
     .sobre-nosotros-page {
@@ -318,14 +328,14 @@ footer {
         margin-bottom: 10px !important;  /*Espacio entre párrafos*/
     }
 
-/*Reducir tamaño de Leyenda de la figura (figcaption)*/
+/*Reducir tamaño de Leyenda de la figura (figcaption) Movil*/
     .sobre-nosotros-page figcaption {
         /* Reducimos el tamaño de la fuente de 0.9em a 0.75em */
         font-size: 0.75em !important; 
     }
 
 /* =============================================
-2.3 AJUSTES DE "CONTACTANOS" (Móvil)
+2.3 AJUSTES DE "CONTACTANOS" (Movil)
 ============================================== */
     .contactanos-page {
         padding: 10px 15px 20px 15px !important; 
@@ -342,7 +352,7 @@ footer {
         margin-top: 15px !important;
     }
 
-    /* ✅ LO NUEVO: Reducir letra también en las LISTAS */
+    /* ✅ LO NUEVO: Movil Reducir letra también en las LISTAS */
     .contactanos-page p,
     .contactanos-page li {
         font-size: 0.85em !important; /* Ahora sí achicará el texto de los puntos */
@@ -359,7 +369,6 @@ footer {
 
 /* ==========================================================================
    3. ESTILOS DE LA PUBLICACIÓN INDIVIDUAL (Página del Post)
-   (Afectan cuando entras a leer el artículo completo)
    ========================================================================== */
 
 /*Contenedor Principal de la Publicación*/
@@ -414,7 +423,7 @@ footer {
     padding-bottom: 10px;           /* Espacio para la línea opcional */
 }
 
-/* Párrafos del texto, articulo escrito */
+/*Párrafos del texto, articulo escrito*/
 .post-content p {
     font-size: 1.0em !important; /* TEXTO si .md para leer */
     line-height: 1.6;            /* Espacio entre renglones (vital para lectura) */
@@ -430,7 +439,7 @@ footer {
     letter-spacing: -0.3px !important; /*ARRIMA las Palabras -0.3px, -0.5px, etc. */
 }
 
-/*B- IMÁGENES SECUNDARIAS (Cuerpo del Post)*/
+/*IMÁGENES SECUNDARIAS (Cuerpo del Post)*/
 .post-content img {
     max-width: 700px !important; 
     max-height: 400px;           
@@ -440,7 +449,7 @@ footer {
     margin: 20px auto; 
 }
 
-/*C. VIDEOS (Estilos para el reproductor)*/
+/*VIDEOS (Estilos para el reproductor)*/
 .post-content video {
     max-width: 700px !important; /* Mismo ancho tope que tus imágenes */
     width: 100%;                 /* Se adapta en móviles */
