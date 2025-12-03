@@ -357,7 +357,7 @@ footer {
 
 /*Título Principal H1 MANUAL (Escrito dentro del .md)*/
 .post-content h1 {
-    font-size: 1.2em;          /*Ajusta el tamaño letras*/
+    font-size: 1.0em;          /*Ajusta el tamaño letras*/
     color: #000000;
     margin-top: 1px;          /*Separación con la imagen*/
     margin-bottom: 1px;       /*Separación con el texto de abajo*/
@@ -366,7 +366,7 @@ footer {
 }
 /*Título Secundario H2 dentro del Post*/
 .post-content h2 {
-    font-size: 1.3em !important; 
+    font-size: 0.9em !important; 
     margin-top: 1px !important;  
     margin-bottom: 5px !important; 
     line-height: 1.2;
@@ -374,7 +374,7 @@ footer {
 
 /*Texto del Artículo (Párrafos)*/
 .post-content p {
-    font-size: 1.1em; 
+    font-size: 0.9em; 
     margin-top: 2px !important; /*Pegado al elemento anterior*/
     margin-bottom: 6px; 
 }
