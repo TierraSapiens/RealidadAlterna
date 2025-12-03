@@ -36,7 +36,7 @@ main {
     /*border-top-right-radius: 8px;
 /*}*/
 
-.topbar .inner {
+.topbar .inner {  /*barra naranja elementos internos*/
     margin: 0 50px;
     width: auto;
     display: flex;
@@ -56,8 +56,8 @@ main {
 }
 
 .header-logo {
-    height: 31px; 
-    margin-right: 10px;
+    height: 20px;   /*TAMAÑO logo Buho*/
+    margin-right: 5px;  /*Margen Derecho*/
 }
 
 .menu a {
@@ -74,10 +74,11 @@ main {
 /*Estilos para el Pie de Página (Footer)*/
 footer {
     max-width: 1130px; /* Limita el ancho del fondo gris oscuro */
+    border-top: 2px solid #ff6600 !important; 
     margin: 0px auto 0 auto; /* Centra el footer */
     padding: 10px 0px;        /*TAMAÑO COLOR*/
-    background-color: #333;  /*fondo color*/
-    color: #FFF;             /*color texto*/
+    background-color:#f6f6ef;  /*fondo color*/
+    color: #7e7e7e;             /*color texto*/
     text-align: center;        /* Alineación del texto al centro*/
     font-size: 0.6em;          /*TAMAÑO LETRAS*/
 }
@@ -124,8 +125,8 @@ footer {
 }
 
 .post-list .post-item:first-child { /*Regla que solo afecta al primer post de la lista*/
-    padding-left: 0 !important; 
-    margin-left: 0 !important;
+    padding-left: 0 !important;      /*relleno izquierdo:*/
+    margin-left: 0 !important;       /*margen izquierdo:*/
 }
 
 /*Miniatura (Imagen pequeña)*/
@@ -157,7 +158,7 @@ footer {
     font-size: 0.65em;     /*Reduce mucho el tamaño de la fuente (para la fecha o metadato).*/
     color: #888;         /*Color gris claro para que sea menos prominente que el título.*/
     margin-top: 2px;       /*Agrega 2 píxeles de espacio arriba de la fecha, separándola del título.*/
-    margin-left: 0px;      /*Mueve la fecha 32 píxeles a la derecha (una indentación o sangría), haciendo que parezca que está alineada con el texto del post, no con el borde.*/
+    margin-left: 0px;      /*Mueve la fecha a la derecha (una indentación o sangría), haciendo que parezca que está alineada con el texto del post, no con el borde.*/
     margin-bottom: 2px;    /*la fecha(.post-meta)tenga un pequeño margen en la parte inferior*/
 }
 
