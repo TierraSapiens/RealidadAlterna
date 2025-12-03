@@ -469,15 +469,6 @@ footer {
     margin-bottom: 10px !important; /* Espacio entre cada punto */
 }
 
-.post-container img,  
-.post-content img,
-main img {
-    max-width: 100% !important;
-    height: auto !important;     
-    display: block !important;   
-    margin: 10px auto !important;
-}
-
 /* Las negritas dentro de la lista (ej: "El argumento:") */
 .post-content li strong {
     color: #000000 !important; /* Negro puro para destacar */
