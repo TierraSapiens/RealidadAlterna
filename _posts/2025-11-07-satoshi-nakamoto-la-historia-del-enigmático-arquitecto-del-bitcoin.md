@@ -9,7 +9,7 @@ author: [E.R.M.]
 # Satoshi Nakamoto: La historia del enigmático arquitecto del Bitcoin
 
 
-># El misterio detrás de Satoshi Nakamoto
+## El misterio detrás de Satoshi Nakamoto
 
 La identidad de **Satoshi Nakamoto**, el enigmático inventor de Bitcoin, continúa siendo uno de los mayores misterios sin resolver del mundo financiero moderno.
 
@@ -17,7 +17,7 @@ La identidad de **Satoshi Nakamoto**, el enigmático inventor de Bitcoin, contin
 
 ---
 
-# 1️⃣ ¿Quién es Satoshi Nakamoto?
+## 1️⃣ ¿Quién es Satoshi Nakamoto?
 
 El nombre *Satoshi Nakamoto* apareció por primera vez en 2008, cuando se publicó el **whitepaper de Bitcoin**.  
 En ese documento se describía un sistema de pago descentralizado basado en una **cadena de bloques**, sin necesidad de bancos o autoridades centrales. Una idea completamente revolucionaria.
@@ -40,7 +40,7 @@ Estas preguntas alimentan el debate y mantienen vivo el misterio.
     <figcaption>Estatua que se encuentra en Budapest, Hungría. </figcaption>
 </figure>
 
-# 2️⃣ ¿Cuándo desapareció Satoshi Nakamoto?
+## 2️⃣ ¿Cuándo desapareció Satoshi Nakamoto?
 
 Satoshi se retiró del desarrollo activo de Bitcoin en **2010**, tras estabilizar el software y sentar las bases de la red.
 
@@ -56,13 +56,13 @@ Sobre las razones de su salida existen distintas teorías:
 
 ---
 
-# 3️⃣ La riqueza y la billetera de Satoshi Nakamoto
+## 3️⃣ La riqueza y la billetera de Satoshi Nakamoto
 
 Un aspecto fascinante es la enorme billetera atribuida a Satoshi.
 
 Se calcula que posee alrededor de:
 
-> **1 millón de BTC**
+**1 millón de BTC**
 
 Una fortuna gigantesca, cuyo valor depende del precio actual del mercado.
 
@@ -77,7 +77,7 @@ Esto ha llevado a teorías como:
 
 ---
 
-# 4️⃣ Hipótesis: ¿Quién podría ser Satoshi Nakamoto?
+## 4️⃣ Hipótesis: ¿Quién podría ser Satoshi Nakamoto?
 
 La falta de pistas claras ha generado numerosas teorías. Estos son los candidatos más mencionados:
 
@@ -155,7 +155,7 @@ Pero nunca afirmó ser Satoshi y no existe evidencia directa.
 
 ---
 
-# 5️⃣ ¿Por qué Satoshi Nakamoto permanece anónimo?
+## 5️⃣ ¿Por qué Satoshi Nakamoto permanece anónimo?
 
 Las razones más mencionadas:
 
@@ -171,11 +171,11 @@ El anonimato permitió que la comunidad tomara decisiones sin depender de él.
 
 ---
 
-# 6️⃣ La verdadera identidad de Satoshi Nakamoto y su impacto
+## 6️⃣ La verdadera identidad de Satoshi Nakamoto y su impacto
 
 Aunque nadie sabe quién es Satoshi Nakamoto, su legado redefinió la economía moderna.
 
-Bitcoin:
+### Bitcoin:
 
 - Transformó la visión del dinero.  
 - Desafió los sistemas bancarios tradicionales.  
@@ -186,7 +186,7 @@ El misterio de su identidad no limita su impacto; al contrario, **lo engrandece*
 
 ---
 
-# Preguntas frecuentes 📣
+## Preguntas frecuentes 📣
 
 ### 🔸 ¿Quién está detrás de Satoshi Nakamoto?
 

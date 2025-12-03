@@ -8,15 +8,15 @@ author: [E.R.M.]
 
 # Cuando la Tecnología se Vuelve Dios: El Final del Humanismo
 
-# 🔹 ¿Qué es la Tecnoreligión?
+## 🔹 ¿Qué es la Tecnoreligión?
 
 La tecnoreligión es una ideología que cumple las mismas funciones que tradicionalmente cumplían las religiones: dar sentido, dirección, propósito y una promesa de salvación, pero usando tecnología en lugar de Dios, espíritus o entidades sobrenaturales.
 
 En lugar de rezar a un ser divino o creer en un alma inmortal, la tecnoreligión propone que:
 
-* 📌 La tecnología sea la fuente de salvación.  
-* 📌 El progreso tecnológico produzca felicidad, trascendencia y soluciones a los problemas humanos.  
-* 📌 La mejor evolución del ser humano provenga de algoritmos, ingeniería genética, IA, neurotecnología y mejoras físicas o cognitivas.
+* La tecnología sea la fuente de salvación.  
+* El progreso tecnológico produzca felicidad, trascendencia y soluciones a los problemas humanos.  
+* La mejor evolución del ser humano provenga de algoritmos, ingeniería genética, IA, neurotecnología y mejoras físicas o cognitivas.
 
 <figure>
     <img src="{{ 'images/posts/cuando-la-tecnología-se-vuelve-dios-el-final-del-humanismo/02.jpg' | relative_url }}" alt="Imagen secundaria">
@@ -26,39 +26,39 @@ En lugar de rezar a un ser divino o creer en un alma inmortal, la tecnoreligión
 Dentro de la tecnoreligión hay dos grandes ramas:
 
 
-# A) Tecnohumanismo (transhumanismo humanista)
+## A) Tecnohumanismo (transhumanismo humanista)
 
 Plantea que:
 
-* 📌 Los humanos deben usar tecnología para mejorarse y pasar de *Homo sapiens* a *Homo deus*.  
-* 📌 La humanidad debe conservar su posición dominante en el planeta.  
-* 📌 La tecnología debe expandir nuestras capacidades mentales, físicas y emocionales.  
+* Los humanos deben usar tecnología para mejorarse y pasar de *Homo sapiens* a *Homo deus*.  
+* La humanidad debe conservar su posición dominante en el planeta.  
+* La tecnología debe expandir nuestras capacidades mentales, físicas y emocionales.  
 
 El tecnohumanismo sí cree en algo parecido al “yo interior” y en el valor de la experiencia humana.
 
 Busca preservar lo humano… pero transformándolo.
 
 
-# B) Dataísmo
+## B) Dataísmo
 
 Es más radical y afirma que:
 
-* 📌 *Homo sapiens* ya cumplió su ciclo evolutivo.  
-* 📌 Los algoritmos procesan información mejor que los humanos; por lo tanto, la autoridad debería pasar de los humanos a los sistemas de datos.  
-* 📌 El criterio supremo ya no es la felicidad humana sino el flujo eficiente de información.  
+* *Homo sapiens* ya cumplió su ciclo evolutivo.  
+* Los algoritmos procesan información mejor que los humanos; por lo tanto, la autoridad debería pasar de los humanos a los sistemas de datos.  
+* El criterio supremo ya no es la felicidad humana sino el flujo eficiente de información.  
 
 En esta visión, lo humano deja de estar en el centro.
 
 
-# 🔹 ¿Cómo amenaza la tecnoreligión los mismos ideales humanistas que la originaron?
+## 🔹 ¿Cómo amenaza la tecnoreligión los mismos ideales humanistas que la originaron?
 
 La tecnoreligión nace del humanismo, porque el humanismo valora:
 
-* 📌 La dignidad del individuo.  
-* 📌 La libertad humana.  
-* 📌 El “yo interior”.  
-* 📌 La autonomía del pensamiento.  
-* 📌 La experiencia subjetiva.
+* La dignidad del individuo.  
+* La libertad humana.  
+* El “yo interior”.  
+* La autonomía del pensamiento.  
+* La experiencia subjetiva.
 
 Pero cada una de sus dos ramas termina atacando esos mismos pilares.
 
@@ -122,8 +122,6 @@ Si lo único que importa es “el dato”, entonces:
 * -- Y la humanidad deja de tener un papel privilegiado en el mundo.
 
 El dataísmo no solo mata el humanismo; elimina la necesidad del ser humano mismo.
-
-
 ---
 
 Particularmente, creo que el camino que tomó *Homo sapiens* durante los últimos 300.000 años nos está llevando de manera lenta pero inevitable hacia una transformación profunda.
