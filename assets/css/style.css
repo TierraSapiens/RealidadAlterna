@@ -377,8 +377,8 @@ footer {
 /*IMAGEN PRINCIPAL(BANNER) */
 .post-container > img {
 /*Dimensiones*/
-    width: 900px !important;
-    max-width: 900px !important;  /* Usamos el valor real para el máximo */
+    width: 800px !important;
+    max-width: 800px !important;  /* Usamos el valor real para el máximo */
     height: auto;
     max-height: 350px;
 /*Estilo de imagen*/
