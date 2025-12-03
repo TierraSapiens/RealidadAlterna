@@ -198,7 +198,6 @@ footer {
 }
 
 /*Esto afecta a TODAS las imágenes dentro del contenido principal */
-    .post-container img,
     .post-content img,
     main img {
         max-width: 100% !important;  /* La imagen nunca será más ancha que la pantalla */
