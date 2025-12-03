@@ -14,4 +14,4 @@ clase_pagina: contactanos-page
 
 * ¡No te quedes en silencio! Valoramos la honestidad. Si tienes una crítica, una corrección o un desacuerdo sobre nuestro contenido o plataforma, envíalo. Todo comentario nos ayuda a crecer y ser más precisos.
 
-> ¿Quieres contactarnos?: harryangelic@gmail.com
+> ¿Quieres contactarnos?: tierrasapiens@proton.me
