@@ -346,10 +346,10 @@ footer {
 /*A-IMAGEN PRINCIPAL(BANNER)*/
 .post-container > img {
     max-width: 900px !important;
-    max-height: 300px; 
+    /* max-height: 300px; */
     width: 100%;
     height: auto;
-    object-fit: cover; 
+    /* object-fit: cover; */
     margin: 0 auto 0px auto;  /*MARGEN INFERIOR 0px para pegar el título*/
     display: block; 
     border-radius: 4px;
