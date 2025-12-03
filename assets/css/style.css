@@ -389,7 +389,7 @@ footer {
 
 /* CENTRADO CLÁSICO Y FUNCIONAL PARA ELEMENTOS DE BLOQUE */
     position: static; /* Desactiva cualquier posición relativa/absoluta */
-    margin-left: 4px !important; /* Centrado horizontal */
+    margin-left: 6px !important; /* Centrado horizontal */
     margin-right: auto !important;
     margin-top: 0 !important;
     margin-bottom: 0 !important;
