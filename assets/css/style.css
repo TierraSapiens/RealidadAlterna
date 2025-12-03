@@ -186,6 +186,24 @@ footer {
         padding: 5px 0 !important; 
         width: 100% !important;        /*Ocupa todo el ancho*/
     }
+
+    /* Esto afecta a TODAS las imágenes dentro del contenido principal */
+    .post-container img, 
+    .post-content img,
+    main img {
+        max-width: 100% !important;  /* La imagen nunca será más ancha que la pantalla */
+        height: auto !important;     /* La altura se ajusta sola para no deformarse */
+        display: block !important;   /* Evita espacios extra abajo */
+        margin: 10px auto !important;/* Centra la imagen */
+    }
+
+    /* Si usas videos o iframes (YouTube), también agrégalo para prevenir desbordes */
+    .post-content video,
+    .post-content iframe {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    
 /*Configuración del Artículo (FILAS)*/
     .post-item {
         display: block !important;
@@ -204,7 +222,7 @@ footer {
     .post-content {
         padding-top: 0 !important;
         margin-top: 0 !important;
-        padding-left: 5px !important; /*Ajuste según necesites a la izquierda*/
+        padding-left: 5px !important; /*Ajuste a la izquierda*/
         padding-right: 5px !important;
         width: 100% !important;
         text-align: left !important;
