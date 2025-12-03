@@ -373,8 +373,8 @@ footer {
 /*IMAGEN PRINCIPAL(BANNER) */
 .post-container > img {
 /*Dimensiones*/
-    width: 900px !important;        
-    max-width: none !important;      /*Permite que exceda el ancho de .post-container*/
+    width: 900px !important;
+    max-width: 900px !important;  /* Usamos el valor real para el máximo */
     height: auto;
     max-height: 350px;
 /*Estilo de imagen*/
@@ -382,13 +382,16 @@ footer {
     object-fit: cover;
     display: block !important;
     border-radius: 4px;
-/*CENTRADO Imagen separadamente*/
-    position: relative;
-    left: 50%;                      
-    transform: translateX(-50%); 
-    margin: 0 !important; 
-}
 
+/* CENTRADO CLÁSICO Y FUNCIONAL PARA ELEMENTOS DE BLOQUE */
+    position: static; /* Desactiva cualquier posición relativa/absoluta */
+    margin-left: auto !important; /* Centrado horizontal */
+    margin-right: auto !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+
+    /* ELIMINA LAS LÍNEAS 'left' y 'transform' */
+}
 /*TÍTULO PRINCIPAL (H1)*/
 .post-content h1 {
     font-size: 1.2em !important;    /*Tamaño Título */
