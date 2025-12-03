@@ -216,7 +216,7 @@ footer {
         width: 100% !important;
         margin-top: 0 !important;
         margin-bottom: 1px !important;   /*ESPACIO entre TITULO y METADATOS*/
-        font-size: 11px !important;      /*TAMAÑO LETRA*/
+        font-size: 12px !important;      /*TAMAÑO LETRA*/
         font-weight: 500 !important;     /* Peso normal o semi-negrita*/
         color: #000000 !important;     /* Color negro para el título*/
         letter-spacing: normal !important; /*Quitamos el espaciado negativo*/
