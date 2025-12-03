@@ -22,4 +22,4 @@ Nos dedicamos a desentrañar los hilos que conectan la Ciencia, Tecnología, Cul
 
 * Valoramos la independencia, y sobre todo, creemos en el potencial abierto y descentralizado del Fediverso.
 
->Puedes escribirnos directamente a: harryangelic@gmail.com
+>Puedes escribirnos directamente a: tierrasapiens@hotmail.com
