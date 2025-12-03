@@ -188,13 +188,18 @@ footer {
         width: 100% !important;        /*Ocupa todo el ancho*/
     }
 
-.post-header-image {
-    width: 100% !important;
-    height: 200px !important; /* ajustable */
-    object-fit: cover !important;
-    object-position: center !important;
-    border-radius: 0 !important;
-    max-width: none !important;
+@media (max-width: 600px) {
+    .post-container > img.post-header-image {
+        all: unset !important;
+        width: 100% !important;
+        height: 200px !important;
+        object-fit: cover !important;
+        object-position: center !important;
+        display: block !important;
+        margin: 0 auto !important;
+        border-radius: 0 !important;
+        max-width: 100% !important;
+    }
 }
 
 /* Si usas videos o iframes (YouTube), también agrégalo para prevenir desbordes */
@@ -608,18 +613,4 @@ main p a {
     text-align: center;
     font-size: 0.85em;
     color: #666;
-}
-
-@media (max-width: 600px) {
-    .post-container > img.post-header-image {
-        all: unset !important;
-        width: 100% !important;
-        height: 200px !important;
-        object-fit: cover !important;
-        object-position: center !important;
-        display: block !important;
-        margin: 0 auto !important;
-        border-radius: 0 !important;
-        max-width: 100% !important;
-    }
 }
