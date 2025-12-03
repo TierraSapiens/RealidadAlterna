@@ -6,14 +6,13 @@ image: images/posts/el-plano-galactico-radiofrecuencia-frente-a-luz-visible/02.j
 author: [Catalina M]
 ---
 
-# El Plano Galáctico: Radiofrecuencia vs. Luz Visible (Video)🌌
+# El Plano Galáctico: Radiofrecuencia vs. Luz Visible (Video)
 
-> **Créditos de la imagen:**
-> * **Radiofrecuencia:** S. Mantovanini y el equipo GLEAM
-> * **Visible:** Axel Mellinger — [milkywaysky.com](http://milkywaysky.com)
+ **Créditos de la imagen:**
+ * **Radiofrecuencia:** S. Mantovanini y el equipo GLEAM
+ * **Visible:** Axel Mellinger — [milkywaysky.com](http://milkywaysky.com)
 
 ---
-
 ## ¿Cómo se ve la Vía Láctea en ondas de radio?
 
 Para responder esta pregunta, el estudio **GLEAM** realizó una inspección de alta resolución de la banda central de la Vía Láctea utilizando luz de radio captada por el *Murchison Widefield Array* en Australia.
@@ -43,7 +42,7 @@ Las diferencias entre ambas vistas son significativas debido a dos factores prin
 1.  **Emisión diferencial:** Los objetos astronómicos emiten distinto brillo según la longitud de onda (radio vs. visible).
 2.  **Polvo interestelar:** El polvo cercano bloquea gran parte de la luz visible, pero **no la radio**.
 
-> **Nota:** Estas variaciones se vuelven especialmente notorias en dirección al centro galáctico, visible aproximadamente a un tercio del recorrido del video.
+ **Nota:** Estas variaciones se vuelven especialmente notorias en dirección al centro galáctico, visible aproximadamente a un tercio del recorrido del video.
 
 ---
 

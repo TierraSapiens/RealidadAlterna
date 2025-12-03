@@ -54,8 +54,8 @@ Ya en **1981**, el criptógrafo y científico informático de Berkeley **David C
 
 Su trabajo más influyente —y uno de los pilares conceptuales que posteriormente influirían en Bitcoin— fue su tesis doctoral:
 
-> **Computer Systems Established, Maintained, and Trusted by Mutually Suspicious Groups**  
-> (*Sistemas informáticos establecidos, mantenidos y confiados por grupos mutuamente sospechosos*)
+ **Computer Systems Established, Maintained, and Trusted by Mutually Suspicious Groups**  
+ (*Sistemas informáticos establecidos, mantenidos y confiados por grupos mutuamente sospechosos*)
 
 En esa tesis, Chaum describió un sistema distribuido sorprendentemente similar a lo que más tarde sería **Bitcoin**, aunque sin un mecanismo de *proof-of-work* que permitiera consenso sobre el orden de las transacciones.
 

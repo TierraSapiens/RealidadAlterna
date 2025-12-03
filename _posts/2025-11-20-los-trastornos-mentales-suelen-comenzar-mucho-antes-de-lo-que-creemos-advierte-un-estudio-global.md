@@ -6,7 +6,7 @@ image: images/posts/los-trastornos-mentales-suelen-comenzar-mucho-antes-de-lo-qu
 author: [E.R.M.]
 ---
 
-## Los trastornos mentales suelen comenzar mucho antes de lo que creemos
+# Los trastornos mentales suelen comenzar mucho antes de lo que creemos
 
 Un nuevo análisis publicado en *Nature* reunió datos de 192 estudios realizados en más de 700.000 personas de todo el mundo y llegó a una conclusión contundente:
 

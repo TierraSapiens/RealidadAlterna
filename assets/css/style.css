@@ -265,6 +265,14 @@ footer {
     text-decoration: none;    /*Quita el subrayado predeterminado*/
     margin: 0 6px;            /*Espacio entre los enlaces*/
 }
+
+/* Desactive la regla de una sola línea para que se lea completo en el celular */
+/*.titulo-linea-unica {
+/*   white-space: normal;  /* Permite saltos de línea */
+/*   overflow: visible;    /* Muestra todo el texto */
+/*   text-overflow: clip;  /* Quita los puntos suspensivos */
+/*}*/
+
 /* =============================================
 2.2 AJUSTES "SOBRE NOSOTROS" (Móvil)
 ============================================== */
@@ -338,46 +346,70 @@ footer {
 
 /*Contenedor Principal de la Publicación*/
 .post-container {
+    max-width: 840px !important;     /*ANCHO PUBLICACION*/
     padding-top: 0;
     margin-top: 0;
-    width: 100%;  
+    margin-left: auto !important;    /*Centrado*/
+    margin-right: auto !important;
+    /* width: 100%; */  
 }
 
-/*A-IMAGEN PRINCIPAL(BANNER)*/
+/*IMAGEN PRINCIPAL(BANNER) */
 .post-container > img {
-    max-width: 800px !important;
-    max-height: 350px;
-    object-position: top center;
-    width: 100%;
+/*Dimensiones*/
+    width: 900px !important;        
+    max-width: none !important;      /*Permite que exceda el ancho de .post-container*/
     height: auto;
+    max-height: 350px;
+/*Estilo de imagen*/
+    object-position: top center;
     object-fit: cover;
-    margin: 0 auto 0px auto;  /*MARGEN INFERIOR 0px para pegar el título*/
-    display: block; 
+    display: block !important;
     border-radius: 4px;
+/*CENTRADO Imagen separadamente*/
+    position: relative;
+    left: 50%;                      
+    transform: translateX(-50%); 
+    margin: 0 !important; 
 }
 
-/*Título Principal H1 MANUAL (Escrito dentro del .md)*/
+/*TÍTULO PRINCIPAL (H1)*/
 .post-content h1 {
-    font-size: 1.0em;          /*Ajusta el tamaño letras*/
-    color: #000000;
-    margin-top: 1px;          /*Separación con la imagen*/
-    margin-bottom: 1px;       /*Separación con el texto de abajo*/
-    line-height: 1.0;
-    font-family: Helvetica, Arial, sans-serif;
-}
-/*Título Secundario H2 dentro del Post*/
-.post-content h2 {
-    font-size: 0.9em !important; 
-    margin-top: 1px !important;  
-    margin-bottom: 5px !important; 
+    font-size: 1.2em !important;    /*Tamaño Título */
+    color: #000000 !important;
+    margin-top: 10px;
+    margin-bottom: 20px;            /*Espacio abajo del título*/
     line-height: 1.2;
+    font-family:  Helvetica, Verdana, Arial, sans-serif;
+    font-weight: 800;               /*extra bold*/
+  /*text-align: center;*/           /*CENTRA todos los titulos*/
+}
+
+/*SUBTÍTULOS DE SECCIÓN (H2) */
+.post-content h2 {
+    font-size: 1.1em !important;    /*TAMAÑO Subtitulo texto*/
+    color: #222222;
+    margin-top: 40px !important;    /* IMPORTANTE: Mucho margen arriba para separar del párrafo anterior */
+    margin-bottom: 15px !important;
+    font-weight: bold !important;   /* Descomentado y forzado */
+    border-bottom: 2px solid #c5c5c5;  /* OPCIONAL: Una línea fina abajo ayuda mucho a los subtítulos */
+    padding-bottom: 10px;           /* Espacio para la línea opcional */
+}
+
+/* Párrafos del texto, articulo escrito */
+.post-content p {
+    font-size: 1.0em !important; /* TEXTO si .md para leer */
+    line-height: 1.6;            /* Espacio entre renglones (vital para lectura) */
+    margin-bottom: 20px;         /* Espacio entre párrafos */
+    color: #000000;            /*COLOR TEXTO*/
 }
 
 /*Texto del Artículo (Párrafos)*/
 .post-content p {
-    font-size: 0.9em; 
+    font-size: 1.0em; 
     margin-top: 2px !important; /*Pegado al elemento anterior*/
-    margin-bottom: 6px; 
+    margin-bottom: 6px;
+    letter-spacing: -0.3px !important; /*ARRIMA las Palabras -0.3px, -0.5px, etc. */
 }
 
 /*B- IMÁGENES SECUNDARIAS (Cuerpo del Post)*/
@@ -402,29 +434,40 @@ footer {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra suave */
 }
 
-/*Contenedor de la lista (UL y OL)*/
-.post-content ul, 
+/* =========================================
+ 3.1 ESTILOS PARA LISTAS (Puntos y Numeración)
+========================================= */
+/* El contenedor de la lista */
+.post-content ul,         /*Es lo que controla el Markdown (*)(**) y toda la merda*/
 .post-content ol {
-    margin-top: 5px;   
-    padding-left: 30px; 
-    margin-bottom: 10px; 
+    margin-top: 15px !important;
+    margin-bottom: 25px !important;
+    padding-left: 40px !important; /* Espacio a la izquierda para que no se pegue al borde */
+    
 }
 
-/*Estilos para los elementos de lista (<li>) dentro del post*/
+/* Cada elemento de la lista (lo que va después del punto) */
 .post-content li {
-    font-size: 1.2em;
-    line-height: 1.3;
-    color: #333;
-    margin-bottom: 1px; 
+    font-size: 1.0em !important;  /*TEXTO con * igualar al texto comun*/
+    line-height: 1.6 !important;  /* Separación entre renglones para leer bien */
+    letter-spacing: -0.3px !important; /*ARRIMA las Palabras -0.3px, -0.5px, etc. */
+    color: #000000 !important;
+    margin-bottom: 10px !important; /* Espacio entre cada punto */
+}
+
+/* Las negritas dentro de la lista (ej: "El argumento:") */
+.post-content li strong {
+    color: #000000 !important; /* Negro puro para destacar */
+    font-weight: bold !important;
 }
 
 /*Estilos para la Leyenda/Pie de Foto (figcaption)*/
 .post-content figcaption {
     text-align: center;
-    font-size: 0.95em;     
+    font-size: 0.70em;     
     color: #666;           
-    margin-top: 5px;       
-    margin-bottom: 25px;   
+    margin-top: 2px;       
+    margin-bottom: 10px;   
     font-style: italic;    
 }
 
@@ -433,6 +476,14 @@ main p a {
     color: #002646; 
     text-decoration: underline;
 }
+
+/* Corte Para títulos extra largos solo en PC/Notebook */
+/*.titulo-linea-unica {
+/*  white-space: nowrap;      /* Obliga a no saltar de línea */
+/*  overflow: hidden;         /* Esconde el texto sobrante */
+/*  text-overflow: ellipsis;  /* Pone los puntos "..." */
+/*  max-width: 100%;          /* Asegura que no rompa el contenedor */
+/*}*/
 
 /*==========================================================================
    4. ESTILOS DE LA PÁGINA "SOBRE NOSOTROS"
