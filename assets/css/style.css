@@ -366,7 +366,7 @@ footer {
 
 /*Contenedor Principal de la Publicación*/
 .post-container {
-    max-width: 840px !important;     /*ANCHO PUBLICACION*/
+    max-width: 850px !important;     /*ANCHO PUBLICACION*/
     padding-top: 0;
     margin-top: 0;
     margin-left: auto !important;    /*Centrado*/
