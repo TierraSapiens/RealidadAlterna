@@ -16,8 +16,8 @@ main {
     background-color: #f6f6ef;     /*Fondo Blanco para el contenido*/
     max-width: 1050px;               /*Limita el ancho del CONTENEDOR*/
     margin: 0px auto;                /*MUEVE el CONTENEDOR blanco hacia arriba o abajo*/
-    padding: 1px 40px 20px 40px;     /*1050(contenido)+40\text-px(izquierda)+40\text-px(derecha)={1130\text-px*/
-    border-radius: 0px;              /*opcion: usar: border-top-left-radius: 8px; o border-top-right-radius: 8px;*/
+    padding: 3px 40px 20px 40px;     /*3px separacion primer titulo inicio de barra naranja*/
+    border-radius: 0px;     /*opcion: usar: border-top-left-radius: 8px; o border-top-right-radius: 8px;*/
     box-shadow: 0 4px 8px rgba(70, 3, 3, 0.1); 
 }
 
@@ -29,7 +29,7 @@ main {
     margin-right: auto;     /*Asegura que el 'auto' no interfiera con el margin-top*/
     /* margin: 0 auto;      /*Pega la barra arriba de la pantalla*/
     background: #ff6600;
-    padding: 5px 0;         /*BARRA 5px Arriba o Abajo y 0; es Derecha o Izquierda*/ 
+    padding: 8px 0;         /*BARRA 8px GROSOR Arriba/Abajo y 0; es Derecha o Izquierda*/ 
 }
     /*(Opcional)Redondea SOLO las esquinas de arriba del todo */
     /*border-top-left-radius: 8px; /* O el valor que uses en main */
@@ -50,14 +50,14 @@ main {
 .logo {
     display: flex;
     align-items: center;
-    font-size: 15px;        /*Tamaño nombre "TierraSapiens*/
+    font-size: 16px;        /*Tamaño nombre "TierraSapiens*/
     color: black;
     text-decoration: none;
     font-weight: bold;
 }
 
 .header-logo {
-    height: 20px;   /*TAMAÑO logo Buho*/
+    height: 21px;   /*TAMAÑO logo Buho*/
     margin-right: 5px;  /*Margen Derecho*/
 }
 
@@ -389,12 +389,11 @@ footer {
 
 /* CENTRADO CLÁSICO Y FUNCIONAL PARA ELEMENTOS DE BLOQUE */
     position: static; /* Desactiva cualquier posición relativa/absoluta */
-    margin-left: 20px !important; /* Centrado horizontal */
+    margin-left: 20px !important; /*CENTRADO MANUAL Izquierda publicacion e imagen */
     margin-right: auto !important;
     margin-top: 0 !important;
     margin-bottom: 0 !important;
 
-    /* ELIMINA LAS LÍNEAS 'left' y 'transform' */
 }
 /*TÍTULO PRINCIPAL (H1)*/
 .post-content h1 {
@@ -441,13 +440,13 @@ footer {
 
 /*VIDEOS (Estilos para el reproductor)*/
 .post-content video {
-    max-width: 700px !important; /* Mismo ancho tope que tus imágenes */
-    width: 100%;                 /* Se adapta en móviles */
+    max-width: 700px !important;    /* Mismo ancho tope que tus imágenes */
+    width: 100%;                    /*Se adapta en móviles */
     height: auto;
-    display: block;              /* Para que respete los márgenes */
-    margin: 20px auto;           /* Centrado horizontal */
-    border-radius: 4px;          /* Bordes redondeados estéticos */
-    background-color: #000;      /* Fondo negro elegante mientras carga */
+    display: block;                 /*Para que respete los márgenes*/
+    margin: 20px auto;              /*Centrado horizontal */
+    border-radius: 4px;             /*Bordes redondeados estéticos */
+    background-color: #000;       /*Fondo negro elegante mientras carga */
     box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra suave */
 }
 
