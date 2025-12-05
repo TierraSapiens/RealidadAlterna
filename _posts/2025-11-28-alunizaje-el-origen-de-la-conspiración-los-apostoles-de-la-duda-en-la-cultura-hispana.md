@@ -12,10 +12,10 @@ author: [Valen M.]
 
 Afirmó tener conocimiento interno de una conspiración gubernamental para falsificar los alunizajes, y muchas teorías de conspiración que persisten hasta el día de hoy se pueden rastrear hasta su libro de 1976: ***We Never Went to the Moon: America’s Thirty Billion Dollar Swindle*** ("Nunca fuimos a la Luna: La estafa de los treinta mil millones de dólares de Estados Unidos").
 
- <figure>
+<figure>
     <img src="{{ 'images/posts/alunizaje-el-origen-de-la-conspiración-los-apostoles-de-la-duda-en-la-cultura-hispana/001.png' | relative_url }}" alt="Imagen secundaria">
     <figcaption>Primera edición original de 1976 el libro que inició la teoría de la conspiración del alunizaje en los años 70</figcaption>
-    </figure>
+</figure>
 
 ## La Plantilla de la Conspiración
 La premisa básica es que la NASA no pudo lograr llevar a un hombre a la Luna de manera segura a finales de la década de 1960 —tal como había prometido el presidente John F. Kennedy—, por lo que solo envió astronautas a la órbita terrestre.
