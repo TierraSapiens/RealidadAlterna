@@ -2,7 +2,7 @@
 layout: post
 title: "El fantasma en Silicon Valley: Peter Thiel"
 date: 2025-12-03 10:00:00 +0000
-image: images/posts/el-fantasma-en-silicon-valley-peter-thiel/000.jpg
+image: images/posts/el-fantasma-en-silicon-valley-peter-thiel/000a.jpg
 author: [Cata M]
 ---
 
