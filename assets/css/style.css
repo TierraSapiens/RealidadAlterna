@@ -133,7 +133,7 @@ footer {
 /*Miniatura (Imagen pequeña)*/
 .post-thumb {
     width: 80px;  /*Ancho*/
-    height: 40px; /*Alto*/
+    height: 50px; /*Alto*/
     object-fit: cover; /*Asegura que la imagen siempre cubra el espacio de..., recortando el exceso si es necesario, sin distorsionar la imagen*/
     border-radius: 4px;  /*Redondea ligeramente las esquinas de la miniatura.*/
     margin: 0;    /*Elimina el margen alrededor de la imagen.*/
@@ -430,12 +430,13 @@ footer {
 
 /*IMÁGENES SECUNDARIAS (Cuerpo del Post)*/
 .post-content img {
-    max-width: 700px !important; 
-    max-height: 400px;           
+    max-width: 500px !important;
+    max-height: 350px;           
     width: 100%;  
     height: auto;
     display: block; 
-    margin: 20px auto; 
+    margin: 20px auto;
+     border: 1px solid #860101;   /* ← MARCO DE 1px */
 }
 
 /*VIDEOS (Estilos para el reproductor)*/
