@@ -30,17 +30,6 @@ Este metraje del ataque a Pearl Harbor se presenta junto al célebre discurso de
 
 <figure>
     <video controls preload="metadata">
-        <source src="{{ '/images/video/ataque-a-pearl-harbor-imagenes-reales-a-84-anos-de-una-fecha-que-marco-la-historia/003.mp4' | relative_url }}" type="video/mp4">
-        Tu navegador no soporta videos.
-    </video>
-    <figcaption></figcaption>
-</figure>
-Este material fue registrado por el suboficial de cuarta clase Clyde Daughtry durante el ataque japonés a Pearl Harbor. El metraje original se perdió con el paso del tiempo y la calidad actual corresponde a una copia realizada posteriormente.
-
-Aun así, el registro conserva escenas de enorme valor histórico: el USS Nevada (BB-36) avanzando y abriendo fuego contra los aviones japoneses, el USS Oglala (CM-4) volcándose y hundiéndose, y el USS St. Louis (CL-4) maniobrando para ponerse a salvo.
-
-<figure>
-    <video controls preload="metadata">
         <source src="{{ '/images/video/ataque-a-pearl-harbor-imagenes-reales-a-84-anos-de-una-fecha-que-marco-la-historia/004.mp4' | relative_url }}" type="video/mp4">
         Tu navegador no soporta videos.
     </video>
