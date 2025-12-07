@@ -27,9 +27,6 @@ yarn-error.log*
 # ===========================
 #   Archivos pesados o de prueba
 # ===========================
-*.mp4
-*.mov
-*.avi
 *.zip
 *.rar
 *.7z
