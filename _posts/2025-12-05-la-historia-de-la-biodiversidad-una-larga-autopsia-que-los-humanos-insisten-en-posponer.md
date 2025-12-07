@@ -143,4 +143,5 @@ La crisis de biodiversidad es un relato que abarca miles de años. Desde las ext
 
 Ambientalistas, científicos e indígenas vienen advirtiendo lo mismo desde hace medio siglo, y aun así la inacción sigue siendo la norma.
 
-Mucho se ha perdido. Pero todavía queda un margen **estrecho, incómodo, urgente** para decidir si esta historia termina como una elegía más o como un punto de inflexión real.
+Mucho se ha perdido. Pero todavía queda un margen **estrecho, incómodo, urgente** para decidir 
+si esta historia termina como una elegía más o como un punto de inflexión real.
