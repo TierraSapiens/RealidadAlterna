@@ -1,10 +1,45 @@
-# Directorios generados por Jekyll
+# ===========================
+#   Jekyll build directories
+# ===========================
 _site/
 .sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 
-# Archivos de depuración y temporales
+# ===========================
+#   SO / temporales
+# ===========================
 .DS_Store
 Thumbs.db
 
-# Carpeta o archivo que quiero ignorar
+# ===========================
+#   Archivos de logs y debug
+# ===========================
+*.log
+
+# ===========================
+#   Node / herramientas web
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ===========================
+#   Archivos pesados o de prueba
+# ===========================
+*.mp4
+*.mov
+*.avi
+*.zip
+*.rar
+*.7z
+
+# ===========================
+#   Directorios personales
+# ===========================
 ayuda-informacion/
+
+# ===========================
+#   Cachés de VS Code
+# ===========================
+.vscode/
