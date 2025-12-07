@@ -1,10 +1,10 @@
 # Directorios generados por Jekyll
-/_site
+_site/
 .sass-cache/
 
 # Archivos de depuración y temporales
 .DS_Store
 Thumbs.db
 
-# Ruta Carpeta o archivo que quiero ignorar
+# Carpeta o archivo que quiero ignorar
 ayuda-informacion/
