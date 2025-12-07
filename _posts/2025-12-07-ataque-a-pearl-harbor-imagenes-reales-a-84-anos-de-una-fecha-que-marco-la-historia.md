@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ataque a Pearl Harbor: imágenes reales a 84 años de una fecha que marcó la historia"
+title: "Ataque a Pearl Harbor: Videos a 84 años de una fecha que marcó la historia"
 date: 2025-12-07 10:00:00 +0000
 image: images/posts/ataque-a-pearl-harbor-imagenes-reales-a-84-anos-de-una-fecha-que-marco-la-historia/001a.jpg
 author: [Valen M]
