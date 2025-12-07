@@ -3,4 +3,4 @@ description: Hub central del proyecto Realidad Alterna / TierraSapiens
 theme: minima
 markdown: kramdown
 url: https://tierrasapiens.github.io
-baseurl: /RealidadAlterna
+baseurl: ""
