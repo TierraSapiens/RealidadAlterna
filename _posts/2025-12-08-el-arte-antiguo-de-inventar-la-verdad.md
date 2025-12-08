@@ -12,7 +12,7 @@ Incluso la frase siguiente seguirá siendo cierta en cualquier porvenir que poda
 “Al día de hoy todavía hay gente que cree todo lo que le dicen, informan y cuentan. No porque sean tontos, sino porque estamos domesticados desde que nacemos.”
 
 Un equivocado y a la vez un lector bastante lúcido de las masas lo escribió hace un siglo, como quien diagnostica una enfermedad que todavía no sabemos curar:
-* **"La capacidad de asimilación de las grandes masas es muy limitada, su entendimiento pequeño, pero su olvido es grande. De estos hechos hay que partir para que toda propaganda eficaz se limite a muy pocos puntos y los explote como eslóganes, hasta que el último de los ciudadanos llegue a comprender lo que con la palabra se pretende."**
+* "La capacidad de asimilación de las grandes masas es muy limitada, su entendimiento pequeño, pero su olvido es grande. De estos hechos hay que partir para que toda propaganda eficaz se limite a muy pocos puntos y los explote como eslóganes, hasta que el último de los ciudadanos llegue a comprender lo que con la palabra se pretende."
 Adolf Hitler, Mi lucha, 1924.
 
 La frase funciona hoy igual que entonces, y probablemente funcione mañana, cuando nosotros ya no estemos para discutirla. Da vergüenza concederle razón en algo, pero aquí estamos.
